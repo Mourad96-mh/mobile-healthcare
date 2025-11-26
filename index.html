@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="alternate" hreflang="fr" href="https://example.com/fr" />
+    <link rel="alternate" hreflang="ar" href="https://example.com/ar" />
+    <link rel="icon" type="image/png" href="/health.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msvalidate.01" content="194BD21460EBA140B852A428F2E47A59" />
+    <meta
+      name="google-site-verification"
+      content="7yUe4Qpj7RASfNzOD2Yp4dWw0mowhL538fa4tWAlP3o"
+    />
+    <title>🚑 Mobile Healthcare</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-17548598231"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-17548598231");
+    </script>
+
+    <!-- Event snippet for Wtsp-contact conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-17548598231/qdDHCKy_6p8bENe36a9B",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Application Entry -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
