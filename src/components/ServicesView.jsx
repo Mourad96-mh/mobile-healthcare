@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const ServicesView = () => {
+  const { t } = useTranslation();
   return (
     <section className="all-services">
       <h4 className="u-margin-bottom-medium center-text">
@@ -11,8 +13,8 @@ const ServicesView = () => {
         <ul className="all-services__list">
           <li className="all-services__item">
             <img
-              src="consultation-a-domicile.avif"
-              alt="consultation-visite-medecin-domicile-mobilehealthcare-services"
+              src="/consultation-a-domicile.avif"
+              alt={t("img.consultationService")}
             />
             <div className="all-services__item--info">
               <h4 className="u-margin-bottom-small">Consultation à Domicile</h4>
@@ -30,8 +32,8 @@ const ServicesView = () => {
           </li>
           <li className="all-services__item">
             <img
-              src="ambulance.avif"
-              alt="sos-medecin-transport-medical-mobilehealthcare-services"
+              src="/ambulance.avif"
+              alt={t("img.transportService")}
             />
             <div className="all-services__item--info">
               <h4 className="u-margin-bottom-small">Transport Sanitaire</h4>
@@ -50,8 +52,8 @@ const ServicesView = () => {
           </li>
           <li className="all-services__item">
             <img
-              src="prelevement.avif"
-              alt="prelevement-domicile-medecin-laboratoire-analyse-casablanca-mobilehealthcare-services"
+              src="/prelevement.avif"
+              alt={t("img.bloodCollection")}
             />
             <div className="all-services__item--info">
               <h4 className="u-margin-bottom-small">Prélèvement à Domicile</h4>
@@ -72,8 +74,8 @@ const ServicesView = () => {
           </li>
           <li className="all-services__item">
             <img
-              src="geriatrie-3.avif"
-              alt="geriatrie-patient-age-mobilehealthcare-services"
+              src="/geriatrie-3.avif"
+              alt={t("img.geriatrics")}
             />
             <div className="all-services__item--info">
               <h4 className="u-margin-bottom-small">Gériatrie</h4>
@@ -93,8 +95,8 @@ const ServicesView = () => {
           </li>
           <li className="all-services__item">
             <img
-              src="tele-consultation.avif"
-              alt="teleconsultation-telephone-medecin-appel-consultation-medicale-sos-medecin-mobilehealthcare"
+              src="/tele-consultation.avif"
+              alt={t("img.teleconsultationService")}
             />
             <div className="all-services__item--info">
               <h4 className="u-margin-bottom-small">Téléconsultation</h4>
@@ -112,8 +114,8 @@ const ServicesView = () => {
           </li>
           <li className="all-services__item">
             <img
-              src="evenement.avif"
-              alt="couverture-medicale-evenements-mobilehealthcare-services"
+              src="/evenement.avif"
+              alt={t("img.eventCoverage")}
             />
             <div className="all-services__item--info">
               <h4 className="u-margin-bottom-small">
@@ -136,8 +138,8 @@ const ServicesView = () => {
           </li>
           <li className="all-services__item">
             <img
-              src="funebres.avif"
-              alt="pompes-funebres-mobilehealthcare-services"
+              src="/funebres.avif"
+              alt={t("img.funeralService")}
             />
             <div className="all-services__item--info">
               <h4 className="u-margin-bottom-small">Pompes Funèbres</h4>
@@ -154,7 +156,7 @@ const ServicesView = () => {
             </div>
           </li>
           <li className="all-services__item">
-            <img src="contre-visite.avif" alt="Doctor and patient." />
+            <img src="/contre-visite.avif" alt="Doctor and patient." />
             <div className="all-services__item--info">
               <h4 className="u-margin-bottom-small">Contre-Visite Médicale</h4>
               <p className="u-margin-bottom-medium">
@@ -173,8 +175,8 @@ const ServicesView = () => {
           </li>
           <li className="all-services__item">
             <img
-              src="formation-secourisme.avif"
-              alt="formations-secourisme-mobilehealthcare-services"
+              src="/formation-secourisme.avif"
+              alt={t("img.firstAid")}
             />
             <div className="all-services__item--info">
               <h4 className="u-margin-bottom-small">Formation secourisme</h4>

@@ -7,14 +7,34 @@ import path from "path";
 const baseUrl = "https://mobile-healthcare.org";
 
 // Define your routes
-const routes = [
-  "/",
-  "/consultation-a-domicile",
-  "/soins-infirmiers",
-  "/prelevement-a-domicile",
-  "/transport-sanitaire",
-  "/contact",
+const frRoutes = [
+  { url: "/", changefreq: "weekly", priority: 1.0 },
+  { url: "/consultation-a-domicile", changefreq: "weekly", priority: 0.9 },
+  { url: "/soins-infirmiers", changefreq: "weekly", priority: 0.9 },
+  { url: "/prelevement-a-domicile", changefreq: "weekly", priority: 0.8 },
+  { url: "/transport-sanitaire", changefreq: "weekly", priority: 0.8 },
+  { url: "/contact", changefreq: "monthly", priority: 0.6 },
 ];
+
+const enRoutes = frRoutes.map((r) => ({
+  ...r,
+  url: `/en${r.url === "/" ? "" : r.url}`,
+  priority: r.priority * 0.9,
+}));
+
+const esRoutes = frRoutes.map((r) => ({
+  ...r,
+  url: `/es${r.url === "/" ? "" : r.url}`,
+  priority: r.priority * 0.9,
+}));
+
+const arRoutes = frRoutes.map((r) => ({
+  ...r,
+  url: `/ar${r.url === "/" ? "" : r.url}`,
+  priority: r.priority * 0.9,
+}));
+
+const routes = [...frRoutes, ...enRoutes, ...esRoutes, ...arRoutes];
 
 // Resolve the current directory
 const __filename = fileURLToPath(import.meta.url);
@@ -34,9 +54,7 @@ const __dirname = path.dirname(__filename);
   sitemap.pipe(stream);
 
   // Add routes to the sitemap
-  routes.forEach((route) =>
-    sitemap.write({ url: route, changefreq: "weekly" })
-  );
+  routes.forEach((route) => sitemap.write(route));
 
   // Finalize the sitemap
   sitemap.end();

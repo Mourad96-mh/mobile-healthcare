@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "consultation": "Consulta a domicilio",
+    "soins": "Cuidados de Enfermería",
+    "prelevement": "Análisis de Sangre a Domicilio",
+    "transport": "Transporte Sanitario / Ambulancias",
+    "contact": "Contacto"
+  },
+  "common": {
+    "callUs": "Llámenos →",
+    "contactUs": "Contáctenos",
+    "callNow": "Llámenos →"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "address": "Gran Casablanca",
+    "services": "Servicios",
+    "keywords": "Palabras Clave",
+    "serviceList": {
+      "phone": "Asistencia telefónica",
+      "rdv": "Consulta a domicilio con cita previa",
+      "urgence": "Consulta a domicilio de urgencia",
+      "transfer": "Traslado a clínica de urgencias"
+    },
+    "keywordLinks": {
+      "medecinPres": "médico cerca de mí",
+      "medecinCasa": "médico Casablanca",
+      "medecinGeneraliste": "médico general Casablanca",
+      "sosMedecin": "SOS médico",
+      "sosMedecinCasa": "SOS médico Casablanca",
+      "soinsInfirmiers": "cuidados de enfermería a domicilio",
+      "infirmierCasa": "enfermero Casablanca",
+      "infirmierDomicile": "enfermero a domicilio Casablanca",
+      "hospitalisation": "hospitalización a domicilio",
+      "priseSang": "análisis de sangre a domicilio",
+      "ambulancePrivee": "ambulancia privada Casablanca",
+      "serviceAmbulance": "servicio de ambulancia Casablanca",
+      "transportSanitaire": "transporte sanitario",
+      "transportMedicalise": "transporte medicalizado",
+      "ambulanceSecours": "ambulancia de socorro Casablanca"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Cuidados de Enfermería, Consultas a Domicilio y Transporte Sanitario en Casablanca | Mobile Healthcare",
+      "description": "Cuide su salud con Mobile Healthcare — Reserve cuidados de enfermería a domicilio, consultas médicas y transporte sanitario en Casablanca, disponibles 24/7."
+    },
+    "hero": "Mobile Healthcare — Su Asistencia Médica a Domicilio 24/7",
+    "section1": {
+      "subtitle": "Mobile Healthcare",
+      "title": "Su salud, nuestra prioridad — Asistencia médica a domicilio",
+      "p1_start": "Confíe en Mobile Healthcare para todas sus necesidades de asistencia médica. Le ofrecemos los siguientes servicios:",
+      "teleconsultation": "Teleconsulta,",
+      "consultationDomicile": "Consulta a domicilio,",
+      "sosUrgences": "Urgencias médicas SOS,",
+      "transportSanitaire": "Transporte sanitario,",
+      "prelèvementDomicile": "Análisis de sangre a domicilio,",
+      "p1_end": "... Ofrecemos una amplia gama de servicios y siempre procuramos cubrir las necesidades de atención que pueda necesitar.",
+      "mission": "Nuestra misión es mejorar la calidad de los servicios de salud en Casablanca (Marruecos)."
+    },
+    "section2": {
+      "subtitle": "Mobile Healthcare",
+      "title": "Asistencia Médica en Casablanca",
+      "p": "Mobile Healthcare, su socio de confianza para la asistencia médica, está dirigido por un equipo de médicos cualificados que ofrecen servicios en toda Casablanca. Le proporcionamos cobertura integral de todas sus necesidades sanitarias, con un compromiso constante con la excelencia y la calidad. Nuestro equipo médico le acompaña durante todo su proceso asistencial, asegurando que reciba una atención adaptada a sus necesidades en un entorno atento y personalizado."
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "teleconsultation": {
+        "subtitle": "Servicios Mobile Healthcare",
+        "title": "Teleconsulta / Telemedicina",
+        "p": "Benefíciese de la experiencia de nuestros médicos en línea, disponibles todos los días de la semana. Ofrecemos teleconsultas inmediatas o programadas. Cualquiera que sea su preocupación de salud, el primer paso es siempre una teleconsulta.",
+        "strong": "Su atención siempre comienza con una",
+        "link": "teleconsulta.",
+        "item1": "<strong>Consulta de urgencias médicas 24/7</strong> — SOS Médico a domicilio o por teleconsulta",
+        "item2": "<strong>Teleconsulta en geriatría</strong> — Atención especializada para personas mayores",
+        "item3": "<strong>Pediatría en línea</strong> — Consulte a un médico cuando su hijo tenga fiebre por la noche",
+        "item4": "<strong>Segunda opinión médica</strong> — Obtenga la experiencia de un médico cualificado"
+      },
+      "transport": {
+        "subtitle": "Servicios de Asistencia Mobile Healthcare",
+        "title": "Transporte Sanitario",
+        "p": "<strong>Mobile Healthcare</strong> proporciona un servicio de <strong>transporte sanitario</strong> seguro y adaptado a todas las necesidades médicas. Ya sea para <strong>hospitalización, traslado, consulta, diálisis, quimioterapia o rehabilitación</strong>, disponemos de vehículos equipados para un <strong>transporte simple o medicalizado</strong>. Nuestros servicios cubren <strong>Casablanca y las regiones circundantes</strong>, garantizando comodidad, seguridad y asistencia profesional en cada trayecto."
+      },
+      "soins": {
+        "subtitle": "Servicios de Asistencia Mobile Healthcare",
+        "title": "Cuidados de Enfermería a Domicilio",
+        "p": "<strong>Mobile Healthcare</strong> ofrece un servicio de <strong>cuidados de enfermería a domicilio</strong> personalizado y profesional para satisfacer todas sus necesidades médicas. Ya sea para <strong>curas, inyecciones, control de tensión, seguimiento postoperatorio o gestión de enfermedades crónicas</strong>, nuestros enfermeros cualificados garantizan cuidados de calidad de forma segura. Nuestras intervenciones cubren <strong>Casablanca y alrededores</strong>, garantizando un apoyo médico adaptado y una atención humana a domicilio."
+      }
+    }
+  },
+  "soins": {
+    "meta": {
+      "title": "ENFERMERO A DOMICILIO CASABLANCA | Mobile Healthcare",
+      "description": "Mobile Healthcare pone a su disposición un enfermero a domicilio en Casablanca, 7 días/7, para cuidados de enfermería profesionales: curas, inyecciones, perfusiones. ¡Llámenos ahora para una atención rápida!"
+    },
+    "h1": "Enfermero a Domicilio",
+    "hero": {
+      "h2": "Cuidados de Enfermería a Domicilio",
+      "h5": "Asistencia Mobile Healthcare"
+    },
+    "intro": {
+      "title": "Cuidados de enfermería a domicilio en Casablanca — Servicio rápido y profesional",
+      "p1": "Mobile Healthcare le ofrece un servicio de enfermería a domicilio en Casablanca, adaptado a sus necesidades médicas. Nuestros enfermeros y enfermeras titulados realizan curas, inyecciones y perfusiones. También colocan sondas nasogástricas y urinarias, así como otros cuidados especializados, directamente en su domicilio.",
+      "p2": "Ofrecemos un servicio de cuidados de enfermería fiable y rápido, disponible las 24 horas del día, 7 días a la semana para su bienestar y tranquilidad.",
+      "p3_start": "¿Necesita un enfermero a domicilio?",
+      "p3_highlight": "Contáctenos ahora en el número:",
+      "p3_number": "06 96 96 43 41"
+    },
+    "pansement": {
+      "title": "Enfermero a Domicilio - Cuidado de Heridas y Cambio de Vendaje a Domicilio",
+      "p1": "Nuestros enfermeros especializados a domicilio en Casablanca realizan cambios de vendaje con total seguridad. Gracias a técnicas estériles avanzadas, prevenimos infecciones y aceleramos la cicatrización.",
+      "p2": "Tratamos todo tipo de heridas: úlceras por presión, heridas postoperatorias, pie diabético, gangrena y otras lesiones cutáneas. Nuestro objetivo es garantizar un cuidado eficaz para una curación rápida y mayor comodidad del paciente.",
+      "p3": "¿Busca un servicio de cambio de vendaje a domicilio en Casablanca? ¡Contáctenos hoy!"
+    },
+    "sonde": {
+      "title": "Enfermero a Domicilio - Colocación de Sonda Urinaria y Nasogástrica a Domicilio en Casablanca",
+      "p1": "Nuestros enfermeros a domicilio en Casablanca son expertos en la colocación de sonda urinaria y sonda nasogástrica, garantizando cuidados precisos y seguros.",
+      "p2": "También gestionamos la nutrición por perfusión, esencial para pacientes que necesitan un aporte nutricional controlado. Cada intervención se realiza con seguimiento personalizado para garantizar el bienestar y la comodidad del paciente.",
+      "p3": "¿Necesita un servicio de colocación de sonda urinaria o nasogástrica a domicilio en Casablanca? Contáctenos para una intervención rápida y profesional."
+    },
+    "garde": {
+      "title": "Enfermero a Domicilio - Servicio de Cuidador 24h/24 a Domicilio — Asistencia Médica a Medida",
+      "p": "Para familias que necesitan cuidados de enfermería, Mobile Healthcare ofrece un servicio de cuidador a domicilio. Este servicio está siempre disponible, funcionando 24 horas al día, 7 días a la semana. Es ideal para pacientes que necesitan vigilancia constante, garantizando seguridad, comodidad y tranquilidad a sus seres queridos.",
+      "cta": "👩‍⚕️ ¿Necesita un cuidador a domicilio? Contáctenos ahora para atención inmediata."
+    },
+    "accompagnement": {
+      "title": "Enfermero a Domicilio - Cuidados de Enfermería a Domicilio en Casablanca: Acompañamiento Personalizado",
+      "p": "En Mobile Healthcare, adaptamos cada servicio a las necesidades específicas de nuestros pacientes. Nuestros cuidados de enfermería a domicilio permiten una atención médica adaptada, asegurando un seguimiento personalizado y continuidad de los cuidados. Colaboramos estrechamente con los médicos de cabecera para garantizar una asistencia médica coordinada y eficaz a domicilio."
+    },
+    "injections": {
+      "title": "Enfermero a Domicilio - Inyecciones a Domicilio — Administración Segura",
+      "p": "Nuestros profesionales de la salud realizan inyecciones intramusculares, subcutáneas e intravenosas, incluyendo:",
+      "item1": "<strong>✔ Antibióticos</strong> — Tratamiento eficaz de infecciones bajo prescripción médica.",
+      "item2": "<strong>✔ Anticoagulantes</strong> — Prevención de trombosis y embolias pulmonares.",
+      "item3": "<strong>✔ Otros medicamentos inyectables</strong> adaptados a enfermedades crónicas o agudas."
+    },
+    "perfusions": {
+      "title": "Enfermero a Domicilio - Perfusiones a Domicilio — Hidratación y Apoyo Nutricional",
+      "p": "Instalamos y supervisamos perfusiones intravenosas incluyendo:",
+      "item1": "<strong>✔ Suero fisiológico</strong> — Para mantener el equilibrio hídrico y tratar la deshidratación.",
+      "item2": "<strong>✔ Glucosa intravenosa</strong> — Aporte energético para pacientes debilitados.",
+      "item3": "<strong>✔ Soluciones de hidratación</strong> — Indispensables en casos de trastornos digestivos graves.",
+      "cta": "👩‍⚕️ ¿Necesita una inyección o perfusión a domicilio? Contáctenos ahora para atención inmediata."
+    },
+    "hygiene": {
+      "title": "Enfermero a Domicilio - Cuidados de Higiene y Comodidad — Asistencia a Pacientes Dependientes",
+      "p": "Nuestros enfermeros expertos se encargan de los cuidados de higiene y comodidad para pacientes con pérdida de autonomía:",
+      "item1": "<strong>✔ Higiene completa o parcial</strong> — Respetando las necesidades y el bienestar del paciente.",
+      "item2": "<strong>✔ Prevención de úlceras por presión</strong> — Vigilancia y cuidados para pacientes encamados.",
+      "item3": "<strong>✔ Asistencia en reposicionamiento y mantenimiento de la comodidad.</strong>"
+    },
+    "ablation": {
+      "title": "Enfermero a Domicilio - Retirada de Puntos y Suturas — Cuidados Postoperatorios a Domicilio",
+      "p": "Realizamos la retirada de puntos y grapas tras una intervención quirúrgica, garantizando:",
+      "item1": "<strong>✔ Retirada sin dolor y con total seguridad</strong>.",
+      "item2": "<strong>✔ Seguimiento riguroso de la cicatrización</strong> para evitar complicaciones.",
+      "cta": "📞 ¿Necesita cuidados a domicilio? Contáctenos ahora para atención inmediata."
+    },
+    "contact": {
+      "title": "¿Necesita un Enfermero a Domicilio? Contacte Mobile Healthcare",
+      "p1": "¿Busca un enfermero a domicilio cerca de usted en Casablanca? Mobile Healthcare ofrece cuidados de enfermería a domicilio adaptados a sus necesidades. Realizamos curas, inyecciones, cuidados postoperatorios, perfusiones y mucho más.",
+      "p2": "Nuestros servicios también incluyen enfermera a domicilio, auxiliar de enfermería, hospitalización a domicilio 24h/24 y vigilancia médica personalizada para garantizar su bienestar y el de sus seres queridos.",
+      "p3": "📞 Contáctenos ahora:",
+      "p4": "Con Mobile Healthcare, disfrute de un servicio de enfermería a domicilio de calidad, proporcionado por profesionales competentes y atentos."
+    },
+    "nosServices": {
+      "title": "Nuestros Servicios a Domicilio",
+      "injection": {
+        "title": "Inyección a Domicilio — Casablanca",
+        "p": "Recurra a un enfermero a domicilio para sus inyecciones con total seguridad, sin salir de su hogar. Nuestros profesionales intervienen rápidamente en Casablanca, respetando estrictas normas de higiene médica."
+      },
+      "pansement": {
+        "title": "Cambio de Vendaje a Domicilio — Casablanca",
+        "p": "Evite desplazamientos innecesarios: un enfermero a domicilio interviene rápidamente en Casablanca para el cambio de vendaje, respetando estrictas normas de higiene. Cuidados adaptados para heridas quirúrgicas, úlceras por presión, quemaduras y más."
+      },
+      "perfusion": {
+        "title": "Perfusión a Domicilio — Casablanca",
+        "p": "¿Necesita una perfusión a domicilio en Casablanca? Nuestros enfermeros titulados garantizan la colocación y seguimiento con total seguridad: rehidratación, antibióticos, hierro, nutrición parenteral… todo respetando estrictos protocolos médicos."
+      },
+      "prelevement": {
+        "title": "Análisis de Sangre a Domicilio — Casablanca",
+        "p": "Opte por un análisis de sangre a domicilio en Casablanca, sin desplazarse. Nuestros enfermeros realizan extracciones y otros análisis, con envío seguro de muestras a nuestro laboratorio asociado."
+      },
+      "lavement": {
+        "title": "Enema a Domicilio — Casablanca",
+        "p": "Un enfermero a domicilio se desplaza a Casablanca para realizar sus enemas con total discreción. Cuidados adaptados, material estéril, comodidad e higiene garantizados según su prescripción médica."
+      }
+    },
+    "zones": {
+      "title": "Nuestros Servicios de Enfermería a Domicilio en Casablanca",
+      "p1": "¿Necesita un enfermero a domicilio en Casablanca? Intervenimos rápidamente en todos los barrios: Maarif, Bourgogne, Oasis, Hay Hassani, Ain Sebaâ, Sidi Maârouf y Belvédère. Nuestro equipo ofrece servicios completos y seguros de enfermería a domicilio, adaptados a cada paciente.",
+      "p2": "Nuestros servicios incluyen cambio de vendaje a domicilio, perfusión a domicilio, análisis de sangre a domicilio y otros cuidados a domicilio para adultos y niños. Trabajamos con enfermeros titulados y experimentados, disponibles 7 días/7 en toda la ciudad de Casablanca.",
+      "p3": "Para una atención rápida, llame a nuestro servicio de enfermería a domicilio en Casablanca. También ofrecemos auxiliares de enfermería a domicilio para acompañamiento diario."
+    }
+  },
+  "consultation": {
+    "meta": {
+      "title": "Consulta a Domicilio | Visita Médica a Domicilio",
+      "description": "El servicio de consulta a domicilio de Mobile Healthcare proporciona atención experta para usted y su familia, cubriendo las necesidades diarias de salud así como asistencia a largo plazo."
+    },
+    "h1": "Consulta a Domicilio",
+    "hero": {
+      "h5": "Asistencia Mobile Healthcare",
+      "h2": "Médico a Domicilio / Consulta a Domicilio"
+    },
+    "intro": {
+      "title": "Mobile Healthcare",
+      "p": "El servicio de consultas a domicilio de Mobile Healthcare pone a su disposición médicos especializados, garantizando una atención completa adaptada a todas sus necesidades médicas."
+    },
+    "section1": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Consulta a Domicilio",
+      "p": "Mobile Healthcare, especialista en asistencia médica a domicilio en Casablanca, ofrece consultas médicas a domicilio para pacientes que necesitan seguimiento regular o que tienen dificultades para desplazarse. Sabemos que el acceso a la atención puede ser un desafío, por lo que nos comprometemos a proporcionar una atención rápida, eficaz y profesional para garantizar su bienestar y salud. Nuestros médicos generales, urgenciólogos y especialistas en Casablanca se desplazan directamente a su domicilio para realizar consultas, exámenes médicos personalizados y prescripciones adaptadas. Atentos a sus necesidades, le acompañan en cada etapa para garantizar un seguimiento médico óptimo a domicilio."
+    },
+    "section2": {
+      "subtitle": "Mobile Healthcare",
+      "title": "SERVICIO DE CONSULTA A DOMICILIO EN CASABLANCA",
+      "p": "Nuestra misión es ofrecer asistencia médica a domicilio de alta calidad a todos los pacientes de Casablanca. Ya necesite una consulta médica a domicilio, un examen clínico o una prescripción médica, nuestro equipo está a su disposición para acompañarle en cada etapa. 📞 Contáctenos hoy para descubrir nuestros servicios de consulta a domicilio en Casablanca y programar su cita. Nos comprometemos a ofrecerle cuidados personalizados para preservar su salud y bienestar."
+    },
+    "section3": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Consultas y Seguimiento Médico a Domicilio en Casablanca",
+      "p": "En Mobile Healthcare, nos esforzamos por ofrecer cuidados personalizados y adaptados a las necesidades de cada paciente. Colaboramos con médicos cualificados, así como clínicas, laboratorios y centros médicos de Casablanca, para garantizar un seguimiento médico continuo y eficaz. Para pacientes con dificultades para desplazarse, ofrecemos apoyo médico a domicilio, incluyendo consultas, exámenes clínicos y prescripciones médicas adaptadas. También facilitamos el seguimiento médico a distancia a través de un acompañamiento personalizado. 📞 Contáctenos hoy para beneficiarse de nuestra experiencia y hacer una cita con un profesional de la salud."
+    },
+    "urgences": {
+      "subtitle": "Asistencia Mobile Healthcare SOS Médicos",
+      "title": "Urgencias y Consultas Médicas a Domicilio en Casablanca",
+      "p": "Disponible 7 días/7, Mobile Healthcare garantiza consultas médicas a domicilio para urgencias y necesidades de seguimiento médico. Cada visita incluye un examen clínico exhaustivo, diagnóstico personalizado y atención adaptada a su estado de salud. En ausencia de su médico de cabecera o en caso de necesidad médica urgente, nuestros médicos generales experimentados intervienen directamente en su domicilio para proporcionarle los cuidados necesarios, de día o de noche."
+    }
+  },
+  "prelevement": {
+    "meta": {
+      "title": "Análisis de Sangre a Domicilio | Mobile Healthcare",
+      "description": "El servicio de análisis de sangre a domicilio de Mobile Healthcare elimina los inconvenientes, la espera y las preocupaciones de las pruebas médicas. Nuestros servicios de salud a domicilio ofrecen análisis de sangre sin salir de su hogar u oficina."
+    },
+    "h1": "Análisis de Sangre a Domicilio",
+    "hero": {
+      "h2": "¡El análisis de sangre a domicilio es posible!",
+      "h5": "Asistencia Mobile Healthcare"
+    },
+    "intro": {
+      "title": "Extracción de sangre a domicilio: un servicio práctico y fiable.",
+      "p1": "En Mobile Healthcare, ofrecemos un servicio de extracción de sangre a domicilio en Casablanca, ideal para pacientes que desean evitar desplazarse al laboratorio.",
+      "p2": "Nuestros profesionales de la salud cualificados se desplazan a su domicilio o lugar de trabajo para realizar sus análisis, garantizando un servicio seguro, preciso y conforme a los estándares médicos."
+    },
+    "section1": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Análisis de Sangre a Domicilio: Un Servicio Fiable y Cómodo",
+      "p1": "¿Busca un servicio de análisis de sangre a domicilio rápido y seguro? Disfrute de una atención equivalente a la de un laboratorio sin necesidad de desplazarse.",
+      "p2": "Nuestros profesionales de la salud se desplazan a su domicilio para realizar su análisis de sangre, garantizando comodidad, seguridad y precisión en los resultados. Ahorre tiempo y benefíciese de un servicio médico de calidad directamente en casa."
+    },
+    "section2": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Extracción en casa con calidad de atención equivalente a la de un laboratorio.",
+      "p": "Extracción en casa con la misma calidad que en un laboratorio. Reserve según su disponibilidad y acceda a sus resultados en línea fácilmente."
+    },
+    "section3": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Análisis de sangre a domicilio en Casablanca-Settat 🏠💉",
+      "item1": "El equipo de Mobile Healthcare ofrece un servicio de análisis de sangre a domicilio en toda la región de Casablanca-Settat.",
+      "item2_start": "Realizamos todas las pruebas compatibles a domicilio.",
+      "item2_link": "Contáctenos",
+      "item2_end": "para verificar si su prueba puede realizarse sin desplazarse, ya sea en su domicilio o lugar de trabajo.",
+      "item3": "Un equipo cualificado: Nuestros enfermeros y médicos están inscritos en los Colegios de Enfermeros y Médicos, garantizando un servicio fiable y seguro.",
+      "item4": "Resultados rápidos: Reciba sus resultados en 24 horas para la mayoría de los análisis de sangre."
+    }
+  },
+  "transport": {
+    "meta": {
+      "title": "Ambulancia Casablanca | Mobile Healthcare",
+      "description": "Mobile Healthcare, su referencia para una ambulancia en Casablanca. Ofrecemos una gama de servicios para ponerle cómodo."
+    },
+    "h1": "Transporte Sanitario / Ambulancias",
+    "intro": {
+      "title": "Transporte Sanitario a Domicilio: Seguro y Disponible en Todo Momento.",
+      "p1": "En Mobile Healthcare, ofrecemos un servicio de transporte sanitario a domicilio en Casablanca, diseñado para pacientes que necesitan un desplazamiento seguro hacia los centros de salud.",
+      "p2": "Nuestras ambulancias equipadas cuentan con médicos y enfermeros cualificados, garantizando una atención rápida y adaptada a las necesidades médicas de cada paciente. Proporcionamos transporte medicalizado en condiciones óptimas, combinando seguridad, comodidad y asistencia médica durante todo el trayecto."
+    },
+    "section1": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Urgencia y Transporte Medicalizado — Servicio Rápido y Seguro",
+      "p1": "Mobile Healthcare proporciona todo tipo de transportes sanitarios, ya sean simples o medicalizados, para satisfacer sus necesidades con total seguridad.",
+      "p2": "Ya sea para hospitalización, traslado médico, consulta, diálisis, quimioterapia o rehabilitación, nuestras ambulancias equipadas y nuestros profesionales de la salud cualificados (médicos y enfermeros) garantizan un transporte fiable y adaptado.",
+      "p3": "Intervenimos a nivel local, regional y nacional para garantizar su atención rápida y segura. 🚑✨"
+    },
+    "section2": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Transporte Sanitario — Nuestros Servicios",
+      "p1": "Nuestros equipos médicos y paramédicos son rigurosamente seleccionados y disponen de las competencias necesarias para garantizar una atención optimizada, incluyendo:",
+      "item1": "✅ Monitorización de signos vitales.",
+      "item2": "✅ Atención a pacientes con dispositivos médicos como sonda urinaria o nasogástrica.",
+      "item3": "✅ Administración de tratamientos continuos, garantizando asistencia médica adaptada.",
+      "p2": "Nuestros equipos intervienen profesionalmente para garantizar un transporte medicalizado seguro, cumpliendo los requisitos médicos más estrictos."
+    },
+    "section3": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Ambulancia Equipada — Transporte Medicalizado 24h/24",
+      "p1": "Nuestras ambulancias medicalizadas están equipadas con material de alta tecnología para garantizar un transporte seguro y cómodo para todos los pacientes, ya sean estables, con asistencia respiratoria o intubados-ventilados.",
+      "item1": "🔹 Equipamiento médico avanzado para una atención óptima",
+      "item2": "🔹 Estrictas normas de higiene e inspección técnica anual",
+      "item3": "🔹 Disponibilidad 24h/24 y 7j/7 para cualquier urgencia o necesidad de transporte médico",
+      "p2": "¿Necesita transporte sanitario fiable? Contáctenos ahora y benefíciese de un servicio rápido y seguro."
+    },
+    "section4": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Transporte Sanitario / Ambulancias",
+      "p": "Mobile Healthcare le acompaña con un servicio de ambulancia rápido y seguro en Casablanca y alrededores. Contáctenos para un traslado medicalizado con total seguridad. Disponibilidad 24h/24 y 7j/7."
+    },
+    "section5": {
+      "subtitle": "Asistencia Mobile Healthcare",
+      "title": "Nuestras Competencias — Transporte Sanitario en Casablanca",
+      "p1": "En Mobile Healthcare Casablanca, todos nuestros profesionales de la salud se forman regularmente para garantizar un transporte seguro y adaptado a los pacientes.",
+      "item1": "✅ Seguridad y bienestar de los pacientes: en el corazón de nuestras prioridades",
+      "item2": "✅ Escucha y transparencia con los pacientes y sus familias",
+      "item3": "✅ Flota moderna de ambulancias: ambulancias clásicas y medicalizadas",
+      "item4": "✅ Intervención rápida en Casablanca y otras ciudades",
+      "p2": "Garantizamos un servicio de transporte sanitario fiable y profesional con un equipo experimentado y equipamiento médico de última generación."
+    },
+    "partenaires": {
+      "title": "🤝 Nuestros Socios — Red Médica en Casablanca",
+      "p1": "En My Health Assistance Casablanca, colaboramos con diversos establecimientos médicos para garantizar un transporte rápido y seguro hacia las estructuras de atención adecuadas.",
+      "item1": "✔️ Clínicas y Hospitales: Clinique Casablanca, Groupe Akdital y otros establecimientos de salud",
+      "item2": "✔️ Centros especializados: Radiología, análisis médicos y hemodiálisis",
+      "item3": "✔️ Servicios personalizados: Asistencia post-hospitalización y seguimiento médico a domicilio",
+      "p2": "También proporcionamos transporte medicalizado para pacientes en alta hospitalaria, así como para pacientes en situación terminal que necesitan un acompañamiento adaptado."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contáctenos | Mobile Healthcare Casablanca",
+      "description": "Contacte Mobile Healthcare para un enfermero a domicilio, consulta médica o transporte sanitario en Casablanca. Disponibles 24h/24 y 7j/7 al 06 96 96 43 41."
+    },
+    "title": "Contáctenos",
+    "text": "Para cualquier pregunta o reclamación, no dude en contactarnos. Estamos aquí para usted.",
+    "form": {
+      "prenom": "Nombre",
+      "nom": "Apellidos",
+      "telephone": "Teléfono",
+      "email": "Email",
+      "demandeLabel": "Elija el tipo de solicitud",
+      "demandeSelect": "Seleccionar",
+      "demandeOption1": "Hacer una solicitud",
+      "demandeOption2": "Reclamación",
+      "message": "Mensaje",
+      "submit": "Enviar"
+    }
+  },
+  "img": {
+    "docAtHome": "Médico realizando una consulta a domicilio en Casablanca",
+    "prescription": "Médico a domicilio escribiendo una receta",
+    "medicalFollowup": "Consulta médica y seguimiento a distancia para pacientes",
+    "homeEmergency": "Médico interviniendo en una urgencia médica a domicilio en Casablanca",
+    "bloodTest1": "Servicio de extracción de sangre a domicilio — Mobile Healthcare Casablanca",
+    "bloodTest2": "Análisis de sangre a domicilio con calidad equivalente a un laboratorio",
+    "bloodTest3": "Análisis de sangre a domicilio o en el trabajo — Casablanca",
+    "nurseAtHome": "Enfermera realizando cuidados de enfermería a domicilio en Casablanca",
+    "nursingGrid": "Enfermero a domicilio en Casablanca realizando un cambio de vendaje",
+    "homeCare": "Cuidador a domicilio en Casablanca — Servicio de enfermería 24h/24",
+    "injection": "Administración de inyección o perfusión a domicilio",
+    "ablation": "Enfermero realizando cuidados de higiene y retirada de puntos a domicilio",
+    "dressing": "Cambio de vendaje por un enfermero a domicilio",
+    "infusion": "Perfusión administrada por un enfermero a domicilio",
+    "bloodSample": "Extracción de sangre a domicilio — Casablanca",
+    "enema": "Enema a domicilio — Casablanca",
+    "doctorFamily": "Médico en consulta a domicilio para toda la familia",
+    "teleconsultation": "Teleconsulta médica por teléfono — Mobile Healthcare",
+    "ambulance": "SOS médico Casablanca — ambulancia de urgencia",
+    "nurseWork": "Enfermero realizando cuidados a domicilio — cura o inyección",
+    "ambulanceEmergency": "Servicio de ambulancia de urgencia en Casablanca",
+    "ambulanceCall": "Llamada de urgencia para médico a domicilio o ambulancia en Casablanca",
+    "ambulanceEquipped": "Ambulancia medicalizada equipada para transporte sanitario en Casablanca",
+    "ambulanceStaff": "Servicio de transporte medicalizado 24h/24 con ambulancias equipadas",
+    "premiumAmbulance": "Ambulancia equipada en Casablanca con material médico de última generación",
+    "consultationService": "Visita médica a domicilio — Mobile Healthcare",
+    "transportService": "SOS médico — transporte médico — Mobile Healthcare",
+    "bloodCollection": "Análisis de sangre a domicilio — análisis médicos — Casablanca",
+    "geriatrics": "Geriatría — paciente mayor — Mobile Healthcare",
+    "teleconsultationService": "Teleconsulta — médico por teléfono — Mobile Healthcare",
+    "eventCoverage": "Cobertura médica de eventos — Mobile Healthcare",
+    "funeralService": "Servicios funerarios — Mobile Healthcare",
+    "firstAid": "Formación en primeros auxilios — Mobile Healthcare"
+  },
+  "faq": {
+    "title": "FAQ — Atención médica a domicilio con Mobile Healthcare Casablanca",
+    "items": [
+      {
+        "question": "¿Qué servicios a domicilio ofrecen?",
+        "answer": "Ofrecemos cuidados de enfermería a domicilio, consultas médicas, higiene personal, curas, perfusiones, inyecciones y transporte medicalizado."
+      },
+      {
+        "question": "¿Están disponibles 24h/24 y 7j/7?",
+        "answer": "Sí, nuestro servicio está disponible 24h/24 y 7j/7 en Casablanca."
+      },
+      {
+        "question": "¿Cómo pedir cita?",
+        "answer": "Puede llamarnos directamente o hacer clic en el icono de WhatsApp para un contacto rápido."
+      },
+      {
+        "question": "¿En qué zonas de Casablanca intervienen?",
+        "answer": "Intervenimos en todos los barrios de Casablanca, incluyendo Maarif, Bourgogne, Sidi Maârouf, Hay Hassani, Oasis, Ain Sebaâ, Anfa y muchos más. Nuestro objetivo es hacer la atención accesible rápidamente a domicilio, donde quiera que esté en la ciudad."
+      },
+      {
+        "question": "¿Quiénes son los enfermeros que intervienen?",
+        "answer": "🩺 Nuestros enfermeros son titulados, experimentados e inscritos en el Colegio Nacional de Enfermeros. Son rigurosamente seleccionados para garantizar cuidados profesionales, humanos y adaptados a cada situación."
+      },
+      {
+        "question": "¿Ofrecen cuidados para personas mayores o dependientes?",
+        "answer": "👵👴 Sí, ofrecemos cuidados personalizados para personas mayores, encamadas o con pérdida de autonomía, a domicilio. Esto incluye curas, higiene personal, perfusiones, vigilancia médica y acompañamiento comprensivo diario."
+      }
+    ]
+  }
+}

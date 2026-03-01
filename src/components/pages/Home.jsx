@@ -1,17 +1,22 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { HiOutlineHeart } from "react-icons/hi2";
+import { useTranslation } from "react-i18next";
 
 import ServicesView from "../ServicesView";
 import Hero from "../UI/Hero";
 import LayoutContent from "../UI/LayoutContent";
+import { useLangPrefix } from "../../hooks/useLangPrefix";
 
 const HomePage = () => {
+  const { t } = useTranslation();
+  const prefix = useLangPrefix();
+
   const handleWhatsAppConversion = (url) => {
     if (typeof window.gtag_report_conversion === "function") {
       window.gtag_report_conversion(url);
     } else {
-      window.location = url; // Fallback in case gtag_report_conversion is not defined
+      window.location = url;
     }
   };
 
@@ -19,54 +24,38 @@ const HomePage = () => {
     <div className="home">
       <Helmet>
         <meta charSet="utf-8" />
-        <meta
-          name="description"
-          content="Prenez soin de votre santé avec Mobile Healthcare &mdash; Réservez des soins infirmiers à domicile, des consultations médicales et un transport sanitaire à Casablanca, disponibles 24/7."
-        />
-        <title>
-          Soins Infirmiers, Consultations à Domicile et Transport Sanitaire à
-          Casablanca | Mobile Healthcare
-        </title>
+        <meta name="description" content={t("home.meta.description")} />
+        <title>{t("home.meta.title")}</title>
         <link rel="canonical" href="https://www.mobile-healthcare.org/" />
       </Helmet>
-      <Hero
-        className="hero-section"
-        h2="Mobile Healthcare &mdash; Votre Assistance Médicale à Domicile 24/7"
-      />
+      <Hero className="hero-section" h2={t("home.hero")} />
       <div className="container">
         <section className="prelevement__def">
           <h5 className="u-margin-bottom-small">Mobile Healthcare</h5>
           <h2 className="secondary-heading u-margin-bottom-medium">
-            Votre santé, notre priorité &mdash; Assistance médicale à domicile
+            {t("home.section1.title")}
           </h2>
           <p>
-            Faites confiance à Mobile Healthcare pour toutes vos demandes
-            d&apos;assistance médicale. Nous vous proposons notamment les
-            services suivants :
-            <Link to="/teleconsultation" className="services-link">
-              La téléconsultation,
+            {t("home.section1.p1_start")}
+            <Link to={`${prefix}/teleconsultation`} className="services-link">
+              {t("home.section1.teleconsultation")}
             </Link>
-            <Link to="/consultation-a-domicile" className="services-link">
-              Consultation à domicile,
+            <Link to={`${prefix}/consultation-a-domicile`} className="services-link">
+              {t("home.section1.consultationDomicile")}
             </Link>
-            <Link to="/transport-sanitaire" className="services-link">
-              SOS Urgences médicales,
+            <Link to={`${prefix}/transport-sanitaire`} className="services-link">
+              {t("home.section1.sosUrgences")}
             </Link>
-            <Link to="/transport-sanitaire" className="services-link">
-              transport sanitaire,
+            <Link to={`${prefix}/transport-sanitaire`} className="services-link">
+              {t("home.section1.transportSanitaire")}
             </Link>
-            <Link to="/prelevement-a-domicile" className="services-link">
-              Prélèvement à domicile,
+            <Link to={`${prefix}/prelevement-a-domicile`} className="services-link">
+              {t("home.section1.prelèvementDomicile")}
             </Link>
-            ... Nous offrons un large spectre de services et nous essayons
-            toujours à englober les offres de soins dont vous pourriez avoir
-            besoin.
+            {t("home.section1.p1_end")}
           </p>
           <p className="u-margin-top-small">
-            <strong>
-              Notre mission c&apos;est d&apos;améliorer la qualité des services
-              de santé au Casablanca (Maroc).
-            </strong>
+            <strong>{t("home.section1.mission")}</strong>
           </p>
           <div className="center-text u-margin-top-medium">
             <Link
@@ -79,14 +68,14 @@ const HomePage = () => {
                 handleWhatsAppConversion("https://wa.me/+212696964341")
               }
             >
-              Appelez-nous &rarr;
+              {t("common.callUs")}
             </Link>
           </div>
           <div className="service-img">
             <img
               loading="lazy"
-              src="medecin-a-domicile.avif"
-              alt="medecin-domicile-consultation-famille-mobilehealthcare-services"
+              src="/medecin-a-domicile.avif"
+              alt={t("img.doctorFamily")}
             />
           </div>
         </section>
@@ -94,46 +83,34 @@ const HomePage = () => {
         <section className="prelevement__def">
           <h5 className="u-margin-bottom-small">Mobile Healthcare</h5>
           <h2 className="secondary-heading u-margin-bottom-medium">
-            Assistance Médicale à Casablanca
+            {t("home.section2.title")}
           </h2>
-          <p>
-            Mobile Healthcare, votre partenaire de confiance pour
-            l&apos;assistance médicale, est dirigé par une équipe de médecins
-            qualifiés, offrant des services partout à Casablanca. Nous vous
-            proposons une prise en charge complète de tous vos besoins en
-            matière de soins de santé, avec un engagement constant envers
-            l&apos;excellence et la qualité. Notre équipe médicale vous
-            accompagne tout au long de votre parcours de soins, en veillant à ce
-            que vous receviez des soins adaptés à vos besoins, dans un cadre
-            attentif et personnalisé.
-          </p>
+          <p>{t("home.section2.p")}</p>
         </section>
         <section className="nos-services">
           <h5 className="center-text u-margin-bottom-small">
             Mobile Healthcare
           </h5>
-          <h2 className="secondary-heading intro-heading">Nos services</h2>
+          <h2 className="secondary-heading intro-heading">
+            {t("home.services.title")}
+          </h2>
 
           <LayoutContent>
             <>
               <h5 className="u-margin-bottom-small">
-                Mobile healthcare services
+                {t("home.services.teleconsultation.subtitle")}
               </h5>
               <h2 className="secondary-heading u-margin-bottom-medium">
-                Télé-consultation / Télé-médecine
+                {t("home.services.teleconsultation.title")}
               </h2>
               <p>
-                Bénéficiez de l&apos;expertise de nos médecins en ligne,
-                disponibles tous les jours de la semaine. Nous proposons des
-                téléconsultations immédiates ou planifiées. Peu importe votre
-                souci de santé, la première étape est toujours une
-                téléconsultation.
+                {t("home.services.teleconsultation.p")}
               </p>
               <p className="u-margin-top-small">
                 <strong>
-                  Votre prise en charge commence toujours par une &nbsp;
-                  <Link to="teleconsultation" className="services-link">
-                    téléconsultation.
+                  {t("home.services.teleconsultation.strong")}&nbsp;
+                  <Link to={`${prefix}/teleconsultation`} className="services-link">
+                    {t("home.services.teleconsultation.link")}
                   </Link>
                 </strong>
               </p>
@@ -142,37 +119,25 @@ const HomePage = () => {
                   <span className="service__icon">
                     <HiOutlineHeart className="icon" />
                   </span>
-                  <p>
-                    <strong>Consultation d&apos;urgence médicale 24h/24</strong>
-                    &mdash; SOS Médecin à domicile ou en téléconsultation
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: t("home.services.teleconsultation.item1") }} />
                 </li>
                 <li className="service__item">
                   <span className="service__icon">
                     <HiOutlineHeart className="icon" />
                   </span>
-                  <p>
-                    <strong>Téléconsultation en gériatrie</strong> &mdash; Soins
-                    spécialisés pour personnes âgées
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: t("home.services.teleconsultation.item2") }} />
                 </li>
                 <li className="service__item">
                   <span className="service__icon">
                     <HiOutlineHeart className="icon" />
                   </span>
-                  <p>
-                    <strong>Pédiatrie en ligne</strong> &mdash; Consultez un
-                    médecin lorsque votre enfant a de la fièvre la nuit
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: t("home.services.teleconsultation.item3") }} />
                 </li>
                 <li className="service__item">
                   <span className="service__icon">
                     <HiOutlineHeart className="icon" />
                   </span>
-                  <p>
-                    <strong>Deuxième avis médical</strong> &mdash; Obtenez
-                    l&apos;expertise d&apos;un médecin qualifié
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: t("home.services.teleconsultation.item4") }} />
                 </li>
               </ul>
               <div className="u-margin-top-medium">
@@ -186,7 +151,7 @@ const HomePage = () => {
                     handleWhatsAppConversion("https://wa.me/+212696964341")
                   }
                 >
-                  Appelez-nous &rarr;
+                  {t("common.callUs")}
                 </Link>
               </div>
             </>
@@ -194,39 +159,20 @@ const HomePage = () => {
               <div className="overlay">&nbsp;</div>
               <img
                 loading="lazy"
-                src="teleconsultation.avif"
-                alt="teleconsultation-medecin-domicile-appel-diagnostic-numero-telephone-mobilehealthcare"
+                src="/teleconsultation.avif"
+                alt={t("img.teleconsultation")}
               />
             </>
           </LayoutContent>
-          {/* <section className="transport"> */}
           <LayoutContent reverse="true">
             <>
               <h4 className="u-margin-bottom-small">
-                Mobile Healthcare Assistance Services
+                {t("home.services.transport.subtitle")}
               </h4>
               <h2 className="secondary-heading u-margin-bottom-medium">
-                Transport Sanitaire
+                {t("home.services.transport.title")}
               </h2>
-              <p>
-                <strong>Mobile Healthcare</strong> assure un service de{" "}
-                <strong>
-                  <Link className="services-link" to="/transport-sanitaire">
-                    transport sanitaire
-                  </Link>
-                  sécurisé et adapté
-                </strong>
-                &nbsp;à tous les besoins médicaux. Que ce soit pour une{" "}
-                <strong>
-                  hospitalisation, un transfert, une consultation, une séance de
-                  dialyse, une chimiothérapie ou une rééducation
-                </strong>
-                , nous mettons à disposition des véhicules équipés pour un
-                <strong> transport simple ou médicalisé</strong>. Nos services
-                couvrent <strong>Casablanca et les régions avoisinantes</strong>
-                , garantissant confort, sécurité et assistance professionnelle à
-                chaque trajet.
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: t("home.services.transport.p") }} />
               <Link
                 className="btn u-margin-top-big"
                 to="https://wa.me/+212696964341"
@@ -237,47 +183,27 @@ const HomePage = () => {
                   handleWhatsAppConversion("https://wa.me/+212696964341")
                 }
               >
-                Appelez-nous &rarr;
+                {t("common.callUs")}
               </Link>
             </>
             <>
               <div className="overlay">&nbsp;</div>
               <img
                 loading="lazy"
-                src="ambulance-1.avif"
-                alt="sos-medecin-casablanca-ambulance-urgence-mobilehealthcare-casablanca-1"
+                src="/ambulance-1.avif"
+                alt={t("img.ambulance")}
               />
             </>
           </LayoutContent>
           <LayoutContent>
             <>
               <h4 className="u-margin-bottom-small">
-                Mobile Healthcare Assistance Services
+                {t("home.services.soins.subtitle")}
               </h4>
               <h2 className="secondary-heading u-margin-bottom-medium">
-                Soins Infirmiers à Domicile
+                {t("home.services.soins.title")}
               </h2>
-              <p>
-                <strong>Mobile Healthcare</strong> propose un service de{" "}
-                <strong>
-                  <Link className="services-link" to="/soins-infirmiers">
-                    soins infirmiers à domicile
-                  </Link>
-                  personnalisé et professionnel
-                </strong>
-                &nbsp;pour répondre à tous vos besoins médicaux. Que ce soit
-                pour{" "}
-                <strong>
-                  des pansements, des injections, une prise de tension, un suivi
-                  post-opératoire ou la gestion des pathologies chroniques
-                </strong>
-                , nos infirmiers qualifiés assurent des soins de qualité en
-                toute sécurité. Nos interventions couvrent
-                <strong> Casablanca et ses environs</strong>, garantissant un
-                accompagnement médical adapté et une prise en charge humaine à
-                domicile.
-              </p>
-
+              <p dangerouslySetInnerHTML={{ __html: t("home.services.soins.p") }} />
               <Link
                 className="btn u-margin-top-big"
                 target="_blank"
@@ -288,15 +214,15 @@ const HomePage = () => {
                   handleWhatsAppConversion("https://wa.me/+212696964341")
                 }
               >
-                Appelez-nous &rarr;
+                {t("common.callUs")}
               </Link>
             </>
             <>
               <div className="overlay">&nbsp;</div>
               <img
                 loading="lazy"
-                src="nurse.avif"
-                alt="Infirmier réalisant des soins à domicile, tel qu'un pansement ou une injection, avec du matériel médical, garantissant un suivi médical professionnel à Casablanca."
+                src="/nurse.avif"
+                alt={t("img.nurseWork")}
               />
             </>
           </LayoutContent>

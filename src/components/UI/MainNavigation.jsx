@@ -1,12 +1,18 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { useLangPrefix } from "../../hooks/useLangPrefix";
 
 const MainNavigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
+  const prefix = useLangPrefix();
 
   const toggleHandler = () => {
     setIsOpen((prevState) => !prevState);
   };
+
+  const close = () => setIsOpen(false);
 
   return (
     <>
@@ -23,59 +29,69 @@ const MainNavigation = () => {
         <ul className="nav-list">
           <li>
             <NavLink
-              to="/"
-              className={`link nav-link ${(isActive) =>
-                isActive ? "active" : ""}`}
-              onClick={() => setIsOpen(false)}
+              to={prefix + "/"}
+              end
+              className={({ isActive }) =>
+                `link nav-link${isActive ? " active" : ""}`
+              }
+              onClick={close}
             >
-              Accueil
+              {t("nav.home")}
             </NavLink>
           </li>
           <li>
             <NavLink
-              to="/consultation-a-domicile"
-              className={`link nav-link ${(isActive) =>
-                isActive ? "active" : ""}`}
-              onClick={() => setIsOpen(false)}
+              to={`${prefix}/consultation-a-domicile`}
+              className={({ isActive }) =>
+                `link nav-link${isActive ? " active" : ""}`
+              }
+              onClick={close}
             >
-              Consultation à domicile
+              {t("nav.consultation")}
             </NavLink>
           </li>
           <li>
             <NavLink
-              to="/soins-infirmiers"
-              className={`link nav-link ${(isActive) =>
-                isActive ? "active" : ""}`}
-              onClick={() => setIsOpen(false)}
+              to={`${prefix}/soins-infirmiers`}
+              className={({ isActive }) =>
+                `link nav-link${isActive ? " active" : ""}`
+              }
+              onClick={close}
             >
-              Soins-Infirmiers
+              {t("nav.soins")}
             </NavLink>
           </li>
           <li>
             <NavLink
-              to="/prelevement-a-domicile"
-              className="link nav-link"
-              onClick={() => setIsOpen(false)}
+              to={`${prefix}/prelevement-a-domicile`}
+              className={({ isActive }) =>
+                `link nav-link${isActive ? " active" : ""}`
+              }
+              onClick={close}
             >
-              Prélèvement à domicile
+              {t("nav.prelevement")}
             </NavLink>
           </li>
           <li>
             <NavLink
-              to="/transport-sanitaire"
-              className="link nav-link"
-              onClick={() => setIsOpen(false)}
+              to={`${prefix}/transport-sanitaire`}
+              className={({ isActive }) =>
+                `link nav-link${isActive ? " active" : ""}`
+              }
+              onClick={close}
             >
-              Transport Sanitaire/ Ambulances
+              {t("nav.transport")}
             </NavLink>
           </li>
           <li>
             <NavLink
-              to="/contact"
-              className="link nav-link"
-              onClick={() => setIsOpen(false)}
+              to={`${prefix}/contact`}
+              className={({ isActive }) =>
+                `link nav-link${isActive ? " active" : ""}`
+              }
+              onClick={close}
             >
-              Contact
+              {t("nav.contact")}
             </NavLink>
           </li>
         </ul>

@@ -1,21 +1,24 @@
 import { Link } from "react-router-dom";
-// import { HiOutlineChatBubbleOvalLeft } from "react-icons/hi2";
-// import Logo from "./Logo";
+import { useTranslation } from "react-i18next";
+import { useLangPrefix } from "../../hooks/useLangPrefix";
 
 import { HiOutlineMapPin } from "react-icons/hi2";
 import { HiOutlinePhone } from "react-icons/hi2";
 import { HiOutlineEnvelope } from "react-icons/hi2";
 
 const Footer = () => {
+  const { t } = useTranslation();
+  const prefix = useLangPrefix();
+
   return (
     <footer className="footer container">
       <div className="footer--top">
         <div className="contact-col">
-          <h4 className="quaternary-heading">Contact</h4>
+          <h4 className="quaternary-heading">{t("footer.contact")}</h4>
           <ul className="contact__list">
             <li className="contact__item">
               <HiOutlineMapPin className="contact__icon" />
-              <span>Grand Casablanca</span>
+              <span>{t("footer.address")}</span>
             </li>
             <li className="contact__item">
               <HiOutlinePhone className="contact__icon" />
@@ -28,98 +31,98 @@ const Footer = () => {
           </ul>
         </div>
         <div className="services-col">
-          <h4 className="quaternary-heading">Services</h4>
+          <h4 className="quaternary-heading">{t("footer.services")}</h4>
           <ul className="services__list">
             <li className="services__item">
-              <span>&mdash;</span>Assistance téléphonique
+              <span>&mdash;</span>{t("footer.serviceList.phone")}
             </li>
             <li className="services__item">
-              <span>&mdash;</span> Consultation à domicile sur RDV
+              <span>&mdash;</span> {t("footer.serviceList.rdv")}
             </li>
             <li className="services__item">
-              <span>&mdash; </span>Consultation à domicile d&apos;urgence
+              <span>&mdash; </span>{t("footer.serviceList.urgence")}
             </li>
             <li className="services__item">
-              <span>&mdash; </span>Transfert à la clinique d&apos;urgence
+              <span>&mdash; </span>{t("footer.serviceList.transfer")}
             </li>
           </ul>
         </div>
         <div className="keywords-col">
-          <h4 className="quaternary-heading">Mots-Clés</h4>
+          <h4 className="quaternary-heading">{t("footer.keywords")}</h4>
           <ul className="keywords__list">
             <li className="keyword__item">
-              <Link to="/consultation-a-domicile" className="keyword-link">
-                médecin autour de moi
+              <Link to={`${prefix}/consultation-a-domicile`} className="keyword-link">
+                {t("footer.keywordLinks.medecinPres")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/consultation-a-domicile" className="keyword-link">
-                medecin Casablanca
+              <Link to={`${prefix}/consultation-a-domicile`} className="keyword-link">
+                {t("footer.keywordLinks.medecinCasa")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/consultation-a-domicile" className="keyword-link">
-                médecin généraliste Casablanca
+              <Link to={`${prefix}/consultation-a-domicile`} className="keyword-link">
+                {t("footer.keywordLinks.medecinGeneraliste")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/consultation-a-domicile" className="keyword-link">
-                sos medecin, sos docteur
+              <Link to={`${prefix}/consultation-a-domicile`} className="keyword-link">
+                {t("footer.keywordLinks.sosMedecin")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/consultation-a-domicile" className="keyword-link">
-                SOS médecin Casablanca
+              <Link to={`${prefix}/consultation-a-domicile`} className="keyword-link">
+                {t("footer.keywordLinks.sosMedecinCasa")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/soins-infirmiers" className="keyword-link">
-                soins infirmiers à domicile
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.soinsInfirmiers")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/soins-infirmiers" className="keyword-link">
-                infirmier Casablanca
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.infirmierCasa")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/soins-infirmiers" className="keyword-link">
-                infirmier à domicile Casablanca
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.infirmierDomicile")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/soins-infirmiers" className="keyword-link">
-                hospitalisation à domicile
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.hospitalisation")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/prelevement-a-domicile" className="keyword-link">
-                prise de sang à domicile
+              <Link to={`${prefix}/prelevement-a-domicile`} className="keyword-link">
+                {t("footer.keywordLinks.priseSang")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/transport-sanitaire" className="keyword-link">
-                ambulance privée Casablanca
+              <Link to={`${prefix}/transport-sanitaire`} className="keyword-link">
+                {t("footer.keywordLinks.ambulancePrivee")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/transport-sanitaire" className="keyword-link">
-                service ambulance Casablanca
+              <Link to={`${prefix}/transport-sanitaire`} className="keyword-link">
+                {t("footer.keywordLinks.serviceAmbulance")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/transport-sanitaire" className="keyword-link">
-                transport sanitaire
+              <Link to={`${prefix}/transport-sanitaire`} className="keyword-link">
+                {t("footer.keywordLinks.transportSanitaire")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/transport-sanitaire" className="keyword-link">
-                transport médicalisés
+              <Link to={`${prefix}/transport-sanitaire`} className="keyword-link">
+                {t("footer.keywordLinks.transportMedicalise")}
               </Link>
             </li>
             <li className="keyword__item">
-              <Link to="/transport-sanitaire" className="keyword-link">
-                ambulance secours Casablanca
+              <Link to={`${prefix}/transport-sanitaire`} className="keyword-link">
+                {t("footer.keywordLinks.ambulanceSecours")}
               </Link>
             </li>
           </ul>

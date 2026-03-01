@@ -8,9 +8,9 @@ import MainNavigation from "./MainNavigation";
 const MainHeader = () => {
   const handleWhatsAppConversion = async (url) => {
     if (typeof window.gtag_report_conversion === "function") {
-      window.gtag_report_conversion(url); // Google handles redirect
+      window.gtag_report_conversion(url);
     } else {
-      window.location.href = url; // fallback redirect
+      window.location.href = url;
     }
   };
 
@@ -21,7 +21,6 @@ const MainHeader = () => {
       <div className="cta">
         <Link
           to="https://wa.me/+212696964341"
-          // target="_blank" // 👈 This is the fix
           rel="noopener noreferrer"
           title="Contact me on WhatsApp"
           className="link"
@@ -34,7 +33,6 @@ const MainHeader = () => {
 
         <Link
           to="https://wa.me/+212696964341"
-          // target="_blank" // 👈 This is the fix
           rel="noopener noreferrer"
           title="Contact me on WhatsApp"
           className="link"

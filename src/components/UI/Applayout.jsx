@@ -1,25 +1,53 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 
 import MainHeader from "./MainHeader";
 import Footer from "./Footer";
 import FAQ from "../FAQ";
+import LanguageSwitcher from "./LanguageSwitcher";
 import { captureGCLID } from "../../utils/utils";
 
 const AppLayout = () => {
+  const { i18n } = useTranslation();
+  const { pathname } = useLocation();
+
   useEffect(() => {
-    // Call the script on component mount
+    if (pathname.startsWith("/en")) {
+      i18n.changeLanguage("en");
+    } else if (pathname.startsWith("/es")) {
+      i18n.changeLanguage("es");
+    } else if (pathname.startsWith("/ar")) {
+      i18n.changeLanguage("ar");
+    } else {
+      i18n.changeLanguage("fr");
+    }
+  }, [pathname, i18n]);
+
+  useEffect(() => {
     fetch("/log-ip.php")
       .then((response) => response.text())
-      // .then((data) => console.log(data)) // Optional: Log success message
       .catch((error) => console.error("Error logging IP:", error));
-  }, []); // Empty dependency array ensures it runs only once on mount
+  }, []);
 
   useEffect(() => {
     console.log("captureGCLID");
     captureGCLID();
   }, []);
+
+  const lang = pathname.startsWith("/en")
+    ? "en"
+    : pathname.startsWith("/es")
+    ? "es"
+    : pathname.startsWith("/ar")
+    ? "ar"
+    : "fr";
+
+  const isRtl = lang === "ar";
+
+  const baseUrl = "https://www.mobile-healthcare.org";
+  const pagePath = pathname.replace(/^\/(en|es|ar)/, "") || "/";
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
@@ -58,7 +86,6 @@ const AppLayout = () => {
         closes: "23:59",
       },
     ],
-
     description:
       "Mobile Healthcare propose des services de soins infirmiers à domicile à Casablanca : pansements, injections, perfusions et transport médicalisé 24h/24 et 7j/7.",
     serviceArea: {
@@ -90,11 +117,38 @@ const AppLayout = () => {
   return (
     <>
       <Helmet>
+        <html lang={lang} dir={isRtl ? "rtl" : "ltr"} />
+        <link
+          rel="alternate"
+          hrefLang="fr"
+          href={`${baseUrl}${pagePath === "/" ? "/" : pagePath}`}
+        />
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href={`${baseUrl}/en${pagePath === "/" ? "" : pagePath}`}
+        />
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href={`${baseUrl}/es${pagePath === "/" ? "" : pagePath}`}
+        />
+        <link
+          rel="alternate"
+          hrefLang="ar"
+          href={`${baseUrl}/ar${pagePath === "/" ? "" : pagePath}`}
+        />
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href={`${baseUrl}${pagePath === "/" ? "/" : pagePath}`}
+        />
         <script type="application/ld+json">
           {JSON.stringify(localBusinessSchema)}
         </script>
       </Helmet>
       <MainHeader />
+      <LanguageSwitcher />
       <main>
         <Outlet />
         <FAQ />

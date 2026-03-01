@@ -18,7 +18,7 @@ const ServicesDomicile = () => {
       <ul className="services-list">
         <li className="service-item">
           <img
-            src="injection-a-domicile.avif"
+            src="/injection-a-domicile.avif"
             title="injection-a-domicile-casablanca"
             alt="Administration d'une injection ou d'une perfusion à domicile pour un patient, assurant des soins médicaux sécurisés."
           />
@@ -48,7 +48,7 @@ const ServicesDomicile = () => {
         </li>
         <li className="service-item">
           <img
-            src="pansement-change.avif"
+            src="/pansement-change.avif"
             title="changement-pansement-a-domicile"
             alt="changement de pansement par un infirmier a domicile"
           />
@@ -78,7 +78,7 @@ const ServicesDomicile = () => {
         </li>
         <li className="service-item">
           <img
-            src="perfusion-service.avif"
+            src="/perfusion-service.avif"
             title="perfusion-a-domicile"
             alt="perfusion par un infirmier a domicile"
           />
@@ -108,7 +108,7 @@ const ServicesDomicile = () => {
           </div>
         </li>
         <li className="service-item">
-          <img src="prelevement.avif" />
+          <img src="/prelevement.avif" />
           <div className="service-details">
             <h5 className="u-margin-bottom-small">
               Prélèvement à domicile &mdash; Casablanca
@@ -134,7 +134,7 @@ const ServicesDomicile = () => {
           </div>
         </li>
         <li className="service-item">
-          <img src="lavement-rectal.avif" />
+          <img src="/lavement-rectal.avif" />
           <div className="service-details">
             <h5 className="u-margin-bottom-small">
               {" "}

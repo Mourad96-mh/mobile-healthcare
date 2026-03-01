@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "consultation": "Consultation à domicile",
+    "soins": "Soins-Infirmiers",
+    "prelevement": "Prélèvement à domicile",
+    "transport": "Transport Sanitaire/ Ambulances",
+    "contact": "Contact"
+  },
+  "common": {
+    "callUs": "Appelez-nous →",
+    "contactUs": "Contactez-nous",
+    "callNow": "Appelez-nous →"
+  },
+  "footer": {
+    "contact": "Contact",
+    "address": "Grand Casablanca",
+    "services": "Services",
+    "keywords": "Mots-Clés",
+    "serviceList": {
+      "phone": "Assistance téléphonique",
+      "rdv": "Consultation à domicile sur RDV",
+      "urgence": "Consultation à domicile d'urgence",
+      "transfer": "Transfert à la clinique d'urgence"
+    },
+    "keywordLinks": {
+      "medecinPres": "médecin autour de moi",
+      "medecinCasa": "medecin Casablanca",
+      "medecinGeneraliste": "médecin généraliste Casablanca",
+      "sosMedecin": "sos medecin, sos docteur",
+      "sosMedecinCasa": "SOS médecin Casablanca",
+      "soinsInfirmiers": "soins infirmiers à domicile",
+      "infirmierCasa": "infirmier Casablanca",
+      "infirmierDomicile": "infirmier à domicile Casablanca",
+      "hospitalisation": "hospitalisation à domicile",
+      "priseSang": "prise de sang à domicile",
+      "ambulancePrivee": "ambulance privée Casablanca",
+      "serviceAmbulance": "service ambulance Casablanca",
+      "transportSanitaire": "transport sanitaire",
+      "transportMedicalise": "transport médicalisés",
+      "ambulanceSecours": "ambulance secours Casablanca"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Soins Infirmiers, Consultations à Domicile et Transport Sanitaire à Casablanca | Mobile Healthcare",
+      "description": "Prenez soin de votre santé avec Mobile Healthcare — Réservez des soins infirmiers à domicile, des consultations médicales et un transport sanitaire à Casablanca, disponibles 24/7."
+    },
+    "hero": "Mobile Healthcare — Votre Assistance Médicale à Domicile 24/7",
+    "section1": {
+      "subtitle": "Mobile Healthcare",
+      "title": "Votre santé, notre priorité — Assistance médicale à domicile",
+      "p1_start": "Faites confiance à Mobile Healthcare pour toutes vos demandes d'assistance médicale. Nous vous proposons notamment les services suivants :",
+      "teleconsultation": "La téléconsultation,",
+      "consultationDomicile": "Consultation à domicile,",
+      "sosUrgences": "SOS Urgences médicales,",
+      "transportSanitaire": "transport sanitaire,",
+      "prelèvementDomicile": "Prélèvement à domicile,",
+      "p1_end": "... Nous offrons un large spectre de services et nous essayons toujours à englober les offres de soins dont vous pourriez avoir besoin.",
+      "mission": "Notre mission c'est d'améliorer la qualité des services de santé au Casablanca (Maroc)."
+    },
+    "section2": {
+      "subtitle": "Mobile Healthcare",
+      "title": "Assistance Médicale à Casablanca",
+      "p": "Mobile Healthcare, votre partenaire de confiance pour l'assistance médicale, est dirigé par une équipe de médecins qualifiés, offrant des services partout à Casablanca. Nous vous proposons une prise en charge complète de tous vos besoins en matière de soins de santé, avec un engagement constant envers l'excellence et la qualité. Notre équipe médicale vous accompagne tout au long de votre parcours de soins, en veillant à ce que vous receviez des soins adaptés à vos besoins, dans un cadre attentif et personnalisé."
+    },
+    "services": {
+      "title": "Nos services",
+      "teleconsultation": {
+        "subtitle": "Mobile healthcare services",
+        "title": "Télé-consultation / Télé-médecine",
+        "p": "Bénéficiez de l'expertise de nos médecins en ligne, disponibles tous les jours de la semaine. Nous proposons des téléconsultations immédiates ou planifiées. Peu importe votre souci de santé, la première étape est toujours une téléconsultation.",
+        "strong": "Votre prise en charge commence toujours par une",
+        "link": "téléconsultation.",
+        "item1": "<strong>Consultation d'urgence médicale 24h/24</strong> — SOS Médecin à domicile ou en téléconsultation",
+        "item2": "<strong>Téléconsultation en gériatrie</strong> — Soins spécialisés pour personnes âgées",
+        "item3": "<strong>Pédiatrie en ligne</strong> — Consultez un médecin lorsque votre enfant a de la fièvre la nuit",
+        "item4": "<strong>Deuxième avis médical</strong> — Obtenez l'expertise d'un médecin qualifié"
+      },
+      "transport": {
+        "subtitle": "Mobile Healthcare Assistance Services",
+        "title": "Transport Sanitaire",
+        "p": "<strong>Mobile Healthcare</strong> assure un service de <strong>transport sanitaire</strong> sécurisé et adapté à tous les besoins médicaux. Que ce soit pour une <strong>hospitalisation, un transfert, une consultation, une séance de dialyse, une chimiothérapie ou une rééducation</strong>, nous mettons à disposition des véhicules équipés pour un <strong>transport simple ou médicalisé</strong>. Nos services couvrent <strong>Casablanca et les régions avoisinantes</strong>, garantissant confort, sécurité et assistance professionnelle à chaque trajet."
+      },
+      "soins": {
+        "subtitle": "Mobile Healthcare Assistance Services",
+        "title": "Soins Infirmiers à Domicile",
+        "p": "<strong>Mobile Healthcare</strong> propose un service de <strong>soins infirmiers à domicile</strong> personnalisé et professionnel pour répondre à tous vos besoins médicaux. Que ce soit pour <strong>des pansements, des injections, une prise de tension, un suivi post-opératoire ou la gestion des pathologies chroniques</strong>, nos infirmiers qualifiés assurent des soins de qualité en toute sécurité. Nos interventions couvrent <strong>Casablanca et ses environs</strong>, garantissant un accompagnement médical adapté et une prise en charge humaine à domicile."
+      }
+    }
+  },
+  "soins": {
+    "meta": {
+      "title": "INFIRMIER À DOMICILE CASABLANCA | Mobile Healthcare",
+      "description": "Mobile Healthcare met à votre disposition un infirmier à domicile à Casablanca, 7j/7, pour des soins infirmiers professionnels : pansements, injections, perfusions. Appelez-nous dès maintenant pour une prise en charge rapide !"
+    },
+    "h1": "Infirmier à Domicile",
+    "hero": {
+      "h2": "Soins Infirmiers à Domicile",
+      "h5": "Mobile healthcare Assistance"
+    },
+    "intro": {
+      "title": "Soins infirmiers à domicile à Casablanca — Service rapide et professionnel",
+      "p1": "Mobile Healthcare vous offre un service infirmier à domicile à Casablanca, adapté à vos besoins médicaux. Nos infirmiers et infirmières diplômés offrent des soins comme des pansements, des injections et des perfusions. Ils posent aussi des sondes gastriques et vésicales, ainsi que d'autres soins spécialisés, directement chez vous.",
+      "p2": "Nous offrons un service de soins infirmiers fiable et rapide, disponible 24 heures sur 24 et 7j/7 pour votre bien-être et votre tranquillité d'esprit.",
+      "p3_start": "Besoin d'un infirmier à domicile ?",
+      "p3_highlight": "Contactez-nous dès maintenant sur le numero :",
+      "p3_number": "06 96 96 43 41"
+    },
+    "pansement": {
+      "title": "Infirmier à domicile - Soins des Plaies et Changement de Pansement à Domicile",
+      "p1": "Nos infirmiers spécialisés à domicile à Casablanca assurent le changement de pansement en toute sécurité. Grâce à des techniques stériles avancées, nous prévenons les infections et accélérons la cicatrisation des plaies.",
+      "p2": "Nous prenons en charge tous types de plaies : escarres, plaies post-opératoires, pied diabétique, gangrène et autres lésions cutanées. Notre objectif est de garantir un soin efficace pour une guérison rapide et un meilleur confort du patient.",
+      "p3": "Vous recherchez un service de changement de pansement à domicile à Casablanca ? Contactez-nous dès aujourd'hui !"
+    },
+    "sonde": {
+      "title": "Infirmier à domicile - Pose de Sonde Urinaire et Gastrique à Domicile à Casablanca",
+      "p1": "Nos infirmiers à domicile à Casablanca sont experts en pose de sonde urinaire et de pose de sonde gastrique, ils garantissent des soins précis et sûrs.",
+      "p2": "Nous assurons également la gestion de la nutrition par perfusion, essentielle pour les patients nécessitant un apport nutritif contrôlé. Chaque intervention est réalisée avec un suivi personnalisé pour assurer le bien-être et le confort du patient.",
+      "p3": "Besoin d'un service de pose de sonde urinaire ou gastrique à domicile à Casablanca ? Contactez-nous pour une intervention rapide et professionnelle."
+    },
+    "garde": {
+      "title": "Infirmier à domicile - Service de Garde Malade 24h/24 à Domicile — Assistance Médicale sur mesure",
+      "p": "Pour les familles qui ont besoin de soins infirmiers, Mobile Healthcare propose un service de garde malade à domicile. Ce service est toujours disponible. Il fonctionne 24 heures sur 24 et 7 jours sur 7. C'est idéal pour les patients qui ont besoin d'une surveillance constante. Cela assure sécurité, confort et tranquillité aux proches.",
+      "cta": "👩‍⚕️ Besoin d'un garde-malade à domicile ? Contactez-nous dès maintenant pour une prise en charge immédiate."
+    },
+    "accompagnement": {
+      "title": "Infirmier à domicile - Soins Infirmiers à Domicile à Casablanca : Un Accompagnement Sur-Mesure",
+      "p": "Chez Mobile Healthcare, nous adaptons chaque prestation aux besoins spécifiques de nos patients. Nos soins infirmiers à domicile permettent une prise en charge médicale adaptée, tout en assurant un suivi personnalisé et une continuité des soins. Nous collaborons étroitement avec les médecins traitants pour garantir une assistance médicale coordonnée et efficace à domicile."
+    },
+    "injections": {
+      "title": "Infirmier à domicile - Injections à Domicile — gestion en Toute Sécurité",
+      "p": "Nos professionnels de santé réalisent les injections dans le muscle (intramusculaires), sous-cutanées et intraveineuses, incluant :",
+      "item1": "<strong>✔ Antibiotiques</strong> — Traitement efficace des infections sous prescription médicale.",
+      "item2": "<strong>✔ Anticoagulants</strong> — Prévention des thromboses et embolies pulmonaires.",
+      "item3": "<strong>✔ Autres médicaments injectables</strong> adaptés aux pathologies chroniques ou aigües."
+    },
+    "perfusions": {
+      "title": "Infirmier à domicile - Perfusions à Domicile — apport d'eau / hydratation et Soutien Nutritionnel",
+      "p": "Nous assurons la mise en place et la surveillance de perfusion intraveineuse avec:",
+      "item1": "<strong>✔ Sérum physiologique</strong> — Pour maintenir l'équilibre hydrique et traiter les déshydratations.",
+      "item2": "<strong>✔ Glucose intraveineux</strong> — Apport énergétique pour les patients affaiblis.",
+      "item3": "<strong>✔ Solutions d'apport d'eau / hydratation</strong> — Indispensables en cas de troubles digestifs sévères.",
+      "cta": "👩‍⚕️ Besoin d'une injection ou d'une perfusion à domicile ? Contactez-nous dès maintenant pour une prise en charge immédiate."
+    },
+    "hygiene": {
+      "title": "Infirmier à domicile - Soins d'Hygiène et de Confort — Assistance aux Patients Dépendants",
+      "p": "Nos infirmiers(ères) experts prennent en charge les soins d'hygiène et de confort pour les patients en perte d'autonomie :",
+      "item1": "<strong>✔ Toilette complète ou partielle</strong> — Respect des besoins et du bien-être du patient.",
+      "item2": "<strong>✔ Prévention des escarres</strong> — Surveillance et soins des patients alités.",
+      "item3": "<strong>✔ Aide au remise en place et au maintien du confort.</strong>"
+    },
+    "ablation": {
+      "title": "Infirmier à domicile - Ablation des Fils et Sutures — Soins Post-Opératoires à Domicile",
+      "p": "Nous effectuons l'ablation des fils et agrafes après une intervention chirurgicale, garantissant :",
+      "item1": "<strong>✔ Un retrait sans douleur et en toute sécurité</strong>.",
+      "item2": "<strong>✔ Un suivi rigoureux de la cicatrisation</strong> pour éviter toute complication.",
+      "cta": "📞 Besoin de soins à domicile? Contactez-nous dès maintenant pour une prise en charge immédiate."
+    },
+    "contact": {
+      "title": "Besoin d'un Infirmier a Domicile ? Contactez Mobile Healthcare",
+      "p1": "Vous recherchez un infirmier à domicile près de vous à Casablanca ? Mobile Healthcare vous offre des soins infirmiers à domicile, selon vos besoins. Nous proposons des pansements des injections, après une opération, des perfusions et bien plus encore.",
+      "p2": "Nos services comprennent aussi également une infirmière à domicile, une aide-soignante, un aide-soignant, une hospitalisation à domicile 24h/24 et une surveillance médicale personnalisée Cela garantit votre bien-être et celui de vos proches.",
+      "p3": "📞 Contactez-nous dès maintenant :",
+      "p4": "Avec Mobile Healthcare, profitez d'un service infirmier à domicile de qualité, assuré par des professionnels compétents et à votre écoute."
+    },
+    "nosServices": {
+      "title": "Nos Services à Domicile",
+      "injection": {
+        "title": "Injection à domicile — Casablanca",
+        "p": "Faites appel à un infirmier à domicile pour vos injections en toute sécurité, sans quitter votre logement. Nos professionnels interviennent rapidement à Casablanca, dans le respect des normes d'hygiène médicale."
+      },
+      "pansement": {
+        "title": "Changement de pansement à domicile — Casablanca",
+        "p": "Évitez les déplacements inutiles : un infirmier à domicile intervient rapidement à Casablanca pour le changement de pansement, dans le respect strict des normes d'hygiène. Soins adaptés pour plaies chirurgicales, escarres, brûlures et autres."
+      },
+      "perfusion": {
+        "title": "Perfusion à domicile — Casablanca",
+        "p": "Besoin d'une perfusion à domicile à Casablanca? Nos infirmiers diplômés assurent la pose et le suivi en toute sécurité : réhydratation, antibiotiques, fer, nutrition parentérale… Le tout dans le respect strict des protocoles médicaux."
+      },
+      "prelevement": {
+        "title": "Prélèvement à domicile — Casablanca",
+        "p": "Optez pour un prélèvement sanguin à domicile à Casablanca, sans vous déplacer. Nos infirmiers réalisent prises de sang et autres analyses, avec envoi sécurisé des échantillons à notre laboratoire partenaire."
+      },
+      "lavement": {
+        "title": "Lavement à domicile — Casablanca",
+        "p": "Un infirmier à domicile se déplace à Casablanca pour réaliser vos lavements en toute discrétion. Soins adaptés, matériel stérile, confort et hygiène garantis selon votre prescription médicale."
+      }
+    },
+    "zones": {
+      "title": "Nos Services Infirmiers à Domicile à Casablanca",
+      "p1": "Besoin d'un infirmier à domicile ou d'une infirmière libérale autour de moi à Casablanca ? Nous intervenons rapidement dans tous les quartiers : Maarif, Bourgogne, Oasis, Hay Hassani, Ain Sebaâ, Sidi Maârouf, et Belvédère. Notre équipe propose des services infirmiers à domicile complets et sécurisés, adaptés à chaque patient.",
+      "p2": "Nos prestations incluent le changement de pansement à domicile, la perfusion à domicile, le prélèvement sanguin à domicile, ainsi que d'autres soins à domicile pour adultes et enfants. Nous travaillons avec des infirmiers diplômés et expérimentés, disponibles 7j/7 sur toute la ville de Casablanca.",
+      "p3": "Pour une prise en charge rapide, faites appel à notre service infirmier à domicile Casablanca. Nous proposons également une aide-soignante à domicile si besoin pour l'accompagnement quotidien."
+    }
+  },
+  "consultation": {
+    "meta": {
+      "title": "Consultation à domicile | Visite à domicile du médecin",
+      "description": "Le service de Consultation à domicile Mobilehealthcare fournit des soins experts pour vous et votre famille qui englobent les besoins de soins de santé quotidiens ainsi qu'une assistance à long terme."
+    },
+    "h1": "Consultation à Domicile",
+    "hero": {
+      "h5": "Mobile healthcare Assistance",
+      "h2": "Médecin à Domicile / Consultation à domicile"
+    },
+    "intro": {
+      "title": "Mobile Healthcare",
+      "p": "Le service de consultations à domicile de Mobile Healthcare met à votre disposition des médecins spécialisés, garantissant une prise en charge complète et adaptée à tous vos besoins médicaux."
+    },
+    "section1": {
+      "subtitle": "Mobile Healthcare assistance",
+      "title": "Consultation à domicile",
+      "p": "Mobile Healthcare, spécialiste de l'assistance médicale à domicile à Casablanca, propose des consultations médicales à domicile pour les patients nécessitant un suivi régulier ou ayant des difficultés à se déplacer. Nous savons que l'accès aux soins peut être un défi, c'est pourquoi nous nous engageons à fournir une prise en charge rapide, efficace et professionnelle pour assurer votre bien-être et votre santé. Nos médecins généralistes, urgentistes et spécialistes à Casablanca se déplacent directement chez vous pour réaliser des consultations à domicile, des examens médicaux personnalisés, ainsi que la prescription d'ordonnances adaptées. Attentifs à vos besoins, ils vous accompagnent à chaque étape pour garantir un suivi médical optimal à domicile."
+    },
+    "section2": {
+      "subtitle": "Mobile healthcare",
+      "title": "SERVICE DE CONSULTATION À DOMICILE À CASABLANCA",
+      "p": "Notre mission est d'offrir une assistance médicale à domicile de haute qualité à tous les patients de Casablanca. Que vous ayez besoin d'une consultation médicale à domicile, d'un examen clinique ou d'une prescription médicale, notre équipe est à votre disposition pour vous accompagner à chaque étape. 📞 Contactez-nous dès aujourd'hui pour découvrir nos services de consultation à domicile à Casablanca et planifier votre rendez-vous. Nous nous engageons à vous offrir des soins personnalisés pour préserver votre santé et votre bien-être."
+    },
+    "section3": {
+      "subtitle": "Mobile Healthcare assistance",
+      "title": "Consultations et Suivi Médical à Domicile à Casablanca",
+      "p": "Chez Mobile Healthcare, nous mettons un point d'honneur à offrir des soins personnalisés et adaptés aux besoins de chaque patient. Nous collaborons avec des médecins qualifiés, ainsi que des cliniques, laboratoires et centres médicaux de Casablanca, afin d'assurer un suivi médical continu et efficace. Pour les patients ayant des difficultés à se déplacer, nous proposons un accompagnement médical à domicile, incluant des consultations, examens cliniques et prescriptions médicales adaptées. De plus, nous facilitons le suivi médical à distance grâce à un accompagnement personnalisé, permettant à chacun de préserver sa santé en toute sérénité. 📞 Contactez-nous dès aujourd'hui pour bénéficier de notre expertise et prendre rendez-vous avec un professionnel de santé."
+    },
+    "urgences": {
+      "subtitle": "Mobile Healthcare assistance SOS Médecins",
+      "title": "Urgences et Consultations Médicales à Domicile à Casablanca",
+      "p": "Disponible 7j/7, Mobile Healthcare assure des consultations médicales à domicile pour les urgences et les besoins de suivi médical. Chaque visite comprend un examen clinique approfondi, un diagnostic personnalisé et une prise en charge adaptée à votre état de santé. En l'absence de votre médecin traitant ou en cas de besoin médical urgent, nos médecins généralistes expérimentés interviennent directement à votre domicile pour vous apporter les soins nécessaires, de jour comme de nuit."
+    }
+  },
+  "prelevement": {
+    "meta": {
+      "title": "Prélèvement à domicile Service de prise de sang | Mobile Healthcare",
+      "description": "Le service de prise de sang Mobile Healthcare à domicile élimine les inconvénients, l'attente et les soucis des tests médicaux! Nos services de santé à domicile offrent des services de prise de sang et de tests médicaux à distance sans avoir à quitter votre domicile ou votre bureau."
+    },
+    "h1": "Prélèvement à domicile",
+    "hero": {
+      "h2": "La prise de sang à domicile, c'est possible !",
+      "h5": "Mobile healthcare Assistance"
+    },
+    "intro": {
+      "title": "Prélèvement sanguin à domicile un service pratique et fiable.",
+      "p1": "Chez Mobile Healthcare, nous proposons un service de prélèvement sanguin à domicile à Casablanca, idéal pour les patients souhaitant éviter les déplacements en laboratoire.",
+      "p2": "Nos professionnels de santé qualifiés se rendent à votre domicile ou sur votre lieu de travail pour effectuer vos analyses, garantissant un service sécurisé, précis et conforme aux standards médicaux."
+    },
+    "section1": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Prise de Sang à Domicile : Un Service Fiable et Confortable",
+      "p1": "Vous recherchez un service de prise de sang à domicile rapide et sécurisé ? Profitez d'une prise en charge équivalente à celle d'un laboratoire, sans avoir à vous déplacer.",
+      "p2": "Nos professionnels de santé se rendent chez vous pour effectuer votre analyse sanguine à domicile, garantissant confort, sécurité et précision des résultats. Gagnez du temps et bénéficiez d'un service médical de qualité directement chez vous."
+    },
+    "section2": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Prélèvement à la maison, avec une qualité de soins équivalente à celle d'un laboratoire.",
+      "p": "Prélèvement à la maison avec la même qualité qu'en laboratoire. Réservez selon vos disponibilités et accédez à vos résultats en ligne facilement."
+    },
+    "section3": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Prises de sang à domicile à Casablanca-Settat 🏠💉",
+      "item1": "L'équipe de Mobile Healthcare propose un service de prises de sang à domicile dans toute la région Casablanca-Settat.",
+      "item2_start": "Nous réalisons tous les tests compatibles à domicile.",
+      "item2_link": "Contactez-nous",
+      "item2_end": "pour vérifier si votre examen peut être effectué sans vous déplacer, que vous soyez à votre domicile ou sur votre lieu de travail.",
+      "item3": "Une équipe qualifiée : Nos infirmiers, infirmières et médecins sont inscrits aux Ordres des Infirmiers et des Médecins, garantissant un service fiable et sécurisé.",
+      "item4": "Résultats rapides : Recevez vos résultats sous 24 heures pour la plupart des analyses de sang."
+    }
+  },
+  "transport": {
+    "meta": {
+      "title": "Ambulance Casablanca | Mobile Healthcare",
+      "description": "Mobile healthcare votre référence pour une ambulance a Casablanca vers ou depuis vos fournisseurs de soins de santé ou de l'aide d'un préposé au soutien personnel, nous offrons une gamme de services pour vous mettre à l'aise."
+    },
+    "h1": "Transport sanitaire/ Ambulances",
+    "intro": {
+      "title": "Transport Sanitaire à Domicile : Sécurisé et Disponible à Tout Moment.",
+      "p1": "Chez Mobile Healthcare, nous offrons un service de transport sanitaire à domicile à Casablanca, conçu pour les patients nécessitant un déplacement sécurisé vers les établissements de santé.",
+      "p2": "Nos ambulances équipées sont accompagnées de médecins et infirmiers qualifiés, garantissant une prise en charge rapide et adaptée aux besoins médicaux de chaque patient. Nous assurons un transport médicalisé dans des conditions optimales, alliant sécurité, confort et assistance médicale tout au long du trajet."
+    },
+    "section1": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Urgence & Transport Médicalisé — Service Rapide et Sécurisé",
+      "p1": "Mobile Healthcare assure tous types de transports sanitaires, qu'ils soient simples ou médicalisés, pour répondre à vos besoins en toute sécurité.",
+      "p2": "Que ce soit pour une hospitalisation, un transfert médical, une consultation, une séance de dialyse, une chimiothérapie ou une rééducation, nos ambulances équipées et nos professionnels de santé qualifiés (médecins et infirmiers) garantissent un transport fiable et adapté.",
+      "p3": "Nous intervenons à l'échelle locale, régionale et nationale pour assurer votre prise en charge rapide et sécurisée. 🚑✨"
+    },
+    "section2": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Transport Sanitaire — Nos Services",
+      "p1": "Nos équipes médicales et paramédicales sont rigoureusement sélectionnées et disposent des compétences nécessaires pour assurer une prise en charge optimisée, incluant :",
+      "item1": "✅ Surveillance des paramètres vitaux par monitorage.",
+      "item2": "✅ Prise en charge des patients porteurs de dispositifs médicaux tels que sonde urinaire ou sonde gastrique.",
+      "item3": "✅ Administration de traitements continus, garantissant une assistance médicale adaptée.",
+      "p2": "Nos équipes interviennent avec professionnalisme pour assurer un transport médicalisé sécurisé, répondant aux exigences médicales les plus strictes."
+    },
+    "section3": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Ambulance Équipée — Transport Médicalisé 24h/24",
+      "p1": "Nos ambulances médicalisées sont équipées de matériel de haute technologie pour assurer un transport sécurisé et confortable à tous les patients, qu'ils soient stables, sous assistance respiratoire ou intubés-ventilés.",
+      "item1": "🔹 Équipements médicaux avancés pour une prise en charge optimale",
+      "item2": "🔹 Normes d'hygiène strictes et contrôle technique annuel",
+      "item3": "🔹 Disponibilité 24h/24 et 7j/7 pour toute urgence ou besoin de transport médical",
+      "p2": "Besoin d'un transport sanitaire fiable ? Contactez-nous dès maintenant et bénéficiez d'un service rapide et sécurisé."
+    },
+    "section4": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Transport sanitaire/ Ambulances",
+      "p": "Mobile healthcare vous accompagne avec un service d'ambulance rapide et sécurisé à Casablanca et ses environs. Contactez-nous pour un transfert médicalisé en toute sécurité. Disponibilité 24h/24 et 7j/7."
+    },
+    "section5": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Nos Compétences — Transport Sanitaire à Casablanca",
+      "p1": "Chez Mobile healthcare Casablanca, tous nos professionnels de santé sont formés régulièrement afin d'assurer un transport sécurisé et adapté aux patients.",
+      "item1": "✅ Sécurité et bien-être des patients: au cœur de nos priorités",
+      "item2": "✅ Écoute et transparence avec les patients et leurs familles",
+      "item3": "✅ Flotte moderne d'ambulances : ambulances classiques et médicalisées",
+      "item4": "✅ Intervention rapide à Casablanca et dans d'autres villes",
+      "p2": "Nous garantissons un service de transport sanitaire fiable et professionnel, avec une équipe expérimentée et des équipements médicaux de dernière génération."
+    },
+    "partenaires": {
+      "title": "🤝 Nos Partenaires — Réseau Médical à Casablanca",
+      "p1": "Chez My Health Assistance Casablanca, nous collaborons avec divers établissements médicaux pour garantir un transport rapide et sécurisé vers les structures de soins adaptées.",
+      "item1": "✔️ Cliniques & Hôpitaux : Clinique Casablanca, Groupe Akdital et autres établissements de santé",
+      "item2": "✔️ Centres spécialisés : Radiologie, analyses médicales et hémodialyse",
+      "item3": "✔️ Services personnalisés : Assistance post-hospitalisation et suivi médical à domicile",
+      "p2": "Nous assurons également un transport médicalisé pour les patients en sortie d'hospitalisation, ainsi que pour les patients en fin de vie nécessitant un accompagnement adapté."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contactez-nous | Mobile Healthcare Casablanca",
+      "description": "Contactez Mobile Healthcare pour un infirmier à domicile, une consultation médicale ou un transport sanitaire à Casablanca. Disponibles 24h/24 et 7j/7 au 06 96 96 43 41."
+    },
+    "title": "contactez nous",
+    "text": "pour toute question, ou reclamation, n'hesitez pas a nous contacter. Nous sommes la pour vous.",
+    "form": {
+      "prenom": "Prenom",
+      "nom": "Nom",
+      "telephone": "Telephone",
+      "email": "Email",
+      "demandeLabel": "Choisissez votre type de demande",
+      "demandeSelect": "Selectionner",
+      "demandeOption1": "Faire une demande",
+      "demandeOption2": "Reclamation",
+      "message": "Message",
+      "submit": "Envoyer"
+    }
+  },
+  "img": {
+    "docAtHome": "Médecin réalisant une consultation à domicile à Casablanca",
+    "prescription": "Médecin à domicile rédigeant une ordonnance",
+    "medicalFollowup": "Consultation médicale et suivi à distance pour patients",
+    "homeEmergency": "Médecin à domicile en intervention pour une urgence médicale à Casablanca",
+    "bloodTest1": "Prélèvement sanguin à domicile — Mobile Healthcare Casablanca",
+    "bloodTest2": "Prise de sang à domicile avec qualité équivalente à un laboratoire",
+    "bloodTest3": "Analyse sanguine à domicile ou en entreprise — Casablanca",
+    "nurseAtHome": "Infirmière réalisant des soins infirmiers à domicile à Casablanca",
+    "nursingGrid": "Infirmier à domicile à Casablanca réalisant un changement de pansement",
+    "homeCare": "Garde malade à domicile à Casablanca — Service infirmier 24h/24",
+    "injection": "Administration d'une injection ou d'une perfusion à domicile",
+    "ablation": "Infirmier réalisant des soins d'hygiène et l'ablation des fils à domicile",
+    "dressing": "Changement de pansement par un infirmier à domicile",
+    "infusion": "Perfusion administrée par un infirmier à domicile",
+    "bloodSample": "Prélèvement sanguin à domicile — Casablanca",
+    "enema": "Lavement intestinal à domicile — Casablanca",
+    "doctorFamily": "Médecin en consultation à domicile pour toute la famille",
+    "teleconsultation": "Téléconsultation médicale par téléphone — Mobile Healthcare",
+    "ambulance": "SOS médecin Casablanca — ambulance d'urgence",
+    "nurseWork": "Infirmier réalisant des soins à domicile — pansement ou injection",
+    "ambulanceEmergency": "Service d'ambulance d'urgence à Casablanca",
+    "ambulanceCall": "Appel d'urgence pour médecin à domicile ou ambulance à Casablanca",
+    "ambulanceEquipped": "Ambulance médicalisée équipée pour le transport sanitaire à Casablanca",
+    "ambulanceStaff": "Service de transport médicalisé 24h/24 avec ambulances équipées",
+    "premiumAmbulance": "Ambulance équipée à Casablanca avec matériel médical de pointe",
+    "consultationService": "Visite médicale à domicile — Mobile Healthcare",
+    "transportService": "SOS médecin — transport médical — Mobile Healthcare",
+    "bloodCollection": "Prélèvement à domicile — analyses médicales — Casablanca",
+    "geriatrics": "Gériatrie — patient âgé — Mobile Healthcare",
+    "teleconsultationService": "Téléconsultation — médecin par téléphone — Mobile Healthcare",
+    "eventCoverage": "Couverture médicale d'événements — Mobile Healthcare",
+    "funeralService": "Services funèbres — Mobile Healthcare",
+    "firstAid": "Formation aux premiers secours — Mobile Healthcare"
+  },
+  "faq": {
+    "title": "FAQ — Soins médicaux à domicile avec Mobile Healthcare Casablanca",
+    "items": [
+      {
+        "question": "Quels sont vos services à domicile ?",
+        "answer": "Nous proposons des soins infirmiers à domicile, consultations médicales, aide à la toilette, pansements, perfusions, injections, et transport médicalisé."
+      },
+      {
+        "question": "Êtes-vous disponibles 24h/24 et 7j/7 ?",
+        "answer": "Oui, notre service est disponible 24h/24 et 7j/7 sur Casablanca."
+      },
+      {
+        "question": "Comment prendre rendez-vous ?",
+        "answer": "Vous pouvez nous appeler directement ou cliquer sur l'icône WhatsApp pour une prise de contact rapide."
+      },
+      {
+        "question": "Dans quelles zones intervenez-vous à Casablanca ?",
+        "answer": "Nous intervenons dans tous les quartiers de Casablanca, y compris Maarif, Bourgogne, Sidi Maârouf, Hay Hassani, Oasis, Ain Sebaâ, Anfa, et bien d'autres. Notre objectif est de rendre les soins accessibles rapidement à domicile, où que vous soyez dans la ville."
+      },
+      {
+        "question": "Qui sont les infirmiers/infirmières qui interviennent ?",
+        "answer": "🩺 Nos infirmiers et infirmières sont diplômés, expérimentés et inscrits à l'Ordre National des Infirmiers. Ils sont rigoureusement sélectionnés pour garantir des soins professionnels, humains et adaptés à chaque situation."
+      },
+      {
+        "question": "Proposez-vous des soins pour les personnes âgées ou dépendantes ?",
+        "answer": "👵👴 Oui, nous proposons des soins personnalisés pour les personnes âgées, alitées ou en perte d'autonomie, à domicile Cela inclut les pansements, l'aide à la toilette, les perfusions, la surveillance médicale, et un accompagnement bienveillant au quotidien."
+      }
+    ]
+  }
+}

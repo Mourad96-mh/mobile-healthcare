@@ -1,4 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 
 import { HiMiniChatBubbleBottomCenter } from "react-icons/hi2";
 import { HiMiniPhone } from "react-icons/hi2";
@@ -6,6 +8,7 @@ import { useState } from "react";
 import Spinner from "../UI/Spinner";
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [prenom, setPrenom] = useState("");
   const [nom, setNom] = useState("");
   const [telephone, setTelephone] = useState("");
@@ -37,14 +40,18 @@ const Contact = () => {
 
   return (
     <div className="contact grid grid--2-cols">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{t("contact.meta.title")}</title>
+        <meta name="description" content={t("contact.meta.description")} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.mobile-healthcare.org/contact" />
+      </Helmet>
       <div className="container">
         <div className="contact-info">
           <header className="contact-header">
-            <h2 className="secondary-heading">contactez nous</h2>
-            <p className="contact-text">
-              pour toute question, ou reclamation, n&apos;hesitez pas a nous
-              contacter. Nous sommes la pour vous.
-            </p>
+            <h2 className="secondary-heading">{t("contact.title")}</h2>
+            <p className="contact-text">{t("contact.text")}</p>
           </header>
           <footer className="contact-footer">
             <div>
@@ -73,7 +80,7 @@ const Contact = () => {
         <form className="contact-form" onSubmit={submitHandler}>
           <div className="form-group">
             <div className="form-control">
-              <label htmlFor="prenom">Prenom</label>
+              <label htmlFor="prenom">{t("contact.form.prenom")}</label>
               <input
                 type="text"
                 name="prenom"
@@ -84,7 +91,7 @@ const Contact = () => {
               />
             </div>
             <div className="form-control">
-              <label htmlFor="nom">Nom</label>
+              <label htmlFor="nom">{t("contact.form.nom")}</label>
               <input
                 type="text"
                 name="nom"
@@ -97,7 +104,7 @@ const Contact = () => {
           </div>
           <div className="form-group">
             <div className="form-control">
-              <label htmlFor="telephone">Telephone</label>
+              <label htmlFor="telephone">{t("contact.form.telephone")}</label>
               <input
                 type="text"
                 name="telephone"
@@ -108,7 +115,7 @@ const Contact = () => {
               />
             </div>
             <div className="form-control">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">{t("contact.form.email")}</label>
               <input
                 type="email"
                 name="email"
@@ -120,20 +127,20 @@ const Contact = () => {
             </div>
           </div>
           <div className="form-control">
-            <label htmlFor="demande">Choisissez votre type de demande</label>
+            <label htmlFor="demande">{t("contact.form.demandeLabel")}</label>
             <select
               name="demande"
               id="demande"
               value={demande}
               onChange={(e) => setDemande(e.target.value)}
             >
-              <option value="">Selectionner</option>
-              <option value="demande">Faire une demande</option>
-              <option value="reclamation">Reclamation</option>
+              <option value="">{t("contact.form.demandeSelect")}</option>
+              <option value="demande">{t("contact.form.demandeOption1")}</option>
+              <option value="reclamation">{t("contact.form.demandeOption2")}</option>
             </select>
           </div>
           <div className="form-control">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">{t("contact.form.message")}</label>
             <textarea
               name="message"
               id="message"
@@ -145,7 +152,7 @@ const Contact = () => {
           </div>
           <div className="form-actions">
             <button type="submit" className="btn btn--primary">
-              Envoyer
+              {t("contact.form.submit")}
             </button>
           </div>
         </form>

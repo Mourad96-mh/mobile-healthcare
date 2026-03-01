@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Home",
+    "consultation": "Home Consultation",
+    "soins": "Nursing Care",
+    "prelevement": "Home Blood Test",
+    "transport": "Medical Transport / Ambulances",
+    "contact": "Contact"
+  },
+  "common": {
+    "callUs": "Call Us →",
+    "contactUs": "Contact Us",
+    "callNow": "Call Us →"
+  },
+  "footer": {
+    "contact": "Contact",
+    "address": "Greater Casablanca",
+    "services": "Services",
+    "keywords": "Keywords",
+    "serviceList": {
+      "phone": "Phone support",
+      "rdv": "Home consultation by appointment",
+      "urgence": "Emergency home consultation",
+      "transfer": "Emergency clinic transfer"
+    },
+    "keywordLinks": {
+      "medecinPres": "doctor near me",
+      "medecinCasa": "doctor Casablanca",
+      "medecinGeneraliste": "general practitioner Casablanca",
+      "sosMedecin": "SOS doctor",
+      "sosMedecinCasa": "SOS doctor Casablanca",
+      "soinsInfirmiers": "home nursing care",
+      "infirmierCasa": "nurse Casablanca",
+      "infirmierDomicile": "home nurse Casablanca",
+      "hospitalisation": "home hospitalization",
+      "priseSang": "home blood test",
+      "ambulancePrivee": "private ambulance Casablanca",
+      "serviceAmbulance": "ambulance service Casablanca",
+      "transportSanitaire": "medical transport",
+      "transportMedicalise": "medicalized transport",
+      "ambulanceSecours": "rescue ambulance Casablanca"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Nursing Care, Home Consultations & Medical Transport in Casablanca | Mobile Healthcare",
+      "description": "Take care of your health with Mobile Healthcare — Book home nursing care, medical consultations and medical transport in Casablanca, available 24/7."
+    },
+    "hero": "Mobile Healthcare — Your Home Medical Assistance 24/7",
+    "section1": {
+      "subtitle": "Mobile Healthcare",
+      "title": "Your health, our priority — Home medical assistance",
+      "p1_start": "Trust Mobile Healthcare for all your medical assistance needs. We offer the following services:",
+      "teleconsultation": "Teleconsultation,",
+      "consultationDomicile": "Home consultation,",
+      "sosUrgences": "Medical SOS Emergencies,",
+      "transportSanitaire": "Medical transport,",
+      "prelèvementDomicile": "Home blood test,",
+      "p1_end": "... We offer a wide range of services and always strive to cover the care you need.",
+      "mission": "Our mission is to improve the quality of healthcare services in Casablanca (Morocco)."
+    },
+    "section2": {
+      "subtitle": "Mobile Healthcare",
+      "title": "Medical Assistance in Casablanca",
+      "p": "Mobile Healthcare, your trusted partner for medical assistance, is led by a team of qualified doctors offering services throughout Casablanca. We provide comprehensive coverage of all your healthcare needs, with a constant commitment to excellence and quality. Our medical team accompanies you throughout your care journey, ensuring you receive care tailored to your needs in an attentive and personalized setting."
+    },
+    "services": {
+      "title": "Our Services",
+      "teleconsultation": {
+        "subtitle": "Mobile healthcare services",
+        "title": "Teleconsultation / Telemedicine",
+        "p": "Benefit from the expertise of our doctors online, available every day of the week. We offer immediate or scheduled teleconsultations. Whatever your health concern, the first step is always a teleconsultation.",
+        "strong": "Your care always begins with a",
+        "link": "teleconsultation.",
+        "item1": "<strong>24/7 Medical Emergency Consultation</strong> — SOS Doctor at home or via teleconsultation",
+        "item2": "<strong>Geriatric Teleconsultation</strong> — Specialized care for elderly patients",
+        "item3": "<strong>Online Pediatrics</strong> — Consult a doctor when your child has a fever at night",
+        "item4": "<strong>Second Medical Opinion</strong> — Get the expertise of a qualified doctor"
+      },
+      "transport": {
+        "subtitle": "Mobile Healthcare Assistance Services",
+        "title": "Medical Transport",
+        "p": "<strong>Mobile Healthcare</strong> provides a secure and adapted <strong>medical transport</strong> service for all medical needs. Whether for <strong>hospitalization, transfer, consultation, dialysis, chemotherapy or rehabilitation</strong>, we provide equipped vehicles for <strong>simple or medicalized transport</strong>. Our services cover <strong>Casablanca and surrounding regions</strong>, ensuring comfort, safety and professional assistance on every journey."
+      },
+      "soins": {
+        "subtitle": "Mobile Healthcare Assistance Services",
+        "title": "Home Nursing Care",
+        "p": "<strong>Mobile Healthcare</strong> offers a personalized and professional <strong>home nursing care</strong> service to meet all your medical needs. Whether for <strong>dressings, injections, blood pressure monitoring, post-operative follow-up or chronic disease management</strong>, our qualified nurses ensure quality care safely. Our interventions cover <strong>Casablanca and surrounding areas</strong>, ensuring adapted medical support and humane home care."
+      }
+    }
+  },
+  "soins": {
+    "meta": {
+      "title": "HOME NURSE CASABLANCA | Mobile Healthcare",
+      "description": "Mobile Healthcare provides a home nurse in Casablanca, 7 days/7, for professional nursing care: dressings, injections, infusions. Call us now for fast assistance!"
+    },
+    "h1": "Home Nurse",
+    "hero": {
+      "h2": "Home Nursing Care",
+      "h5": "Mobile Healthcare Assistance"
+    },
+    "intro": {
+      "title": "Home nursing care in Casablanca — Fast and professional service",
+      "p1": "Mobile Healthcare offers you a home nursing service in Casablanca, tailored to your medical needs. Our qualified nurses provide care such as dressings, injections and infusions. They also place nasogastric and urinary catheters, as well as other specialized care, directly at your home.",
+      "p2": "We offer a reliable and fast nursing care service, available 24 hours a day, 7 days a week for your well-being and peace of mind.",
+      "p3_start": "Need a home nurse?",
+      "p3_highlight": "Contact us now at:",
+      "p3_number": "06 96 96 43 41"
+    },
+    "pansement": {
+      "title": "Home Nurse - Wound Care and Dressing Changes at Home",
+      "p1": "Our specialized home nurses in Casablanca perform dressing changes safely. Using advanced sterile techniques, we prevent infections and accelerate wound healing.",
+      "p2": "We treat all types of wounds: pressure sores, post-operative wounds, diabetic foot, gangrene and other skin lesions. Our goal is to ensure effective care for rapid healing and better patient comfort.",
+      "p3": "Looking for a home dressing change service in Casablanca? Contact us today!"
+    },
+    "sonde": {
+      "title": "Home Nurse - Urinary and Nasogastric Catheter Placement at Home in Casablanca",
+      "p1": "Our home nurses in Casablanca are experts in urinary catheter placement and nasogastric tube placement, guaranteeing precise and safe care.",
+      "p2": "We also manage infusion nutrition, essential for patients requiring controlled nutritional intake. Each intervention is carried out with personalized follow-up to ensure patient well-being and comfort.",
+      "p3": "Need a urinary or nasogastric catheter placement service at home in Casablanca? Contact us for a fast and professional intervention."
+    },
+    "garde": {
+      "title": "Home Nurse - 24/7 Home Care Service — Tailored Medical Assistance",
+      "p": "For families who need nursing care, Mobile Healthcare offers a home care service. This service is always available, operating 24 hours a day, 7 days a week. It is ideal for patients requiring constant monitoring, ensuring safety, comfort and peace of mind for loved ones.",
+      "cta": "👩‍⚕️ Need a home caregiver? Contact us now for immediate assistance."
+    },
+    "accompagnement": {
+      "title": "Home Nurse - Home Nursing Care in Casablanca: Personalized Support",
+      "p": "At Mobile Healthcare, we tailor each service to the specific needs of our patients. Our home nursing care enables adapted medical care while ensuring personalized follow-up and care continuity. We work closely with attending physicians to guarantee coordinated and effective medical assistance at home."
+    },
+    "injections": {
+      "title": "Home Nurse - Home Injections — Safe Administration",
+      "p": "Our healthcare professionals perform intramuscular, subcutaneous and intravenous injections, including:",
+      "item1": "<strong>✔ Antibiotics</strong> — Effective treatment of infections under medical prescription.",
+      "item2": "<strong>✔ Anticoagulants</strong> — Prevention of thrombosis and pulmonary embolism.",
+      "item3": "<strong>✔ Other injectable medications</strong> adapted to chronic or acute conditions."
+    },
+    "perfusions": {
+      "title": "Home Nurse - Home Infusions — Hydration and Nutritional Support",
+      "p": "We set up and monitor intravenous infusions including:",
+      "item1": "<strong>✔ Saline solution</strong> — To maintain fluid balance and treat dehydration.",
+      "item2": "<strong>✔ Intravenous glucose</strong> — Energy supply for weakened patients.",
+      "item3": "<strong>✔ Hydration solutions</strong> — Essential in cases of severe digestive disorders.",
+      "cta": "👩‍⚕️ Need a home injection or infusion? Contact us now for immediate care."
+    },
+    "hygiene": {
+      "title": "Home Nurse - Hygiene and Comfort Care — Assistance for Dependent Patients",
+      "p": "Our expert nurses provide hygiene and comfort care for patients with reduced autonomy:",
+      "item1": "<strong>✔ Full or partial washing</strong> — Respecting patient needs and well-being.",
+      "item2": "<strong>✔ Pressure sore prevention</strong> — Monitoring and care for bedridden patients.",
+      "item3": "<strong>✔ Repositioning and comfort maintenance assistance.</strong>"
+    },
+    "ablation": {
+      "title": "Home Nurse - Suture Removal — Post-Operative Care at Home",
+      "p": "We perform suture and staple removal after surgical intervention, ensuring:",
+      "item1": "<strong>✔ Pain-free and safe removal</strong>.",
+      "item2": "<strong>✔ Rigorous healing follow-up</strong> to prevent complications.",
+      "cta": "📞 Need home care? Contact us now for immediate assistance."
+    },
+    "contact": {
+      "title": "Need a Home Nurse? Contact Mobile Healthcare",
+      "p1": "Looking for a home nurse near you in Casablanca? Mobile Healthcare offers home nursing care tailored to your needs. We provide dressings, injections, post-operative care, infusions and much more.",
+      "p2": "Our services also include a home nurse, a care assistant, 24/7 home hospitalization and personalized medical monitoring to ensure your well-being and that of your loved ones.",
+      "p3": "📞 Contact us now:",
+      "p4": "With Mobile Healthcare, enjoy quality home nursing care provided by skilled and attentive professionals."
+    },
+    "nosServices": {
+      "title": "Our Home Services",
+      "injection": {
+        "title": "Home Injection — Casablanca",
+        "p": "Call on a home nurse for your injections safely, without leaving your home. Our professionals intervene quickly in Casablanca, following strict medical hygiene standards."
+      },
+      "pansement": {
+        "title": "Home Dressing Change — Casablanca",
+        "p": "Avoid unnecessary travel: a home nurse intervenes quickly in Casablanca for dressing changes, following strict hygiene standards. Care adapted for surgical wounds, pressure sores, burns and more."
+      },
+      "perfusion": {
+        "title": "Home Infusion — Casablanca",
+        "p": "Need a home infusion in Casablanca? Our qualified nurses ensure placement and monitoring safely: rehydration, antibiotics, iron, parenteral nutrition… all following strict medical protocols."
+      },
+      "prelevement": {
+        "title": "Home Blood Test — Casablanca",
+        "p": "Choose a home blood test in Casablanca, without traveling. Our nurses perform blood draws and other analyses, with secure sample delivery to our partner laboratory."
+      },
+      "lavement": {
+        "title": "Home Enema — Casablanca",
+        "p": "A home nurse comes to Casablanca to perform your enemas discreetly. Adapted care, sterile equipment, comfort and hygiene guaranteed according to your medical prescription."
+      }
+    },
+    "zones": {
+      "title": "Our Home Nursing Services in Casablanca",
+      "p1": "Need a home nurse in Casablanca? We intervene quickly in all neighborhoods: Maarif, Bourgogne, Oasis, Hay Hassani, Ain Sebaâ, Sidi Maârouf, and Belvédère. Our team offers comprehensive and safe home nursing services, adapted to each patient.",
+      "p2": "Our services include home dressing changes, home infusions, home blood tests, and other home care for adults and children. We work with qualified and experienced nurses, available 7 days/7 throughout Casablanca.",
+      "p3": "For fast care, call our home nursing service in Casablanca. We also offer home care assistants for daily support."
+    }
+  },
+  "consultation": {
+    "meta": {
+      "title": "Home Consultation | Doctor Home Visit",
+      "description": "Mobile Healthcare's home consultation service provides expert care for you and your family, covering daily healthcare needs as well as long-term assistance."
+    },
+    "h1": "Home Consultation",
+    "hero": {
+      "h5": "Mobile Healthcare Assistance",
+      "h2": "Doctor at Home / Home Consultation"
+    },
+    "intro": {
+      "title": "Mobile Healthcare",
+      "p": "Mobile Healthcare's home consultation service puts specialized doctors at your disposal, guaranteeing comprehensive care tailored to all your medical needs."
+    },
+    "section1": {
+      "subtitle": "Mobile Healthcare assistance",
+      "title": "Home Consultation",
+      "p": "Mobile Healthcare, a specialist in home medical assistance in Casablanca, offers home medical consultations for patients requiring regular follow-up or having difficulty traveling. We know that access to care can be a challenge, which is why we are committed to providing fast, effective and professional care to ensure your well-being and health. Our general practitioners, emergency doctors and specialists in Casablanca come directly to your home to perform home consultations, personalized medical examinations, and appropriate prescription writing. Attentive to your needs, they accompany you at every step to guarantee optimal home medical follow-up."
+    },
+    "section2": {
+      "subtitle": "Mobile Healthcare",
+      "title": "HOME CONSULTATION SERVICE IN CASABLANCA",
+      "p": "Our mission is to provide high-quality home medical assistance to all patients in Casablanca. Whether you need a home medical consultation, clinical examination or medical prescription, our team is at your disposal to accompany you at every step. 📞 Contact us today to discover our home consultation services in Casablanca and schedule your appointment. We are committed to offering personalized care to preserve your health and well-being."
+    },
+    "section3": {
+      "subtitle": "Mobile Healthcare assistance",
+      "title": "Medical Consultations and Follow-up at Home in Casablanca",
+      "p": "At Mobile Healthcare, we pride ourselves on offering personalized care adapted to each patient's needs. We collaborate with qualified doctors, as well as clinics, laboratories and medical centers in Casablanca, to ensure continuous and effective medical follow-up. For patients with difficulty traveling, we offer home medical support, including consultations, clinical examinations and adapted medical prescriptions. We also facilitate remote medical monitoring through personalized support, allowing everyone to preserve their health serenely. 📞 Contact us today to benefit from our expertise and make an appointment with a healthcare professional."
+    },
+    "urgences": {
+      "subtitle": "Mobile Healthcare assistance SOS Doctors",
+      "title": "Medical Emergencies and Home Consultations in Casablanca",
+      "p": "Available 7 days/7, Mobile Healthcare provides home medical consultations for emergencies and medical follow-up needs. Each visit includes a thorough clinical examination, personalized diagnosis and appropriate care adapted to your health condition. In the absence of your attending physician or in case of urgent medical need, our experienced general practitioners intervene directly at your home to provide necessary care, day or night."
+    }
+  },
+  "prelevement": {
+    "meta": {
+      "title": "Home Blood Test Service | Mobile Healthcare",
+      "description": "Mobile Healthcare's home blood test service eliminates the inconvenience, waiting and worries of medical tests! Our home health services offer blood tests and medical testing at home without having to leave your home or office."
+    },
+    "h1": "Home Blood Test",
+    "hero": {
+      "h2": "Home blood tests are possible!",
+      "h5": "Mobile Healthcare Assistance"
+    },
+    "intro": {
+      "title": "Home blood collection: a practical and reliable service.",
+      "p1": "At Mobile Healthcare, we offer a home blood collection service in Casablanca, ideal for patients wishing to avoid trips to the laboratory.",
+      "p2": "Our qualified healthcare professionals come to your home or workplace to perform your tests, guaranteeing a secure, precise service conforming to medical standards."
+    },
+    "section1": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Home Blood Test: A Reliable and Comfortable Service",
+      "p1": "Looking for a fast and secure home blood test service? Enjoy care equivalent to a laboratory without having to travel.",
+      "p2": "Our healthcare professionals come to your home to perform your blood analysis, guaranteeing comfort, safety and accurate results. Save time and benefit from quality medical service directly at home."
+    },
+    "section2": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Home collection with laboratory-equivalent quality of care.",
+      "p": "Home collection with the same quality as a laboratory. Book according to your availability and access your results online easily."
+    },
+    "section3": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Home blood tests in Casablanca-Settat 🏠💉",
+      "item1": "The Mobile Healthcare team offers a home blood test service throughout the Casablanca-Settat region.",
+      "item2_start": "We perform all compatible tests at home.",
+      "item2_link": "Contact us",
+      "item2_end": "to verify if your test can be performed without traveling, whether you are at home or at your workplace.",
+      "item3": "A qualified team: Our nurses and doctors are registered with the Orders of Nurses and Doctors, guaranteeing a reliable and secure service.",
+      "item4": "Fast results: Receive your results within 24 hours for most blood tests."
+    }
+  },
+  "transport": {
+    "meta": {
+      "title": "Ambulance Casablanca | Mobile Healthcare",
+      "description": "Mobile Healthcare, your reference for an ambulance in Casablanca to or from your healthcare providers. We offer a range of services to make you comfortable."
+    },
+    "h1": "Medical Transport / Ambulances",
+    "intro": {
+      "title": "Home Medical Transport: Safe and Available at All Times.",
+      "p1": "At Mobile Healthcare, we offer a home medical transport service in Casablanca, designed for patients needing safe transportation to healthcare facilities.",
+      "p2": "Our equipped ambulances are accompanied by qualified doctors and nurses, guaranteeing fast care adapted to each patient's medical needs. We provide medicalized transport under optimal conditions, combining safety, comfort and medical assistance throughout the journey."
+    },
+    "section1": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Emergency & Medical Transport — Fast and Safe Service",
+      "p1": "Mobile Healthcare provides all types of medical transport, whether simple or medicalized, to meet your needs safely.",
+      "p2": "Whether for hospitalization, medical transfer, consultation, dialysis, chemotherapy or rehabilitation, our equipped ambulances and qualified healthcare professionals (doctors and nurses) guarantee reliable and adapted transport.",
+      "p3": "We intervene locally, regionally and nationally to ensure your fast and safe care. 🚑✨"
+    },
+    "section2": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Medical Transport — Our Services",
+      "p1": "Our medical and paramedical teams are rigorously selected and have the skills to provide optimized care, including:",
+      "item1": "✅ Vital signs monitoring.",
+      "item2": "✅ Care for patients with medical devices such as urinary or nasogastric catheters.",
+      "item3": "✅ Administration of continuous treatments, ensuring adapted medical assistance.",
+      "p2": "Our teams intervene professionally to ensure safe medicalized transport, meeting the strictest medical requirements."
+    },
+    "section3": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Equipped Ambulance — Medicalized Transport 24/7",
+      "p1": "Our medicalized ambulances are equipped with high-technology equipment to ensure safe and comfortable transport for all patients, whether stable, on respiratory assistance or intubated-ventilated.",
+      "item1": "🔹 Advanced medical equipment for optimal care",
+      "item2": "🔹 Strict hygiene standards and annual technical inspection",
+      "item3": "🔹 Availability 24/7 for any emergency or medical transport need",
+      "p2": "Need reliable medical transport? Contact us now and benefit from a fast and safe service."
+    },
+    "section4": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Medical Transport / Ambulances",
+      "p": "Mobile Healthcare accompanies you with a fast and safe ambulance service in Casablanca and surrounding areas. Contact us for a safe medicalized transfer. Available 24/7."
+    },
+    "section5": {
+      "subtitle": "Mobile Healthcare Assistance",
+      "title": "Our Skills — Medical Transport in Casablanca",
+      "p1": "At Mobile Healthcare Casablanca, all our healthcare professionals are regularly trained to ensure safe and adapted patient transport.",
+      "item1": "✅ Patient safety and well-being: at the heart of our priorities",
+      "item2": "✅ Listening and transparency with patients and their families",
+      "item3": "✅ Modern ambulance fleet: classic and medicalized ambulances",
+      "item4": "✅ Fast intervention in Casablanca and other cities",
+      "p2": "We guarantee reliable and professional medical transport service with an experienced team and state-of-the-art medical equipment."
+    },
+    "partenaires": {
+      "title": "🤝 Our Partners — Medical Network in Casablanca",
+      "p1": "At My Health Assistance Casablanca, we collaborate with various medical facilities to ensure fast and safe transport to appropriate care facilities.",
+      "item1": "✔️ Clinics & Hospitals: Clinique Casablanca, Groupe Akdital and other health establishments",
+      "item2": "✔️ Specialized centers: Radiology, medical analysis and hemodialysis",
+      "item3": "✔️ Personalized services: Post-hospitalization assistance and home medical follow-up",
+      "p2": "We also provide medicalized transport for patients leaving hospital, as well as for end-of-life patients requiring adapted support."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Us | Mobile Healthcare Casablanca",
+      "description": "Contact Mobile Healthcare for a home nurse, medical consultation or medical transport in Casablanca. Available 24/7 at 06 96 96 43 41."
+    },
+    "title": "Contact Us",
+    "text": "For any question or complaint, do not hesitate to contact us. We are here for you.",
+    "form": {
+      "prenom": "First Name",
+      "nom": "Last Name",
+      "telephone": "Phone",
+      "email": "Email",
+      "demandeLabel": "Choose your request type",
+      "demandeSelect": "Select",
+      "demandeOption1": "Make a request",
+      "demandeOption2": "Complaint",
+      "message": "Message",
+      "submit": "Send"
+    }
+  },
+  "img": {
+    "docAtHome": "Doctor performing a home consultation in Casablanca",
+    "prescription": "Home doctor writing a prescription",
+    "medicalFollowup": "Medical consultation and remote follow-up for patients",
+    "homeEmergency": "Doctor intervening for a medical emergency at home in Casablanca",
+    "bloodTest1": "Home blood sample collection service — Mobile Healthcare Casablanca",
+    "bloodTest2": "Home blood test with laboratory-equivalent quality of care",
+    "bloodTest3": "Blood analysis at home or at the workplace — Casablanca",
+    "nurseAtHome": "Nurse providing home nursing care in Casablanca",
+    "nursingGrid": "Home nurse in Casablanca performing a dressing change",
+    "homeCare": "Home caregiver in Casablanca — 24/7 nursing service",
+    "injection": "Administration of injection or infusion at home",
+    "ablation": "Nurse performing hygiene care and suture removal at home",
+    "dressing": "Dressing change by a home nurse",
+    "infusion": "Infusion administered by a home nurse",
+    "bloodSample": "Home blood sampling — Casablanca",
+    "enema": "Home enema care — Casablanca",
+    "doctorFamily": "Doctor performing a home consultation for the whole family",
+    "teleconsultation": "Medical teleconsultation by phone — Mobile Healthcare",
+    "ambulance": "SOS doctor Casablanca — emergency ambulance",
+    "nurseWork": "Nurse performing home nursing care — dressing or injection",
+    "ambulanceEmergency": "Emergency ambulance service in Casablanca",
+    "ambulanceCall": "Emergency call for home doctor or ambulance in Casablanca",
+    "ambulanceEquipped": "Equipped medicalized ambulance for medical transport in Casablanca",
+    "ambulanceStaff": "24/7 medicalized transport service with equipped ambulances",
+    "premiumAmbulance": "Equipped ambulance in Casablanca with state-of-the-art medical equipment",
+    "consultationService": "Home doctor visit — Mobile Healthcare services",
+    "transportService": "SOS doctor — medical transport — Mobile Healthcare",
+    "bloodCollection": "Home blood test — medical analysis — Casablanca",
+    "geriatrics": "Geriatrics — elderly patient — Mobile Healthcare",
+    "teleconsultationService": "Teleconsultation — phone doctor — Mobile Healthcare",
+    "eventCoverage": "Medical coverage for events — Mobile Healthcare",
+    "funeralService": "Funeral services — Mobile Healthcare",
+    "firstAid": "First aid training — Mobile Healthcare"
+  },
+  "faq": {
+    "title": "FAQ — Home medical care with Mobile Healthcare Casablanca",
+    "items": [
+      {
+        "question": "What home services do you offer?",
+        "answer": "We offer home nursing care, medical consultations, hygiene assistance, dressings, infusions, injections, and medicalized transport."
+      },
+      {
+        "question": "Are you available 24/7?",
+        "answer": "Yes, our service is available 24/7 in Casablanca."
+      },
+      {
+        "question": "How do I make an appointment?",
+        "answer": "You can call us directly or click the WhatsApp icon for quick contact."
+      },
+      {
+        "question": "Which areas in Casablanca do you cover?",
+        "answer": "We cover all neighborhoods of Casablanca, including Maarif, Bourgogne, Sidi Maârouf, Hay Hassani, Oasis, Ain Sebaâ, Anfa, and many others. Our goal is to make care quickly accessible at home, wherever you are in the city."
+      },
+      {
+        "question": "Who are the nurses that come to my home?",
+        "answer": "🩺 Our nurses are qualified, experienced and registered with the National Order of Nurses. They are rigorously selected to guarantee professional, humane care adapted to each situation."
+      },
+      {
+        "question": "Do you offer care for elderly or dependent people?",
+        "answer": "👵👴 Yes, we offer personalized care for elderly, bedridden or dependent people at home. This includes dressings, hygiene assistance, infusions, medical monitoring, and compassionate daily support."
+      }
+    ]
+  }
+}

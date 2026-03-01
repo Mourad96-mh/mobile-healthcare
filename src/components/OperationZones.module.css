@@ -1,0 +1,49 @@
+.map-wrapper {
+  position: relative;
+  max-width: 100%;
+  height: 20rem;
+}
+
+.map-wrapper :global(.leaflet-container) {
+  max-width: 100%;
+  height: 100%;
+}
+
+.arrows-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.arrow {
+  position: absolute;
+  width: 120px; /* arrow length */
+  height: 3px; /* arrow thickness */
+  background: #0ea5e9;
+  transform-origin: left center;
+  border-radius: 2px;
+}
+
+.zones {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.zones--list {
+  font-size: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.zone--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  border: 1px solid #00baff;
+  border-radius: 11px;
+}
