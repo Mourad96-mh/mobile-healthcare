@@ -41,7 +41,12 @@ const FAQ = () => {
           <li key={index} className="faq--item">
             <div className="faq--heading">
               <p className="faq--question">{faq.question}</p>
-              <button className="faq--button" onClick={() => toggleFAQ(index)}>
+              <button
+                className="faq--button"
+                onClick={() => toggleFAQ(index)}
+                aria-expanded={openIndex === index}
+                aria-label={openIndex === index ? t("faq.collapse") : t("faq.expand")}
+              >
                 <HiChevronDown />
               </button>
             </div>

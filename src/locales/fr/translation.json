@@ -383,6 +383,8 @@
   },
   "faq": {
     "title": "FAQ — Soins médicaux à domicile avec Mobile Healthcare Casablanca",
+    "expand": "Afficher la réponse",
+    "collapse": "Masquer la réponse",
     "items": [
       {
         "question": "Quels sont vos services à domicile ?",

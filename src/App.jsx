@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import AppLayout from "./components/UI/Applayout";
 import Spinner from "./components/UI/Spinner";
+import HomePage from "./components/pages/Home";
 
 const ConsultationDomicile = lazy(() =>
   import("./components/pages/ConsultationDomicile")
@@ -11,7 +12,6 @@ const Prelevement = lazy(() => import("./components/pages/Prelevement"));
 const SoinsInfirmiers = lazy(() =>
   import("./components/pages/SoinsInfirmiers")
 );
-const HomePage = lazy(() => import("./components/pages/Home"));
 const Contact = lazy(() => import("./components/pages/Contact"));
 const TransportSanitaire = lazy(() =>
   import("./components/pages/TransportSanitaire")
@@ -20,11 +20,7 @@ const TransportSanitaire = lazy(() =>
 const childRoutes = [
   {
     index: true,
-    element: (
-      <Suspense fallback={<Spinner />}>
-        <HomePage />
-      </Suspense>
-    ),
+    element: <HomePage />,
   },
   {
     path: "consultation-a-domicile",

@@ -9,8 +9,21 @@ export default defineConfig({
     react(),
     eslint(),
     compression({
-      algorithm: "brotliCompress", // Use 'gzip' if preferred
-      threshold: 1024, // Compress files larger than 1KB
+      algorithm: "brotliCompress",
+      threshold: 1024,
     }),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ["react", "react-dom"],
+          router: ["react-router-dom"],
+          i18n: ["i18next", "react-i18next"],
+          map: ["leaflet", "react-leaflet"],
+          motion: ["framer-motion"],
+        },
+      },
+    },
+  },
 });

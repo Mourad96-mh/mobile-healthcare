@@ -383,6 +383,8 @@
   },
   "faq": {
     "title": "FAQ — Home medical care with Mobile Healthcare Casablanca",
+    "expand": "Show answer",
+    "collapse": "Hide answer",
     "items": [
       {
         "question": "What home services do you offer?",
