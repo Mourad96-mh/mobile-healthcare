@@ -1,198 +1,99 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useLangPrefix } from "../hooks/useLangPrefix";
 
 const ServicesView = () => {
   const { t } = useTranslation();
+  const prefix = useLangPrefix();
+
+  const services = [
+    {
+      img: "/consultation-a-domicile.avif",
+      alt: t("img.consultationService"),
+      title: t("servicesView.consultation.title"),
+      p: t("servicesView.consultation.p"),
+      to: `${prefix}/consultation-a-domicile`,
+    },
+    {
+      img: "/ambulance.avif",
+      alt: t("img.transportService"),
+      title: t("servicesView.transport.title"),
+      p: t("servicesView.transport.p"),
+      to: `${prefix}/transport-sanitaire`,
+    },
+    {
+      img: "/prelevement.avif",
+      alt: t("img.bloodCollection"),
+      title: t("servicesView.prelevement.title"),
+      p: t("servicesView.prelevement.p"),
+      to: `${prefix}/prelevement-a-domicile`,
+    },
+    {
+      img: "/geriatrie-3.avif",
+      alt: t("img.geriatrics"),
+      title: t("servicesView.geriatrie.title"),
+      p: t("servicesView.geriatrie.p"),
+      to: `${prefix}/soins-infirmiers`,
+    },
+    {
+      img: "/tele-consultation.avif",
+      alt: t("img.teleconsultationService"),
+      title: t("servicesView.teleconsultation.title"),
+      p: t("servicesView.teleconsultation.p"),
+      to: `${prefix}/consultation-a-domicile`,
+    },
+    {
+      img: "/evenement.avif",
+      alt: t("img.eventCoverage"),
+      title: t("servicesView.evenement.title"),
+      p: t("servicesView.evenement.p"),
+      to: `${prefix}/contact`,
+    },
+    {
+      img: "/funebres.avif",
+      alt: t("img.funeralService"),
+      title: t("servicesView.funebres.title"),
+      p: t("servicesView.funebres.p"),
+      to: `${prefix}/contact`,
+    },
+    {
+      img: "/contre-visite.avif",
+      alt: "Doctor and patient.",
+      title: t("servicesView.contreVisite.title"),
+      p: t("servicesView.contreVisite.p"),
+      to: `${prefix}/contact`,
+    },
+    {
+      img: "/formation-secourisme.avif",
+      alt: t("img.firstAid"),
+      title: t("servicesView.formation.title"),
+      p: t("servicesView.formation.p"),
+      to: `${prefix}/contact`,
+    },
+  ];
+
   return (
     <section className="all-services">
       <h4 className="u-margin-bottom-medium center-text">
-        Mobile Healthcare Assistance
+        {t("servicesView.heading")}
       </h4>
-      <h1 className="heading-primary center-text">assistance médicale 360°</h1>
+      <h1 className="heading-primary center-text">{t("servicesView.title")}</h1>
       <div className="all-services__content">
         <ul className="all-services__list">
-          <li className="all-services__item">
-            <img
-              src="/consultation-a-domicile.avif"
-              alt={t("img.consultationService")}
-            />
-            <div className="all-services__item--info">
-              <h4 className="u-margin-bottom-small">Consultation à Domicile</h4>
-              <p className="u-margin-bottom-medium">
-                Nos médecins assurent une prise en charge complète et
-                spécialisée pour répondre à tous vos besoins de santé,
-                directement à votre domicile.
-              </p>
-              <div className="all-services__item--link">
-                <Link to="/consultation-a-domicile" className="services-link">
-                  Lire Plus &rarr;
-                </Link>
+          {services.map((service) => (
+            <li key={service.img} className="all-services__item">
+              <img src={service.img} alt={service.alt} />
+              <div className="all-services__item--info">
+                <h4 className="u-margin-bottom-small">{service.title}</h4>
+                <p className="u-margin-bottom-medium">{service.p}</p>
+                <div className="all-services__item--link">
+                  <Link to={service.to} className="services-link">
+                    {t("servicesView.readMore")}
+                  </Link>
+                </div>
               </div>
-            </div>
-          </li>
-          <li className="all-services__item">
-            <img
-              src="/ambulance.avif"
-              alt={t("img.transportService")}
-            />
-            <div className="all-services__item--info">
-              <h4 className="u-margin-bottom-small">Transport Sanitaire</h4>
-              <p className="u-margin-bottom-medium">
-                Mobile Healthcare vous propose un service de transport sanitaire
-                adapté à vos besoins, qu&apos;il soit simple ou médicalisé. Nous
-                assurons des transferts sécurisés pour &nbsp;
-                <strong>consultations, hospitalisations ou urgences</strong>.
-              </p>
-              <div className="all-services__item--link">
-                <Link to="/transport-sanitaire" className="services-link">
-                  Lire Plus &rarr;
-                </Link>
-              </div>
-            </div>
-          </li>
-          <li className="all-services__item">
-            <img
-              src="/prelevement.avif"
-              alt={t("img.bloodCollection")}
-            />
-            <div className="all-services__item--info">
-              <h4 className="u-margin-bottom-small">Prélèvement à Domicile</h4>
-              <p className="u-margin-bottom-medium">
-                <strong>
-                  Besoin d&apos;une prise de sang à domicile sans vous déplacer?
-                </strong>
-                Mobile Healthcare vous facilite la vie en envoyant un
-                professionnel de santé chez vous pour réaliser vos analyses
-                médicales en toute sécurité.
-              </p>
-              <div className="all-services__item--link">
-                <Link to="/prelevement-a-domicile" className="services-link">
-                  Lire Plus &rarr;
-                </Link>
-              </div>
-            </div>
-          </li>
-          <li className="all-services__item">
-            <img
-              src="/geriatrie-3.avif"
-              alt={t("img.geriatrics")}
-            />
-            <div className="all-services__item--info">
-              <h4 className="u-margin-bottom-small">Gériatrie</h4>
-              <p className="u-margin-bottom-medium">
-                Mobile Healthcare propose un
-                <strong>service de gériatrie</strong>
-                dédié aux <strong>personnes âgées</strong>, garantissant un
-                accompagnement médical complet pour préserver leur qualité de
-                vie et favoriser leur bien-être au quotidien.
-              </p>
-              <div className="all-services__item--link">
-                <Link to="geriatreie" className="services-link">
-                  Lire Plus &rarr;
-                </Link>
-              </div>
-            </div>
-          </li>
-          <li className="all-services__item">
-            <img
-              src="/tele-consultation.avif"
-              alt={t("img.teleconsultationService")}
-            />
-            <div className="all-services__item--info">
-              <h4 className="u-margin-bottom-small">Téléconsultation</h4>
-              <p className="u-margin-bottom-medium">
-                Consultez un médecin en ligne 7j/7, où que vous soyez ! Profitez
-                d&apos;une prise en charge rapide et sécurisée, avec des
-                consultations immédiates ou sur rendez-vous.
-              </p>
-              <div className="all-services__item--link">
-                <Link to="/teleconsultation" className="services-link">
-                  Lire Plus &rarr;
-                </Link>
-              </div>
-            </div>
-          </li>
-          <li className="all-services__item">
-            <img
-              src="/evenement.avif"
-              alt={t("img.eventCoverage")}
-            />
-            <div className="all-services__item--info">
-              <h4 className="u-margin-bottom-small">
-                Couverture médicale des événements
-              </h4>
-              <p className="u-margin-bottom-medium">
-                Sécurisez vos événements avec un service de couverture médicale
-                adapté à toutes les situations. Que ce soit pour un concert, un
-                séminaire ou une manifestation sportive.
-              </p>
-              <div className="all-services__item--link">
-                <Link
-                  to="/couverture-medicale-des-evenements"
-                  className="services-link"
-                >
-                  Lire Plus &rarr;
-                </Link>
-              </div>
-            </div>
-          </li>
-          <li className="all-services__item">
-            <img
-              src="/funebres.avif"
-              alt={t("img.funeralService")}
-            />
-            <div className="all-services__item--info">
-              <h4 className="u-margin-bottom-small">Pompes Funèbres</h4>
-              <p className="u-margin-bottom-medium">
-                Nous vous accompagnons avec dignité et respect dans ces moments
-                douloureux en vous proposant un service de pompes funèbres
-                complet et sur mesure.
-              </p>
-              <div className="all-services__item--link">
-                <Link to="/pompes-funebres" className="services-link">
-                  Lire Plus &rarr;
-                </Link>
-              </div>
-            </div>
-          </li>
-          <li className="all-services__item">
-            <img src="/contre-visite.avif" alt="Doctor and patient." />
-            <div className="all-services__item--info">
-              <h4 className="u-margin-bottom-small">Contre-Visite Médicale</h4>
-              <p className="u-margin-bottom-medium">
-                Mobile Healthcare est votre partenaire de confiance pour assurer
-                le suivi médical de vos employés à Casablanca. Nous réalisons
-                des contre-visites médicales afin de vérifier la légitimité des
-                arrêts de travail et garantir la transparence au sein de votre
-                entreprise.
-              </p>
-              <div className="all-services__item--link">
-                <Link to="/contre-visite" className="services-link">
-                  Lire Plus &rarr;
-                </Link>
-              </div>
-            </div>
-          </li>
-          <li className="all-services__item">
-            <img
-              src="/formation-secourisme.avif"
-              alt={t("img.firstAid")}
-            />
-            <div className="all-services__item--info">
-              <h4 className="u-margin-bottom-small">Formation secourisme</h4>
-              <p className="u-margin-bottom-medium">
-                Mobile Healthcare propose des formations professionnelles en
-                secours d&apos;urgence et prévention des risques au travail. Nos
-                sessions sont conçues pour préparer vos équipes à réagir
-                efficacement face aux situations d&apos;urgence.
-              </p>
-              <div className="all-services__item--link">
-                <Link to="/formation-secourisme" className="services-link">
-                  Lire Plus &rarr;
-                </Link>
-              </div>
-            </div>
-          </li>
+            </li>
+          ))}
         </ul>
       </div>
     </section>

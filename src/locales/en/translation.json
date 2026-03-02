@@ -381,6 +381,47 @@
     "funeralService": "Funeral services — Mobile Healthcare",
     "firstAid": "First aid training — Mobile Healthcare"
   },
+  "servicesView": {
+    "heading": "Mobile Healthcare Assistance",
+    "title": "360° Medical Assistance",
+    "readMore": "Read More →",
+    "consultation": {
+      "title": "Home Consultation",
+      "p": "Our doctors provide comprehensive and specialised care to meet all your health needs, directly at your home."
+    },
+    "transport": {
+      "title": "Medical Transport",
+      "p": "Mobile Healthcare offers a medical transport service tailored to your needs, whether standard or fully medicalised, ensuring safe transfers for consultations, hospitalisations or emergencies."
+    },
+    "prelevement": {
+      "title": "Home Blood Collection",
+      "p": "Need a blood test at home without travelling? Mobile Healthcare sends a health professional to your home to carry out your medical analyses safely."
+    },
+    "geriatrie": {
+      "title": "Geriatrics",
+      "p": "Mobile Healthcare offers a geriatric service dedicated to elderly people, providing comprehensive medical support to preserve their quality of life and daily wellbeing."
+    },
+    "teleconsultation": {
+      "title": "Teleconsultation",
+      "p": "Consult a doctor online 7 days a week, wherever you are! Benefit from fast and secure care, with immediate or scheduled consultations."
+    },
+    "evenement": {
+      "title": "Medical Event Coverage",
+      "p": "Secure your events with a medical coverage service adapted to all situations: concerts, seminars or sports events."
+    },
+    "funebres": {
+      "title": "Funeral Services",
+      "p": "We accompany you with dignity and respect during these difficult moments, with a complete and personalised funeral service."
+    },
+    "contreVisite": {
+      "title": "Medical Counter-Visit",
+      "p": "Mobile Healthcare is your trusted partner for the medical monitoring of your employees in Casablanca. We carry out counter-visits to verify the legitimacy of sick leave."
+    },
+    "formation": {
+      "title": "First Aid Training",
+      "p": "Mobile Healthcare provides professional training in emergency response and workplace risk prevention, preparing your teams to react effectively in emergency situations."
+    }
+  },
   "faq": {
     "title": "FAQ — Home medical care with Mobile Healthcare Casablanca",
     "expand": "Show answer",

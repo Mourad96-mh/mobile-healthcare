@@ -381,6 +381,47 @@
     "funeralService": "Services funèbres — Mobile Healthcare",
     "firstAid": "Formation aux premiers secours — Mobile Healthcare"
   },
+  "servicesView": {
+    "heading": "Mobile Healthcare Assistance",
+    "title": "Assistance médicale 360°",
+    "readMore": "Lire Plus →",
+    "consultation": {
+      "title": "Consultation à Domicile",
+      "p": "Nos médecins assurent une prise en charge complète et spécialisée pour répondre à tous vos besoins de santé, directement à votre domicile."
+    },
+    "transport": {
+      "title": "Transport Sanitaire",
+      "p": "Mobile Healthcare vous propose un service de transport sanitaire adapté à vos besoins, qu'il soit simple ou médicalisé. Nous assurons des transferts sécurisés pour consultations, hospitalisations ou urgences."
+    },
+    "prelevement": {
+      "title": "Prélèvement à Domicile",
+      "p": "Besoin d'une prise de sang à domicile sans vous déplacer ? Mobile Healthcare envoie un professionnel de santé chez vous pour réaliser vos analyses médicales en toute sécurité."
+    },
+    "geriatrie": {
+      "title": "Gériatrie",
+      "p": "Mobile Healthcare propose un service de gériatrie dédié aux personnes âgées, garantissant un accompagnement médical complet pour préserver leur qualité de vie et leur bien-être au quotidien."
+    },
+    "teleconsultation": {
+      "title": "Téléconsultation",
+      "p": "Consultez un médecin en ligne 7j/7, où que vous soyez ! Profitez d'une prise en charge rapide et sécurisée, avec des consultations immédiates ou sur rendez-vous."
+    },
+    "evenement": {
+      "title": "Couverture médicale des événements",
+      "p": "Sécurisez vos événements avec un service de couverture médicale adapté à toutes les situations : concerts, séminaires ou manifestations sportives."
+    },
+    "funebres": {
+      "title": "Pompes Funèbres",
+      "p": "Nous vous accompagnons avec dignité et respect dans ces moments douloureux, avec un service de pompes funèbres complet et sur mesure."
+    },
+    "contreVisite": {
+      "title": "Contre-Visite Médicale",
+      "p": "Mobile Healthcare est votre partenaire de confiance pour le suivi médical de vos employés à Casablanca. Nous réalisons des contre-visites médicales pour vérifier la légitimité des arrêts de travail."
+    },
+    "formation": {
+      "title": "Formation Secourisme",
+      "p": "Mobile Healthcare propose des formations professionnelles en secours d'urgence et prévention des risques au travail, pour préparer vos équipes à réagir efficacement face aux situations d'urgence."
+    }
+  },
   "faq": {
     "title": "FAQ — Soins médicaux à domicile avec Mobile Healthcare Casablanca",
     "expand": "Afficher la réponse",
