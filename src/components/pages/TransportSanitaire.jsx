@@ -11,8 +11,8 @@ const TransportSanitaire = () => {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     name: "Transport Sanitaire - Mobile Healthcare Casablanca",
-    image: "https://mobile-healthcare.org/assets/logo.png",
-    url: "https://mobile-healthcare.org/transport-sanitaire",
+    image: "https://www.mobile-healthcare.org/logo.avif",
+    url: "https://www.mobile-healthcare.org/transport-sanitaire",
     telephone: "+212696964341",
     address: {
       "@type": "PostalAddress",
@@ -25,9 +25,7 @@ const TransportSanitaire = () => {
       longitude: -7.6043579,
     },
     openingHours: "Mo-Su 08:00-20:00",
-    description:
-      "Service de transport sanitaire et ambulance à Casablanca pour patients, transferts hospitaliers, consultations, et urgences. Mobile Healthcare garantit un transport sécurisé et rapide.",
-    keywords: "transport sanitaire, ambulance Casablanca, transport médicalisé",
+    description: t("transport.meta.description"),
     areaServed: {
       "@type": "Place",
       name: "Casablanca",
@@ -41,8 +39,7 @@ const TransportSanitaire = () => {
           itemOffered: {
             "@type": "Service",
             name: "Transport médicalisé à domicile",
-            description:
-              "Ambulance à domicile à Casablanca pour les patients nécessitant un transfert médicalisé. Sécurité, professionnalisme et réactivité garanties.",
+            description: t("transport.meta.description"),
             areaServed: {
               "@type": "Place",
               name: "Casablanca",
@@ -67,10 +64,7 @@ const TransportSanitaire = () => {
         <meta charSet="utf-8" />
         <title>{t("transport.meta.title")}</title>
         <meta name="description" content={t("transport.meta.description")} />
-        <link
-          rel="canonical"
-          href="https://www.mobile-healthcare.org/transport-sanitaire"
-        />
+        <meta name="robots" content="index, follow" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
       <h1 className="heading-primary center-text u-margin-top-big">

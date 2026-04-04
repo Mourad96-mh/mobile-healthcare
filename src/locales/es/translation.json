@@ -38,7 +38,13 @@
       "serviceAmbulance": "servicio de ambulancia Casablanca",
       "transportSanitaire": "transporte sanitario",
       "transportMedicalise": "transporte medicalizado",
-      "ambulanceSecours": "ambulancia de socorro Casablanca"
+      "ambulanceSecours": "ambulancia de socorro Casablanca",
+      "infirmierAutourDeMoi": "enfermero cerca de mí",
+      "infirmierProximite": "enfermero a domicilio Casablanca",
+      "gardeMalade": "cuidador a domicilio Casablanca",
+      "perfusionCasablanca": "perfusión a domicilio Casablanca",
+      "sosInfirmier": "SOS enfermero Casablanca",
+      "pansementCasablanca": "cura a domicilio Casablanca"
     }
   },
   "home": {
@@ -46,6 +52,7 @@
       "title": "Cuidados de Enfermería, Consultas a Domicilio y Transporte Sanitario en Casablanca | Mobile Healthcare",
       "description": "Cuide su salud con Mobile Healthcare — Reserve cuidados de enfermería a domicilio, consultas médicas y transporte sanitario en Casablanca, disponibles 24/7."
     },
+    "h1": "Enfermería y Consultas Médicas a Domicilio en Casablanca",
     "hero": "Mobile Healthcare — Su Asistencia Médica a Domicilio 24/7",
     "section1": {
       "subtitle": "Mobile Healthcare",
@@ -186,6 +193,13 @@
         "title": "Enema a Domicilio — Casablanca",
         "p": "Un enfermero a domicilio se desplaza a Casablanca para realizar sus enemas con total discreción. Cuidados adaptados, material estéril, comodidad e higiene garantizados según su prescripción médica."
       }
+    },
+    "sos": {
+      "badge": "Disponible ahora — 24h/24 · 7d/7",
+      "title": "SOS Enfermero en Casablanca — Enfermero Cercano a Ti, Disponible Ahora",
+      "p1": "¿Busca un enfermero a domicilio cerca de usted, disponible ahora mismo? Mobile Healthcare ofrece un servicio SOS enfermero disponible 24h/24, 7 días a la semana, en todos los barrios de Casablanca. Nuestros enfermeros intervienen rápidamente en su domicilio.",
+      "p2": "Ya sea que necesite una visita de enfermería de urgencia o cuidados regulares — curas, inyecciones, perfusiones o cuidador a domicilio — nuestro equipo está disponible en cualquier momento, de día y de noche.",
+      "cta": "Llamar a un enfermero ahora →"
     },
     "zones": {
       "title": "Nuestros Servicios de Enfermería a Domicilio en Casablanca",
@@ -450,6 +464,18 @@
       {
         "question": "¿Ofrecen cuidados para personas mayores o dependientes?",
         "answer": "👵👴 Sí, ofrecemos cuidados personalizados para personas mayores, encamadas o con pérdida de autonomía, a domicilio. Esto incluye curas, higiene personal, perfusiones, vigilancia médica y acompañamiento comprensivo diario."
+      },
+      {
+        "question": "¿Hay un SOS enfermero disponible ahora en Casablanca?",
+        "answer": "Sí, nuestro servicio SOS enfermero está disponible 24h/24, 7 días a la semana en Casablanca, incluyendo noches, fines de semana y festivos. Llame al +212 6 96 96 43 41 o contáctenos por WhatsApp para asistencia inmediata."
+      },
+      {
+        "question": "¿Cómo encontrar un enfermero cerca de mí en Casablanca?",
+        "answer": "Mobile Healthcare tiene un equipo de enfermeros en todos los barrios de Casablanca: Maarif, Bourgogne, Ain Sebaâ, Sidi Maârouf, Hay Hassani, Oasis y muchos más. Llámenos y un enfermero cercano a usted acudirá rápidamente."
+      },
+      {
+        "question": "¿El servicio de enfermería Mobile Healthcare está abierto actualmente?",
+        "answer": "Sí, nuestros servicios están disponibles 24h/24, 7 días a la semana, incluyendo fines de semana y festivos. Tanto de noche, de madrugada como de mañana — siempre estamos disponibles en el +212 6 96 96 43 41."
       }
     ]
   }

@@ -8,6 +8,33 @@ import ServicesView from "../ServicesView";
 const Prelevement = () => {
   const { t } = useTranslation();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    name: "Prélèvement à Domicile - Mobile Healthcare Casablanca",
+    image: "https://www.mobile-healthcare.org/logo.avif",
+    url: "https://www.mobile-healthcare.org/prelevement-a-domicile",
+    telephone: "+212696964341",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Casablanca",
+      addressCountry: "MA",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 33.5924501,
+      longitude: -7.6043579,
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      opens: "00:00",
+      closes: "23:59",
+    },
+    description: t("prelevement.meta.description"),
+    areaServed: { "@type": "Place", name: "Casablanca" },
+  };
+
   const handleWhatsAppConversion = (url) => {
     if (typeof window.gtag_report_conversion === "function") {
       window.gtag_report_conversion(url);
@@ -22,10 +49,8 @@ const Prelevement = () => {
         <meta charSet="utf-8" />
         <title>{t("prelevement.meta.title")}</title>
         <meta name="description" content={t("prelevement.meta.description")} />
-        <link
-          rel="canonical"
-          href="https://www.mobile-healthcare.org/prelevement-a-domicile"
-        />
+        <meta name="robots" content="index, follow" />
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
       <h1 className="heading-primary center-text u-margin-bottom-medium u-margin-top-big">
         {t("prelevement.h1")}
@@ -121,6 +146,7 @@ const Prelevement = () => {
                   to="https://wa.me/+212696964341"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => handleWhatsAppConversion("https://wa.me/+212696964341")}
                 >
                   {t("prelevement.section3.item2_link")}
                 </Link>

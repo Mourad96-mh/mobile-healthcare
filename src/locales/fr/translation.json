@@ -38,14 +38,21 @@
       "serviceAmbulance": "service ambulance Casablanca",
       "transportSanitaire": "transport sanitaire",
       "transportMedicalise": "transport médicalisés",
-      "ambulanceSecours": "ambulance secours Casablanca"
+      "ambulanceSecours": "ambulance secours Casablanca",
+      "infirmierAutourDeMoi": "infirmier autour de moi",
+      "infirmierProximite": "infirmier à proximité",
+      "gardeMalade": "garde malade à domicile",
+      "perfusionCasablanca": "perfusion à domicile Casablanca",
+      "sosInfirmier": "SOS infirmier Casablanca",
+      "pansementCasablanca": "pansement à domicile Casablanca"
     }
   },
   "home": {
     "meta": {
-      "title": "Soins Infirmiers, Consultations à Domicile et Transport Sanitaire à Casablanca | Mobile Healthcare",
-      "description": "Prenez soin de votre santé avec Mobile Healthcare — Réservez des soins infirmiers à domicile, des consultations médicales et un transport sanitaire à Casablanca, disponibles 24/7."
+      "title": "Soins Infirmiers, Consultations à Domicile et Transport Sanitaire à Casablanca, Maroc | Mobile Healthcare",
+      "description": "Prenez soin de votre santé avec Mobile Healthcare — Soins infirmiers à domicile, consultations médicales et transport sanitaire à Casablanca, Maroc. Disponibles 24h/24 et 7j/7."
     },
+    "h1": "Soins Infirmiers & Consultations à Domicile à Casablanca",
     "hero": "Mobile Healthcare — Votre Assistance Médicale à Domicile 24/7",
     "section1": {
       "subtitle": "Mobile Healthcare",
@@ -91,8 +98,8 @@
   },
   "soins": {
     "meta": {
-      "title": "INFIRMIER À DOMICILE CASABLANCA | Mobile Healthcare",
-      "description": "Mobile Healthcare met à votre disposition un infirmier à domicile à Casablanca, 7j/7, pour des soins infirmiers professionnels : pansements, injections, perfusions. Appelez-nous dès maintenant pour une prise en charge rapide !"
+      "title": "Infirmier à Domicile Casablanca, Maroc — SOS Infirmier Disponible 24h/24 | Mobile Healthcare",
+      "description": "Besoin d'un infirmier à domicile à Casablanca, Maroc ? Infirmier à proximité, disponible 24h/24 et 7j/7 : pansements, injections, perfusions, sondes. SOS infirmier disponible maintenant — appelez le 06 96 96 43 41."
     },
     "h1": "Infirmier à Domicile",
     "hero": {
@@ -192,12 +199,19 @@
       "p1": "Besoin d'un infirmier à domicile ou d'une infirmière libérale autour de moi à Casablanca ? Nous intervenons rapidement dans tous les quartiers : Maarif, Bourgogne, Oasis, Hay Hassani, Ain Sebaâ, Sidi Maârouf, et Belvédère. Notre équipe propose des services infirmiers à domicile complets et sécurisés, adaptés à chaque patient.",
       "p2": "Nos prestations incluent le changement de pansement à domicile, la perfusion à domicile, le prélèvement sanguin à domicile, ainsi que d'autres soins à domicile pour adultes et enfants. Nous travaillons avec des infirmiers diplômés et expérimentés, disponibles 7j/7 sur toute la ville de Casablanca.",
       "p3": "Pour une prise en charge rapide, faites appel à notre service infirmier à domicile Casablanca. Nous proposons également une aide-soignante à domicile si besoin pour l'accompagnement quotidien."
+    },
+    "sos": {
+      "badge": "Disponible maintenant — 24h/24 · 7j/7",
+      "title": "SOS Infirmier à Casablanca — Infirmier à Proximité, Disponible Maintenant",
+      "p1": "Vous cherchez un infirmier à proximité ouvert actuellement ? Mobile Healthcare assure un service SOS infirmier disponible 24h/24, 7j/7, dans tous les quartiers de Casablanca. Nos infirmiers interviennent rapidement à domicile, sans attente.",
+      "p2": "Que vous ayez besoin d'un infirmier autour de vous en urgence ou d'une infirmière libérale pour des soins réguliers — pansement, injection, perfusion, garde malade — notre équipe est joignable à tout moment, de jour comme de nuit.",
+      "cta": "Appeler un infirmier maintenant →"
     }
   },
   "consultation": {
     "meta": {
-      "title": "Consultation à domicile | Visite à domicile du médecin",
-      "description": "Le service de Consultation à domicile Mobilehealthcare fournit des soins experts pour vous et votre famille qui englobent les besoins de soins de santé quotidiens ainsi qu'une assistance à long terme."
+      "title": "Consultation à Domicile Casablanca, Maroc | Médecin à Domicile — Mobile Healthcare",
+      "description": "Médecin à domicile à Casablanca, Maroc — Mobile Healthcare vous offre des consultations médicales à domicile 24h/24 et 7j/7 : médecin généraliste, urgences, suivi post-opératoire. Appelez le 06 96 96 43 41."
     },
     "h1": "Consultation à Domicile",
     "hero": {
@@ -231,8 +245,8 @@
   },
   "prelevement": {
     "meta": {
-      "title": "Prélèvement à domicile Service de prise de sang | Mobile Healthcare",
-      "description": "Le service de prise de sang Mobile Healthcare à domicile élimine les inconvénients, l'attente et les soucis des tests médicaux! Nos services de santé à domicile offrent des services de prise de sang et de tests médicaux à distance sans avoir à quitter votre domicile ou votre bureau."
+      "title": "Prélèvement à Domicile Casablanca, Maroc — Prise de Sang à Domicile | Mobile Healthcare",
+      "description": "Prise de sang à domicile à Casablanca, Maroc — Mobile Healthcare envoie un infirmier chez vous pour vos analyses médicales, sans déplacement. Service rapide, sécurisé et disponible 7j/7."
     },
     "h1": "Prélèvement à domicile",
     "hero": {
@@ -268,8 +282,8 @@
   },
   "transport": {
     "meta": {
-      "title": "Ambulance Casablanca | Mobile Healthcare",
-      "description": "Mobile healthcare votre référence pour une ambulance a Casablanca vers ou depuis vos fournisseurs de soins de santé ou de l'aide d'un préposé au soutien personnel, nous offrons une gamme de services pour vous mettre à l'aise."
+      "title": "Ambulance Casablanca, Maroc — Transport Sanitaire Médicalisé | Mobile Healthcare",
+      "description": "Service d'ambulance et transport sanitaire à Casablanca, Maroc — Mobile Healthcare assure des transferts médicalisés sécurisés 24h/24 : hospitalisation, urgences, dialyse, chimiothérapie. Appelez le 06 96 96 43 41."
     },
     "h1": "Transport sanitaire/ Ambulances",
     "intro": {
@@ -328,8 +342,8 @@
   },
   "contact": {
     "meta": {
-      "title": "Contactez-nous | Mobile Healthcare Casablanca",
-      "description": "Contactez Mobile Healthcare pour un infirmier à domicile, une consultation médicale ou un transport sanitaire à Casablanca. Disponibles 24h/24 et 7j/7 au 06 96 96 43 41."
+      "title": "Contactez-nous | Mobile Healthcare Casablanca, Maroc",
+      "description": "Contactez Mobile Healthcare pour un infirmier à domicile, une consultation médicale ou un transport sanitaire à Casablanca, Maroc. Disponibles 24h/24 et 7j/7 au 06 96 96 43 41."
     },
     "title": "contactez nous",
     "text": "pour toute question, ou reclamation, n'hesitez pas a nous contacter. Nous sommes la pour vous.",
@@ -450,6 +464,18 @@
       {
         "question": "Proposez-vous des soins pour les personnes âgées ou dépendantes ?",
         "answer": "👵👴 Oui, nous proposons des soins personnalisés pour les personnes âgées, alitées ou en perte d'autonomie, à domicile Cela inclut les pansements, l'aide à la toilette, les perfusions, la surveillance médicale, et un accompagnement bienveillant au quotidien."
+      },
+      {
+        "question": "Y a-t-il un SOS infirmier disponible maintenant à Casablanca ?",
+        "answer": "Oui, notre service SOS infirmier est disponible 24h/24 et 7j/7 à Casablanca, y compris les nuits, weekends et jours fériés. Appelez le 06 96 96 43 41 ou contactez-nous sur WhatsApp pour une intervention immédiate à votre domicile."
+      },
+      {
+        "question": "Comment trouver un infirmier à proximité de moi à Casablanca ?",
+        "answer": "Mobile Healthcare dispose d'une équipe d'infirmiers répartis dans tous les quartiers de Casablanca : Maarif, Bourgogne, Ain Sebaâ, Sidi Maârouf, Hay Hassani, Oasis et bien d'autres. Appelez-nous et un infirmier proche de chez vous interviendra rapidement."
+      },
+      {
+        "question": "L'infirmerie Mobile Healthcare est-elle ouverte actuellement ?",
+        "answer": "Oui, nos services sont disponibles 24h/24, 7j/7, y compris les weekends et jours fériés. Infirmier disponible le soir, la nuit, le week-end — nous sommes toujours joignables au 06 96 96 43 41."
       }
     ]
   }

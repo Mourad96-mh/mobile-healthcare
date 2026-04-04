@@ -38,14 +38,21 @@
       "serviceAmbulance": "ambulance service Casablanca",
       "transportSanitaire": "medical transport",
       "transportMedicalise": "medicalized transport",
-      "ambulanceSecours": "rescue ambulance Casablanca"
+      "ambulanceSecours": "rescue ambulance Casablanca",
+      "infirmierAutourDeMoi": "home nurse near me",
+      "infirmierProximite": "nurse nearby Casablanca",
+      "gardeMalade": "home caregiver Casablanca",
+      "perfusionCasablanca": "home infusion Casablanca",
+      "sosInfirmier": "SOS nurse Casablanca",
+      "pansementCasablanca": "home dressing change Casablanca"
     }
   },
   "home": {
     "meta": {
-      "title": "Nursing Care, Home Consultations & Medical Transport in Casablanca | Mobile Healthcare",
-      "description": "Take care of your health with Mobile Healthcare — Book home nursing care, medical consultations and medical transport in Casablanca, available 24/7."
+      "title": "Nursing Care, Home Consultations & Medical Transport in Casablanca, Morocco | Mobile Healthcare",
+      "description": "Take care of your health with Mobile Healthcare — Home nursing care, medical consultations and medical transport in Casablanca, Morocco. Available 24/7."
     },
+    "h1": "Home Nursing & Medical Consultations in Casablanca",
     "hero": "Mobile Healthcare — Your Home Medical Assistance 24/7",
     "section1": {
       "subtitle": "Mobile Healthcare",
@@ -91,8 +98,8 @@
   },
   "soins": {
     "meta": {
-      "title": "HOME NURSE CASABLANCA | Mobile Healthcare",
-      "description": "Mobile Healthcare provides a home nurse in Casablanca, 7 days/7, for professional nursing care: dressings, injections, infusions. Call us now for fast assistance!"
+      "title": "Home Nurse Casablanca, Morocco — SOS Nurse Available 24/7 | Mobile Healthcare",
+      "description": "Need a home nurse in Casablanca, Morocco? Mobile Healthcare provides a nurse near you, available 24/7: dressings, injections, infusions, catheters. SOS nurse available now — call +212 6 96 96 43 41."
     },
     "h1": "Home Nurse",
     "hero": {
@@ -192,12 +199,19 @@
       "p1": "Need a home nurse in Casablanca? We intervene quickly in all neighborhoods: Maarif, Bourgogne, Oasis, Hay Hassani, Ain Sebaâ, Sidi Maârouf, and Belvédère. Our team offers comprehensive and safe home nursing services, adapted to each patient.",
       "p2": "Our services include home dressing changes, home infusions, home blood tests, and other home care for adults and children. We work with qualified and experienced nurses, available 7 days/7 throughout Casablanca.",
       "p3": "For fast care, call our home nursing service in Casablanca. We also offer home care assistants for daily support."
+    },
+    "sos": {
+      "badge": "Available now — 24/7",
+      "title": "SOS Nurse in Casablanca — Home Nurse Near You, Available Now",
+      "p1": "Looking for a home nurse near you, available right now? Mobile Healthcare provides an SOS nurse service available 24/7 across all Casablanca neighborhoods. Our nurses respond quickly to your home, with no waiting.",
+      "p2": "Whether you need an emergency nurse visit or a regular home nurse for ongoing care — dressings, injections, infusions, or home care assistance — our team is reachable at any time, day or night.",
+      "cta": "Call a nurse now →"
     }
   },
   "consultation": {
     "meta": {
-      "title": "Home Consultation | Doctor Home Visit",
-      "description": "Mobile Healthcare's home consultation service provides expert care for you and your family, covering daily healthcare needs as well as long-term assistance."
+      "title": "Home Consultation Casablanca, Morocco | Doctor Home Visit — Mobile Healthcare",
+      "description": "Doctor home visit in Casablanca, Morocco — Mobile Healthcare provides home medical consultations 24/7: GP, emergencies, post-operative care. Call +212 6 96 96 43 41."
     },
     "h1": "Home Consultation",
     "hero": {
@@ -231,7 +245,7 @@
   },
   "prelevement": {
     "meta": {
-      "title": "Home Blood Test Service | Mobile Healthcare",
+      "title": "Home Blood Test Casablanca, Morocco — Medical Sample Collection | Mobile Healthcare",
       "description": "Mobile Healthcare's home blood test service eliminates the inconvenience, waiting and worries of medical tests! Our home health services offer blood tests and medical testing at home without having to leave your home or office."
     },
     "h1": "Home Blood Test",
@@ -268,8 +282,8 @@
   },
   "transport": {
     "meta": {
-      "title": "Ambulance Casablanca | Mobile Healthcare",
-      "description": "Mobile Healthcare, your reference for an ambulance in Casablanca to or from your healthcare providers. We offer a range of services to make you comfortable."
+      "title": "Ambulance Casablanca, Morocco — Medical Transport 24/7 | Mobile Healthcare",
+      "description": "Ambulance and medical transport in Casablanca, Morocco — Mobile Healthcare provides safe 24/7 transfers: hospitalization, emergencies, dialysis, chemotherapy. Call +212 6 96 96 43 41."
     },
     "h1": "Medical Transport / Ambulances",
     "intro": {
@@ -328,8 +342,8 @@
   },
   "contact": {
     "meta": {
-      "title": "Contact Us | Mobile Healthcare Casablanca",
-      "description": "Contact Mobile Healthcare for a home nurse, medical consultation or medical transport in Casablanca. Available 24/7 at 06 96 96 43 41."
+      "title": "Contact Us | Mobile Healthcare Casablanca, Morocco",
+      "description": "Contact Mobile Healthcare for a home nurse, medical consultation or medical transport in Casablanca, Morocco. Available 24/7 at +212 6 96 96 43 41."
     },
     "title": "Contact Us",
     "text": "For any question or complaint, do not hesitate to contact us. We are here for you.",
@@ -450,6 +464,18 @@
       {
         "question": "Do you offer care for elderly or dependent people?",
         "answer": "👵👴 Yes, we offer personalized care for elderly, bedridden or dependent people at home. This includes dressings, hygiene assistance, infusions, medical monitoring, and compassionate daily support."
+      },
+      {
+        "question": "Is there an SOS nurse available right now in Casablanca?",
+        "answer": "Yes, our SOS nurse service is available 24/7 in Casablanca, including nights, weekends and public holidays. Call +212 6 96 96 43 41 or contact us on WhatsApp for immediate home assistance."
+      },
+      {
+        "question": "How do I find a nurse near me in Casablanca?",
+        "answer": "Mobile Healthcare has a team of nurses covering all Casablanca neighborhoods: Maarif, Bourgogne, Ain Sebaâ, Sidi Maârouf, Hay Hassani, Oasis and many more. Call us and a nearby nurse will be dispatched quickly."
+      },
+      {
+        "question": "Is Mobile Healthcare nursing service currently open?",
+        "answer": "Yes, our service is available 24/7, including weekends and public holidays. Whether you need a nurse in the evening, at night or early morning — we are always reachable at +212 6 96 96 43 41."
       }
     ]
   }

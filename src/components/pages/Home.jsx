@@ -26,8 +26,11 @@ const HomePage = () => {
         <meta charSet="utf-8" />
         <meta name="description" content={t("home.meta.description")} />
         <title>{t("home.meta.title")}</title>
-        <link rel="canonical" href="https://www.mobile-healthcare.org/" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
+      <h1 className="heading-primary center-text u-margin-bottom-medium u-margin-top-big">
+        {t("home.h1")}
+      </h1>
       <Hero className="hero-section" h2={t("home.hero")} />
       <div className="container">
         <section className="prelevement__def">

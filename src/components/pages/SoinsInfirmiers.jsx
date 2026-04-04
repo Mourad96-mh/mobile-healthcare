@@ -5,9 +5,11 @@ import { useTranslation } from "react-i18next";
 import Hero from "../UI/Hero";
 import LayoutContent from "../UI/LayoutContent";
 import OperationZones from "../OperationZones";
+import { useConversionTracking } from "../../hooks/useConversionTracking";
 
 const SoinsInfirmiers = () => {
   const { t } = useTranslation();
+  const { trackConversion } = useConversionTracking();
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -16,8 +18,7 @@ const SoinsInfirmiers = () => {
     url: "https://www.mobile-healthcare.org/soins-infirmiers",
     logo: "https://www.mobile-healthcare.org/logo.avif",
     image: "https://www.mobile-healthcare.org/nurse-at-home.avif",
-    description:
-      "Mobile Healthcare propose un infirmier à domicile à Casablanca, 7j/7, pour des soins infirmiers professionnels : pansements, injections, perfusions, pose de sondes, etc.",
+    description: t("soins.meta.description"),
     telephone: "+212696964341",
     address: {
       "@type": "PostalAddress",
@@ -54,8 +55,7 @@ const SoinsInfirmiers = () => {
           "@type": "MedicalProcedure",
           name: "Soins Infirmiers à Domicile",
           procedureType: "TherapeuticProcedure",
-          description:
-            "Soins infirmiers à domicile incluant les pansements, injections, perfusions, pose de sonde urinaire et gastrique, gestion de la nutrition parentérale, et soins post-opératoires.",
+          description: t("soins.meta.description"),
         },
       },
     ],
@@ -63,7 +63,7 @@ const SoinsInfirmiers = () => {
       "@type": "ContactPoint",
       telephone: "+212696964341",
       contactType: "Customer Service",
-      availableLanguage: ["English", "French", "Arabic"],
+      availableLanguage: ["French", "Arabic", "English", "Spanish"],
     },
   };
 
@@ -84,10 +84,6 @@ const SoinsInfirmiers = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Mobile Healthcare" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          rel="canonical"
-          href="https://www.mobile-healthcare.org/soins-infirmiers"
-        />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
       <h1 className="heading-primary center-text u-margin-bottom-medium u-margin-top-big">
@@ -139,6 +135,29 @@ const SoinsInfirmiers = () => {
             />
           </div>
         </div>
+        <div className="prelevement__def sos-section">
+          <p className="sos-badge">{t("soins.sos.badge")}</p>
+          <h2 className="secondary-heading center-text u-margin-bottom-medium">
+            {t("soins.sos.title")}
+          </h2>
+          <section>
+            <p>{t("soins.sos.p1")}</p>
+            <p>{t("soins.sos.p2")}</p>
+          </section>
+          <div className="center-text">
+            <Link
+              className="btn u-margin-top-big"
+              to="https://wa.me/+212696964341"
+              title="SOS Infirmier — Contactez-nous sur WhatsApp"
+              rel="noopener noreferrer"
+              onClick={() =>
+                handleWhatsAppConversion("https://wa.me/+212696964341")
+              }
+            >
+              {t("soins.sos.cta")}
+            </Link>
+          </div>
+        </div>
         <LayoutContent>
           <>
             <section className="u-margin-bottom-medium">
@@ -147,7 +166,7 @@ const SoinsInfirmiers = () => {
               <p>{t("soins.pansement.p2")}</p>
               <p>
                 {t("soins.pansement.p3").split("Contactez-nous")[0]}
-                <Link className="services-link" to="tel:+212696964341">
+                <Link className="services-link" to="tel:+212696964341" onClick={() => trackConversion("tel:+212696964341")}>
                   {t("common.contactUs")}
                 </Link>
               </p>
@@ -159,7 +178,7 @@ const SoinsInfirmiers = () => {
               <p>{t("soins.sonde.p2")}</p>
               <p>
                 {t("soins.sonde.p3").split("Contactez-nous")[0].split("Contact us")[0].split("Contáctenos")[0]}
-                <Link className="services-link" to="tel:+212696964341">
+                <Link className="services-link" to="tel:+212696964341" onClick={() => trackConversion("tel:+212696964341")}>
                   {t("common.contactUs")}
                 </Link>
               </p>
@@ -187,7 +206,7 @@ const SoinsInfirmiers = () => {
             </section>
             <p className="u-margin-top-medium">
               {t("soins.garde.cta").split("Contactez-nous")[0].split("Contact us")[0].split("Contáctenos")[0]}
-              <Link className="services-link" to="tel:+212696964341">
+              <Link className="services-link" to="tel:+212696964341" onClick={() => trackConversion("tel:+212696964341")}>
                 {t("common.contactUs")}
               </Link>
             </p>
@@ -226,7 +245,7 @@ const SoinsInfirmiers = () => {
               <strong>
                 {t("soins.perfusions.cta").split("Contactez-nous")[0].split("Contact us")[0].split("Contáctenos")[0]}
               </strong>{" "}
-              <Link className="services-link" to="tel:+212696964341">
+              <Link className="services-link" to="tel:+212696964341" onClick={() => trackConversion("tel:+212696964341")}>
                 {t("common.contactUs")}
               </Link>
             </p>
@@ -264,7 +283,7 @@ const SoinsInfirmiers = () => {
               <strong>
                 {t("soins.ablation.cta").split("Contactez-nous")[0].split("Contact us")[0].split("Contáctenos")[0]}
               </strong>{" "}
-              <Link className="services-link" to="tel:+212696964341">
+              <Link className="services-link" to="tel:+212696964341" onClick={() => trackConversion("tel:+212696964341")}>
                 {t("common.contactUs")}
               </Link>
             </p>
@@ -288,7 +307,7 @@ const SoinsInfirmiers = () => {
             <p>{t("soins.contact.p2")}</p>
             <p>
               {t("soins.contact.p3")}{" "}
-              <Link to="tel:+212696964341" className="services-link">
+              <Link to="tel:+212696964341" className="services-link" onClick={() => trackConversion("tel:+212696964341")}>
                 +212 6 96 96 43 41
               </Link>
             </p>

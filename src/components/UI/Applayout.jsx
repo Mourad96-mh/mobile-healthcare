@@ -6,11 +6,10 @@ import { useTranslation } from "react-i18next";
 import MainHeader from "./MainHeader";
 import Footer from "./Footer";
 import FAQ from "../FAQ";
-import LanguageSwitcher from "./LanguageSwitcher";
 import { captureGCLID } from "../../utils/utils";
 
 const AppLayout = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -53,15 +52,16 @@ const AppLayout = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Mobile Healthcare",
-    image: "https://mobile-healthcare.org/logo.avif",
-    "@id": "https://mobile-healthcare.org",
-    url: "https://mobile-healthcare.org",
+    image: "https://www.mobile-healthcare.org/logo.avif",
+    "@id": "https://www.mobile-healthcare.org",
+    url: "https://www.mobile-healthcare.org",
     telephone: "+212696964341",
     priceRange: "$$",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Boulevard Zerktouni",
       addressLocality: "Casablanca",
+      addressRegion: "Grand Casablanca-Settat",
       postalCode: "20000",
       addressCountry: "MA",
     },
@@ -86,30 +86,52 @@ const AppLayout = () => {
         closes: "23:59",
       },
     ],
-    description:
-      "Mobile Healthcare propose des services de soins infirmiers à domicile à Casablanca : pansements, injections, perfusions et transport médicalisé 24h/24 et 7j/7.",
-    serviceArea: {
-      "@type": "Place",
-      name: "Casablanca",
-    },
+    description: t("home.meta.description"),
+    serviceArea: [
+      { "@type": "Place", "name": "Casablanca" },
+      { "@type": "Place", "name": "Maarif, Casablanca" },
+      { "@type": "Place", "name": "Anfa, Casablanca" },
+      { "@type": "Place", "name": "Ain Diab, Casablanca" },
+      { "@type": "Place", "name": "Ain Sebaâ, Casablanca" },
+      { "@type": "Place", "name": "Hay Hassani, Casablanca" },
+      { "@type": "Place", "name": "Oasis, Casablanca" },
+      { "@type": "Place", "name": "Sidi Maârouf, Casablanca" },
+      { "@type": "Place", "name": "Bourgogne, Casablanca" },
+      { "@type": "Place", "name": "Belvédère, Casablanca" },
+      { "@type": "Place", "name": "Racine, Casablanca" },
+      { "@type": "Place", "name": "Gauthier, Casablanca" },
+      { "@type": "Place", "name": "Mers Sultan, Casablanca" },
+      { "@type": "Place", "name": "Derb Sultan, Casablanca" },
+      { "@type": "Place", "name": "Hay Mohammadi, Casablanca" },
+      { "@type": "Place", "name": "Ben Msik, Casablanca" },
+      { "@type": "Place", "name": "Sbata, Casablanca" },
+      { "@type": "Place", "name": "Sidi Bernoussi, Casablanca" },
+      { "@type": "Place", "name": "Sidi Moumen, Casablanca" },
+      { "@type": "Place", "name": "Val Fleuri, Casablanca" },
+      { "@type": "Place", "name": "CIL, Casablanca" },
+      { "@type": "Place", "name": "Bouskoura, Casablanca" },
+      { "@type": "Place", "name": "Tamaris, Casablanca" },
+      { "@type": "Place", "name": "El Oulfa, Casablanca" },
+      { "@type": "Place", "name": "Lissasfa, Casablanca" },
+      { "@type": "Place", "name": "Dar Bouazza, Casablanca" },
+      { "@type": "Place", "name": "Roches Noires, Casablanca" },
+      { "@type": "Place", "name": "Californie, Casablanca" },
+    ],
     services: [
       {
         "@type": "MedicalService",
-        name: "Infirmier à domicile",
-        description:
-          "Service d'infirmier à domicile à Casablanca pour les soins médicaux et infirmiers professionnels.",
+        name: t("nav.soins"),
+        description: t("soins.meta.description"),
       },
       {
         "@type": "MedicalService",
-        name: "Consultation médicale à domicile",
-        description:
-          "Consultations médicales à domicile avec un médecin qualifié, disponibles 24h/24 et 7j/7.",
+        name: t("nav.consultation"),
+        description: t("consultation.meta.description"),
       },
       {
         "@type": "MedicalService",
-        name: "Transport médicalisé",
-        description:
-          "Transport médicalisé sécurisé pour urgences et transferts hospitaliers.",
+        name: t("nav.transport"),
+        description: t("transport.meta.description"),
       },
     ],
   };
@@ -118,6 +140,10 @@ const AppLayout = () => {
     <>
       <Helmet>
         <html lang={lang} dir={isRtl ? "rtl" : "ltr"} />
+        <link
+          rel="canonical"
+          href={`${baseUrl}${pathname}`}
+        />
         <link
           rel="alternate"
           hrefLang="fr"
@@ -148,8 +174,7 @@ const AppLayout = () => {
         </script>
       </Helmet>
       <MainHeader />
-      <LanguageSwitcher />
-      <main>
+      <main className="main-content">
         <Outlet />
         <FAQ />
       </main>

@@ -13,8 +13,8 @@ const ConsultationDomicile = () => {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     name: "Consultation à domicile - Mobile Healthcare Casablanca",
-    image: "https://mobile-healthcare.org/assets/logo.png",
-    url: "https://mobile-healthcare.org/consultation-a-domicile",
+    image: "https://www.mobile-healthcare.org/logo.avif",
+    url: "https://www.mobile-healthcare.org/consultation-a-domicile",
     telephone: "+212696964341",
     address: {
       "@type": "PostalAddress",
@@ -28,10 +28,7 @@ const ConsultationDomicile = () => {
     },
     openingHours: "Mo-Su 08:00-20:00",
     medicalSpecialty: "GeneralPractice",
-    description:
-      "Consultation à domicile à Casablanca : un médecin qualifié se déplace chez vous pour des soins personnalisés. Service rapide et humain. Idéal pour toute urgence ou besoin médical à domicile.",
-    keywords:
-      "médecin à domicile, SOS médecin Casablanca, consultation à domicile",
+    description: t("consultation.meta.description"),
     areaServed: {
       "@type": "Place",
       name: "Casablanca",
@@ -45,8 +42,7 @@ const ConsultationDomicile = () => {
           itemOffered: {
             "@type": "Service",
             name: "Consultation médicale à domicile",
-            description:
-              "Un médecin se déplace à votre domicile à Casablanca pour toute consultation médicale urgente ou régulière. Appelez dès maintenant pour une assistance rapide.",
+            description: t("consultation.meta.description"),
             areaServed: {
               "@type": "Place",
               name: "Casablanca",
@@ -71,10 +67,7 @@ const ConsultationDomicile = () => {
         <meta charSet="utf-8" />
         <title>{t("consultation.meta.title")}</title>
         <meta name="description" content={t("consultation.meta.description")} />
-        <link
-          rel="canonical"
-          href="https://www.mobile-healthcare.org/consultation-a-domicile"
-        />
+        <meta name="robots" content="index, follow" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
       <h1 className="heading-primary center-text u-margin-bottom-medium">

@@ -125,6 +125,36 @@ const Footer = () => {
                 {t("footer.keywordLinks.ambulanceSecours")}
               </Link>
             </li>
+            <li className="keyword__item">
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.infirmierAutourDeMoi")}
+              </Link>
+            </li>
+            <li className="keyword__item">
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.infirmierProximite")}
+              </Link>
+            </li>
+            <li className="keyword__item">
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.gardeMalade")}
+              </Link>
+            </li>
+            <li className="keyword__item">
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.perfusionCasablanca")}
+              </Link>
+            </li>
+            <li className="keyword__item">
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.sosInfirmier")}
+              </Link>
+            </li>
+            <li className="keyword__item">
+              <Link to={`${prefix}/soins-infirmiers`} className="keyword-link">
+                {t("footer.keywordLinks.pansementCasablanca")}
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

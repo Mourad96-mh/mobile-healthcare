@@ -6,9 +6,31 @@ import { HiMiniChatBubbleBottomCenter } from "react-icons/hi2";
 import { HiMiniPhone } from "react-icons/hi2";
 import { useState } from "react";
 import Spinner from "../UI/Spinner";
+import { useConversionTracking } from "../../hooks/useConversionTracking";
 
 const Contact = () => {
   const { t } = useTranslation();
+  const { trackConversion } = useConversionTracking();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Mobile Healthcare",
+    url: "https://www.mobile-healthcare.org/contact",
+    telephone: "+212696964341",
+    email: "mobileHealthCare60@gmail.com",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Casablanca",
+      addressCountry: "MA",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+212696964341",
+      contactType: "Customer Service",
+      availableLanguage: ["French", "Arabic", "English", "Spanish"],
+    },
+  };
   const [prenom, setPrenom] = useState("");
   const [nom, setNom] = useState("");
   const [telephone, setTelephone] = useState("");
@@ -45,12 +67,12 @@ const Contact = () => {
         <title>{t("contact.meta.title")}</title>
         <meta name="description" content={t("contact.meta.description")} />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.mobile-healthcare.org/contact" />
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
       <div className="container">
         <div className="contact-info">
           <header className="contact-header">
-            <h2 className="secondary-heading">{t("contact.title")}</h2>
+            <h1 className="secondary-heading">{t("contact.title")}</h1>
             <p className="contact-text">{t("contact.text")}</p>
           </header>
           <footer className="contact-footer">
@@ -65,15 +87,16 @@ const Contact = () => {
             </div>
             <div>
               <HiMiniPhone className="contact-icon" />
-              <Link
+              <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://wa.me/+212696964341"
                 title="Contact me on WhatsApp"
                 className="link contact-link"
+                onClick={() => trackConversion("https://wa.me/+212696964341")}
               >
                 0696964341
-              </Link>
+              </a>
             </div>
           </footer>
         </div>
