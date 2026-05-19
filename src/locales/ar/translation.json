@@ -5,7 +5,8 @@
     "soins": "التمريض المنزلي",
     "prelevement": "تحليل الدم المنزلي",
     "transport": "النقل الصحي / سيارات الإسعاف",
-    "contact": "اتصل بنا"
+    "contact": "اتصل بنا",
+    "blog": "مدونة الصحة"
   },
   "common": {
     "callUs": "اتصل بنا ←",
@@ -15,36 +16,20 @@
   "footer": {
     "contact": "التواصل",
     "address": "الدار البيضاء الكبرى",
+    "navigation": "التنقل",
     "services": "الخدمات",
-    "keywords": "الكلمات المفتاحية",
-    "serviceList": {
-      "phone": "الدعم الهاتفي",
-      "rdv": "استشارة منزلية بموعد",
-      "urgence": "استشارة منزلية طارئة",
-      "transfer": "النقل إلى عيادة الطوارئ"
-    },
+    "keywords": "بحوث شائعة",
     "keywordLinks": {
-      "medecinPres": "طبيب قريب مني",
-      "medecinCasa": "طبيب الدار البيضاء",
-      "medecinGeneraliste": "طبيب عام الدار البيضاء",
-      "sosMedecin": "طبيب طوارئ",
+      "medecinCasa": "طبيب منزلي الدار البيضاء",
       "sosMedecinCasa": "طبيب طوارئ الدار البيضاء",
       "soinsInfirmiers": "تمريض منزلي",
-      "infirmierCasa": "ممرض الدار البيضاء",
       "infirmierDomicile": "ممرض منزلي الدار البيضاء",
       "hospitalisation": "استشفاء منزلي",
+      "gardeMalade": "جليس مريض الدار البيضاء",
+      "perfusionCasablanca": "تسريب منزلي الدار البيضاء",
       "priseSang": "تحليل دم منزلي",
       "ambulancePrivee": "إسعاف خاص الدار البيضاء",
-      "serviceAmbulance": "خدمة الإسعاف الدار البيضاء",
-      "transportSanitaire": "النقل الصحي",
-      "transportMedicalise": "النقل الطبي المتخصص",
-      "ambulanceSecours": "إسعاف الإنقاذ الدار البيضاء",
-      "infirmierAutourDeMoi": "ممرض منزلي قريب مني",
-      "infirmierProximite": "ممرض في الجوار الدار البيضاء",
-      "gardeMalade": "جليس مريض منزلي الدار البيضاء",
-      "perfusionCasablanca": "تسريب منزلي الدار البيضاء",
-      "sosInfirmier": "SOS ممرض الدار البيضاء",
-      "pansementCasablanca": "تغيير ضمادة منزلي الدار البيضاء"
+      "transportSanitaire": "النقل الصحي الدار البيضاء"
     }
   },
   "home": {
@@ -358,7 +343,22 @@
       "demandeOption2": "شكوى",
       "message": "الرسالة",
       "submit": "إرسال"
+    },
+    "success": {
+      "title": "تم إرسال رسالتك!",
+      "message": "شكراً على رسالتك. سيتواصل معك فريقنا قريباً. للحصول على مساعدة فورية، يرجى الاتصال بنا مباشرة."
     }
+  },
+  "blog": {
+    "h1": "مدونة الصحة — نصائح ومعلومات طبية",
+    "subtitle": "أدلة عملية ونصائح صحية لمرضى الدار البيضاء",
+    "metaTitle": "مدونة الصحة الدار البيضاء — رعاية منزلية | Mobile Healthcare",
+    "metaDescription": "اكتشف أدلتنا الطبية حول التمريض المنزلي وتحاليل الدم والإسعاف والاستشارات الطبية في الدار البيضاء.",
+    "readMore": "اقرأ المزيد ←",
+    "publishedOn": "نُشر في",
+    "backToBlog": "← العودة إلى المدونة",
+    "notFound": "المقال غير موجود.",
+    "ctaTitle": "هل تحتاج إلى رعاية منزلية في الدار البيضاء؟"
   },
   "servicesView": {
     "heading": "Mobile Healthcare Assistance",

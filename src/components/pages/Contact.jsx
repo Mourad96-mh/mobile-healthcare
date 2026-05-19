@@ -1,4 +1,3 @@
-import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
@@ -16,7 +15,7 @@ const Contact = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Mobile Healthcare",
-    url: "https://www.mobile-healthcare.org/contact",
+    url: "https://mobile-healthcare.org/contact",
     telephone: "+212696964341",
     email: "mobileHealthCare60@gmail.com",
     address: {
@@ -39,15 +38,27 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-  const navigate = useNavigate();
 
   const submitHandler = async (event) => {
     event.preventDefault();
     setIsLoading(true);
-    setTimeout(() => {
+    try {
+      const res = await fetch(
+        "https://formsubmit.co/ajax/mobileHealthCare60@gmail.com",
+        {
+          method: "POST",
+          headers: { Accept: "application/json" },
+          body: new FormData(event.target),
+        },
+      );
+      const data = await res.json();
       setIsLoading(false);
-      setIsSuccess(true);
-    }, 2000);
+      if (data.success) {
+        setIsSuccess(true);
+      }
+    } catch {
+      setIsLoading(false);
+    }
   };
 
   if (isLoading) {
@@ -55,9 +66,28 @@ const Contact = () => {
   }
 
   if (isSuccess) {
-    console.log("Success");
-    navigate("/");
-    alert("Appuyer Sur telephone icon pour appelez nous !");
+    return (
+      <div
+        className="contact-success container"
+        style={{ textAlign: "center", padding: "4rem 2rem" }}
+      >
+        <h1 className="heading-primary u-margin-bottom-medium">
+          {t("contact.success.title")}
+        </h1>
+        <p>{t("contact.success.message")}</p>
+        <a
+          className="btn"
+          href="https://wa.me/+212696964341"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Contact Mobile Healthcare on WhatsApp"
+          style={{ display: "inline-block", marginTop: "2rem" }}
+          onClick={() => trackConversion("https://wa.me/+212696964341")}
+        >
+          {t("common.callUs")}
+        </a>
+      </div>
+    );
   }
 
   return (
@@ -67,26 +97,39 @@ const Contact = () => {
         <title>{t("contact.meta.title")}</title>
         <meta name="description" content={t("contact.meta.description")} />
         <meta name="robots" content="index, follow" />
+        <meta property="og:title" content={t("contact.meta.title")} />
+        <meta
+          property="og:description"
+          content={t("contact.meta.description")}
+        />
+        <meta
+          property="og:image"
+          content="https://mobile-healthcare.org/logo.avif"
+        />
+        <meta name="twitter:title" content={t("contact.meta.title")} />
+        <meta
+          name="twitter:description"
+          content={t("contact.meta.description")}
+        />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
       <div className="container">
         <div className="contact-info">
           <header className="contact-header">
-            <h1 className="secondary-heading">{t("contact.title")}</h1>
+            <h1 className="heading-primary">{t("contact.title")}</h1>
             <p className="contact-text">{t("contact.text")}</p>
           </header>
           <footer className="contact-footer">
             <div>
-              <HiMiniChatBubbleBottomCenter className="contact-icon" />
-              <Link
-                to="mailto: 8erpplm60@gmail.com"
+              <a
+                href="mailto:mobileHealthCare60@gmail.com"
                 className="link contact-link"
               >
+                <HiMiniChatBubbleBottomCenter className="contact-icon" />
                 mobileHealthCare60@gmail.com
-              </Link>
+              </a>
             </div>
             <div>
-              <HiMiniPhone className="contact-icon" />
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -95,6 +138,7 @@ const Contact = () => {
                 className="link contact-link"
                 onClick={() => trackConversion("https://wa.me/+212696964341")}
               >
+                <HiMiniPhone className="contact-icon" />
                 0696964341
               </a>
             </div>
@@ -158,8 +202,12 @@ const Contact = () => {
               onChange={(e) => setDemande(e.target.value)}
             >
               <option value="">{t("contact.form.demandeSelect")}</option>
-              <option value="demande">{t("contact.form.demandeOption1")}</option>
-              <option value="reclamation">{t("contact.form.demandeOption2")}</option>
+              <option value="demande">
+                {t("contact.form.demandeOption1")}
+              </option>
+              <option value="reclamation">
+                {t("contact.form.demandeOption2")}
+              </option>
             </select>
           </div>
           <div className="form-control">
@@ -179,6 +227,17 @@ const Contact = () => {
             </button>
           </div>
         </form>
+        <p className="contact-credit">
+          Site créé par{" "}
+          <a
+            href="https://www.moudevpro.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Développeur Web Freelance Maroc"
+          >
+            MouDev — Développeur Web Freelance Maroc
+          </a>
+        </p>
       </div>
     </div>
   );

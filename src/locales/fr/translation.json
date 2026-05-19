@@ -5,7 +5,8 @@
     "soins": "Soins-Infirmiers",
     "prelevement": "Prélèvement à domicile",
     "transport": "Transport Sanitaire/ Ambulances",
-    "contact": "Contact"
+    "contact": "Contact",
+    "blog": "Blog Santé"
   },
   "common": {
     "callUs": "Appelez-nous →",
@@ -15,36 +16,20 @@
   "footer": {
     "contact": "Contact",
     "address": "Grand Casablanca",
+    "navigation": "Navigation",
     "services": "Services",
-    "keywords": "Mots-Clés",
-    "serviceList": {
-      "phone": "Assistance téléphonique",
-      "rdv": "Consultation à domicile sur RDV",
-      "urgence": "Consultation à domicile d'urgence",
-      "transfer": "Transfert à la clinique d'urgence"
-    },
+    "keywords": "Recherches fréquentes",
     "keywordLinks": {
-      "medecinPres": "médecin autour de moi",
-      "medecinCasa": "medecin Casablanca",
-      "medecinGeneraliste": "médecin généraliste Casablanca",
-      "sosMedecin": "sos medecin, sos docteur",
+      "medecinCasa": "médecin à domicile Casablanca",
       "sosMedecinCasa": "SOS médecin Casablanca",
       "soinsInfirmiers": "soins infirmiers à domicile",
-      "infirmierCasa": "infirmier Casablanca",
       "infirmierDomicile": "infirmier à domicile Casablanca",
       "hospitalisation": "hospitalisation à domicile",
-      "priseSang": "prise de sang à domicile",
-      "ambulancePrivee": "ambulance privée Casablanca",
-      "serviceAmbulance": "service ambulance Casablanca",
-      "transportSanitaire": "transport sanitaire",
-      "transportMedicalise": "transport médicalisés",
-      "ambulanceSecours": "ambulance secours Casablanca",
-      "infirmierAutourDeMoi": "infirmier autour de moi",
-      "infirmierProximite": "infirmier à proximité",
       "gardeMalade": "garde malade à domicile",
       "perfusionCasablanca": "perfusion à domicile Casablanca",
-      "sosInfirmier": "SOS infirmier Casablanca",
-      "pansementCasablanca": "pansement à domicile Casablanca"
+      "priseSang": "prise de sang à domicile",
+      "ambulancePrivee": "ambulance privée Casablanca",
+      "transportSanitaire": "transport sanitaire Casablanca"
     }
   },
   "home": {
@@ -99,7 +84,7 @@
   "soins": {
     "meta": {
       "title": "Infirmier à Domicile Casablanca, Maroc — SOS Infirmier Disponible 24h/24 | Mobile Healthcare",
-      "description": "Besoin d'un infirmier à domicile à Casablanca, Maroc ? Infirmier à proximité, disponible 24h/24 et 7j/7 : pansements, injections, perfusions, sondes. SOS infirmier disponible maintenant — appelez le 06 96 96 43 41."
+      "description": "Infirmier à domicile à Casablanca 24h/24 — pansements, injections, perfusions, garde malade. Intervention rapide dans tous les quartiers. SOS infirmier disponible maintenant."
     },
     "h1": "Infirmier à Domicile",
     "hero": {
@@ -283,7 +268,7 @@
   "transport": {
     "meta": {
       "title": "Ambulance Casablanca, Maroc — Transport Sanitaire Médicalisé | Mobile Healthcare",
-      "description": "Service d'ambulance et transport sanitaire à Casablanca, Maroc — Mobile Healthcare assure des transferts médicalisés sécurisés 24h/24 : hospitalisation, urgences, dialyse, chimiothérapie. Appelez le 06 96 96 43 41."
+      "description": "Ambulance et transport sanitaire à Casablanca 24h/24 — transferts médicalisés : hospitalisation, urgences, dialyse, chimiothérapie. Service rapide et sécurisé."
     },
     "h1": "Transport sanitaire/ Ambulances",
     "intro": {
@@ -358,7 +343,22 @@
       "demandeOption2": "Reclamation",
       "message": "Message",
       "submit": "Envoyer"
+    },
+    "success": {
+      "title": "Message envoyé !",
+      "message": "Merci pour votre message. Notre équipe vous contactera rapidement. Pour une réponse immédiate, appelez-nous directement."
     }
+  },
+  "blog": {
+    "h1": "Blog Santé — Conseils & Actualités Médicales",
+    "subtitle": "Guides pratiques et conseils de santé pour les patients de Casablanca",
+    "metaTitle": "Blog Santé Casablanca — Soins à Domicile & Conseils Médicaux | Mobile Healthcare",
+    "metaDescription": "Découvrez nos guides médicaux sur les soins infirmiers, prélèvements à domicile, ambulances et consultations médicales à Casablanca. Conseils pratiques pour votre santé.",
+    "readMore": "Lire la suite →",
+    "publishedOn": "Publié le",
+    "backToBlog": "← Retour au blog",
+    "notFound": "Article introuvable.",
+    "ctaTitle": "Besoin de soins à domicile à Casablanca ?"
   },
   "img": {
     "docAtHome": "Médecin réalisant une consultation à domicile à Casablanca",

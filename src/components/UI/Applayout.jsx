@@ -25,13 +25,6 @@ const AppLayout = () => {
   }, [pathname, i18n]);
 
   useEffect(() => {
-    fetch("/log-ip.php")
-      .then((response) => response.text())
-      .catch((error) => console.error("Error logging IP:", error));
-  }, []);
-
-  useEffect(() => {
-    console.log("captureGCLID");
     captureGCLID();
   }, []);
 
@@ -45,16 +38,16 @@ const AppLayout = () => {
 
   const isRtl = lang === "ar";
 
-  const baseUrl = "https://www.mobile-healthcare.org";
+  const baseUrl = "https://mobile-healthcare.org";
   const pagePath = pathname.replace(/^\/(en|es|ar)/, "") || "/";
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Mobile Healthcare",
-    image: "https://www.mobile-healthcare.org/logo.avif",
-    "@id": "https://www.mobile-healthcare.org",
-    url: "https://www.mobile-healthcare.org",
+    image: "https://mobile-healthcare.org/logo.avif",
+    "@id": "https://mobile-healthcare.org",
+    url: "https://mobile-healthcare.org",
     telephone: "+212696964341",
     priceRange: "$$",
     address: {
@@ -169,6 +162,22 @@ const AppLayout = () => {
           hrefLang="x-default"
           href={`${baseUrl}${pagePath === "/" ? "/" : pagePath}`}
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`${baseUrl}${pathname}`} />
+        <meta property="og:site_name" content="Mobile Healthcare" />
+        <meta property="og:image" content={`${baseUrl}/logo.avif`} />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="800" />
+        <meta
+          property="og:locale"
+          content={lang === "ar" ? "ar_MA" : lang === "en" ? "en_US" : lang === "es" ? "es_ES" : "fr_MA"}
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={`${baseUrl}/logo.avif`} />
+        <meta name="geo.region" content="MA-07" />
+        <meta name="geo.placename" content="Casablanca, Maroc" />
+        <meta name="geo.position" content="33.5924501;-7.6043579" />
+        <meta name="ICBM" content="33.5924501, -7.6043579" />
         <script type="application/ld+json">
           {JSON.stringify(localBusinessSchema)}
         </script>

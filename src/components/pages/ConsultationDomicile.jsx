@@ -9,12 +9,21 @@ import LayoutContent from "../UI/LayoutContent";
 const ConsultationDomicile = () => {
   const { t } = useTranslation();
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://mobile-healthcare.org/" },
+      { "@type": "ListItem", position: 2, name: "Consultation à Domicile", item: "https://mobile-healthcare.org/consultation-a-domicile" },
+    ],
+  };
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     name: "Consultation à domicile - Mobile Healthcare Casablanca",
-    image: "https://www.mobile-healthcare.org/logo.avif",
-    url: "https://www.mobile-healthcare.org/consultation-a-domicile",
+    image: "https://mobile-healthcare.org/logo.avif",
+    url: "https://mobile-healthcare.org/consultation-a-domicile",
     telephone: "+212696964341",
     address: {
       "@type": "PostalAddress",
@@ -26,7 +35,12 @@ const ConsultationDomicile = () => {
       latitude: 33.5924501,
       longitude: -7.6043579,
     },
-    openingHours: "Mo-Su 08:00-20:00",
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      opens: "00:00",
+      closes: "23:59",
+    },
     medicalSpecialty: "GeneralPractice",
     description: t("consultation.meta.description"),
     areaServed: {
@@ -68,7 +82,13 @@ const ConsultationDomicile = () => {
         <title>{t("consultation.meta.title")}</title>
         <meta name="description" content={t("consultation.meta.description")} />
         <meta name="robots" content="index, follow" />
+        <meta property="og:title" content={t("consultation.meta.title")} />
+        <meta property="og:description" content={t("consultation.meta.description")} />
+        <meta property="og:image" content="https://mobile-healthcare.org/doc-at-home.avif" />
+        <meta name="twitter:title" content={t("consultation.meta.title")} />
+        <meta name="twitter:description" content={t("consultation.meta.description")} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       <h1 className="heading-primary center-text u-margin-bottom-medium">
         {t("consultation.h1")}

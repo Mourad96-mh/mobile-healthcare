@@ -5,7 +5,8 @@
     "soins": "Nursing Care",
     "prelevement": "Home Blood Test",
     "transport": "Medical Transport / Ambulances",
-    "contact": "Contact"
+    "contact": "Contact",
+    "blog": "Health Blog"
   },
   "common": {
     "callUs": "Call Us →",
@@ -15,36 +16,20 @@
   "footer": {
     "contact": "Contact",
     "address": "Greater Casablanca",
+    "navigation": "Navigation",
     "services": "Services",
-    "keywords": "Keywords",
-    "serviceList": {
-      "phone": "Phone support",
-      "rdv": "Home consultation by appointment",
-      "urgence": "Emergency home consultation",
-      "transfer": "Emergency clinic transfer"
-    },
+    "keywords": "Common Searches",
     "keywordLinks": {
-      "medecinPres": "doctor near me",
-      "medecinCasa": "doctor Casablanca",
-      "medecinGeneraliste": "general practitioner Casablanca",
-      "sosMedecin": "SOS doctor",
+      "medecinCasa": "home doctor Casablanca",
       "sosMedecinCasa": "SOS doctor Casablanca",
       "soinsInfirmiers": "home nursing care",
-      "infirmierCasa": "nurse Casablanca",
       "infirmierDomicile": "home nurse Casablanca",
       "hospitalisation": "home hospitalization",
-      "priseSang": "home blood test",
-      "ambulancePrivee": "private ambulance Casablanca",
-      "serviceAmbulance": "ambulance service Casablanca",
-      "transportSanitaire": "medical transport",
-      "transportMedicalise": "medicalized transport",
-      "ambulanceSecours": "rescue ambulance Casablanca",
-      "infirmierAutourDeMoi": "home nurse near me",
-      "infirmierProximite": "nurse nearby Casablanca",
       "gardeMalade": "home caregiver Casablanca",
       "perfusionCasablanca": "home infusion Casablanca",
-      "sosInfirmier": "SOS nurse Casablanca",
-      "pansementCasablanca": "home dressing change Casablanca"
+      "priseSang": "home blood test",
+      "ambulancePrivee": "private ambulance Casablanca",
+      "transportSanitaire": "medical transport Casablanca"
     }
   },
   "home": {
@@ -99,7 +84,7 @@
   "soins": {
     "meta": {
       "title": "Home Nurse Casablanca, Morocco — SOS Nurse Available 24/7 | Mobile Healthcare",
-      "description": "Need a home nurse in Casablanca, Morocco? Mobile Healthcare provides a nurse near you, available 24/7: dressings, injections, infusions, catheters. SOS nurse available now — call +212 6 96 96 43 41."
+      "description": "Home nurse in Casablanca, available 24/7 — dressings, injections, infusions, catheters, home care. SOS nurse response across all neighborhoods. Fast and professional."
     },
     "h1": "Home Nurse",
     "hero": {
@@ -283,7 +268,7 @@
   "transport": {
     "meta": {
       "title": "Ambulance Casablanca, Morocco — Medical Transport 24/7 | Mobile Healthcare",
-      "description": "Ambulance and medical transport in Casablanca, Morocco — Mobile Healthcare provides safe 24/7 transfers: hospitalization, emergencies, dialysis, chemotherapy. Call +212 6 96 96 43 41."
+      "description": "Ambulance and medical transport in Casablanca 24/7 — safe medicalized transfers: hospitalization, emergencies, dialysis, chemotherapy. Fast and reliable service."
     },
     "h1": "Medical Transport / Ambulances",
     "intro": {
@@ -358,7 +343,22 @@
       "demandeOption2": "Complaint",
       "message": "Message",
       "submit": "Send"
+    },
+    "success": {
+      "title": "Message sent!",
+      "message": "Thank you for your message. Our team will contact you shortly. For immediate assistance, call us directly."
     }
+  },
+  "blog": {
+    "h1": "Health Blog — Medical Advice & Tips",
+    "subtitle": "Practical guides and health advice for patients in Casablanca",
+    "metaTitle": "Health Blog Casablanca — Home Care & Medical Advice | Mobile Healthcare",
+    "metaDescription": "Discover our medical guides on home nursing, blood tests, ambulances and medical consultations in Casablanca. Practical health tips for patients.",
+    "readMore": "Read more →",
+    "publishedOn": "Published on",
+    "backToBlog": "← Back to blog",
+    "notFound": "Article not found.",
+    "ctaTitle": "Need home care in Casablanca?"
   },
   "img": {
     "docAtHome": "Doctor performing a home consultation in Casablanca",

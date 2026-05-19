@@ -5,7 +5,8 @@
     "soins": "Cuidados de Enfermería",
     "prelevement": "Análisis de Sangre a Domicilio",
     "transport": "Transporte Sanitario / Ambulancias",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "blog": "Blog de Salud"
   },
   "common": {
     "callUs": "Llámenos →",
@@ -15,36 +16,20 @@
   "footer": {
     "contact": "Contacto",
     "address": "Gran Casablanca",
+    "navigation": "Navegación",
     "services": "Servicios",
-    "keywords": "Palabras Clave",
-    "serviceList": {
-      "phone": "Asistencia telefónica",
-      "rdv": "Consulta a domicilio con cita previa",
-      "urgence": "Consulta a domicilio de urgencia",
-      "transfer": "Traslado a clínica de urgencias"
-    },
+    "keywords": "Búsquedas frecuentes",
     "keywordLinks": {
-      "medecinPres": "médico cerca de mí",
-      "medecinCasa": "médico Casablanca",
-      "medecinGeneraliste": "médico general Casablanca",
-      "sosMedecin": "SOS médico",
+      "medecinCasa": "médico a domicilio Casablanca",
       "sosMedecinCasa": "SOS médico Casablanca",
       "soinsInfirmiers": "cuidados de enfermería a domicilio",
-      "infirmierCasa": "enfermero Casablanca",
       "infirmierDomicile": "enfermero a domicilio Casablanca",
       "hospitalisation": "hospitalización a domicilio",
-      "priseSang": "análisis de sangre a domicilio",
-      "ambulancePrivee": "ambulancia privada Casablanca",
-      "serviceAmbulance": "servicio de ambulancia Casablanca",
-      "transportSanitaire": "transporte sanitario",
-      "transportMedicalise": "transporte medicalizado",
-      "ambulanceSecours": "ambulancia de socorro Casablanca",
-      "infirmierAutourDeMoi": "enfermero cerca de mí",
-      "infirmierProximite": "enfermero a domicilio Casablanca",
       "gardeMalade": "cuidador a domicilio Casablanca",
       "perfusionCasablanca": "perfusión a domicilio Casablanca",
-      "sosInfirmier": "SOS enfermero Casablanca",
-      "pansementCasablanca": "cura a domicilio Casablanca"
+      "priseSang": "análisis de sangre a domicilio",
+      "ambulancePrivee": "ambulancia privada Casablanca",
+      "transportSanitaire": "transporte sanitario Casablanca"
     }
   },
   "home": {
@@ -99,7 +84,7 @@
   "soins": {
     "meta": {
       "title": "ENFERMERO A DOMICILIO CASABLANCA | Mobile Healthcare",
-      "description": "Mobile Healthcare pone a su disposición un enfermero a domicilio en Casablanca, 7 días/7, para cuidados de enfermería profesionales: curas, inyecciones, perfusiones. ¡Llámenos ahora para una atención rápida!"
+      "description": "Enfermero a domicilio en Casablanca, disponible 24h. Curas, inyecciones, perfusiones y cuidados profesionales. Intervención rápida en todos los barrios de Casablanca."
     },
     "h1": "Enfermero a Domicilio",
     "hero": {
@@ -358,7 +343,22 @@
       "demandeOption2": "Reclamación",
       "message": "Mensaje",
       "submit": "Enviar"
+    },
+    "success": {
+      "title": "¡Mensaje enviado!",
+      "message": "Gracias por su mensaje. Nuestro equipo se pondrá en contacto con usted en breve. Para asistencia inmediata, llámenos directamente."
     }
+  },
+  "blog": {
+    "h1": "Blog de Salud — Consejos y Actualidad Médica",
+    "subtitle": "Guías prácticas y consejos de salud para pacientes en Casablanca",
+    "metaTitle": "Blog de Salud Casablanca — Cuidados a Domicilio | Mobile Healthcare",
+    "metaDescription": "Descubra nuestras guías médicas sobre cuidados de enfermería, análisis a domicilio, ambulancias y consultas médicas en Casablanca.",
+    "readMore": "Leer más →",
+    "publishedOn": "Publicado el",
+    "backToBlog": "← Volver al blog",
+    "notFound": "Artículo no encontrado.",
+    "ctaTitle": "¿Necesita atención médica a domicilio en Casablanca?"
   },
   "img": {
     "docAtHome": "Médico realizando una consulta a domicilio en Casablanca",

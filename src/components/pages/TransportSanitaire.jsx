@@ -7,12 +7,21 @@ import ServicesView from "../ServicesView";
 const TransportSanitaire = () => {
   const { t } = useTranslation();
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://mobile-healthcare.org/" },
+      { "@type": "ListItem", position: 2, name: "Transport Sanitaire & Ambulances", item: "https://mobile-healthcare.org/transport-sanitaire" },
+    ],
+  };
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     name: "Transport Sanitaire - Mobile Healthcare Casablanca",
-    image: "https://www.mobile-healthcare.org/logo.avif",
-    url: "https://www.mobile-healthcare.org/transport-sanitaire",
+    image: "https://mobile-healthcare.org/logo.avif",
+    url: "https://mobile-healthcare.org/transport-sanitaire",
     telephone: "+212696964341",
     address: {
       "@type": "PostalAddress",
@@ -24,7 +33,12 @@ const TransportSanitaire = () => {
       latitude: 33.5924501,
       longitude: -7.6043579,
     },
-    openingHours: "Mo-Su 08:00-20:00",
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      opens: "00:00",
+      closes: "23:59",
+    },
     description: t("transport.meta.description"),
     areaServed: {
       "@type": "Place",
@@ -65,7 +79,13 @@ const TransportSanitaire = () => {
         <title>{t("transport.meta.title")}</title>
         <meta name="description" content={t("transport.meta.description")} />
         <meta name="robots" content="index, follow" />
+        <meta property="og:title" content={t("transport.meta.title")} />
+        <meta property="og:description" content={t("transport.meta.description")} />
+        <meta property="og:image" content="https://mobile-healthcare.org/ambulance.avif" />
+        <meta name="twitter:title" content={t("transport.meta.title")} />
+        <meta name="twitter:description" content={t("transport.meta.description")} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       <h1 className="heading-primary center-text u-margin-top-big">
         {t("transport.h1")}

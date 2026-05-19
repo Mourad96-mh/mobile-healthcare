@@ -8,12 +8,21 @@ import ServicesView from "../ServicesView";
 const Prelevement = () => {
   const { t } = useTranslation();
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://mobile-healthcare.org/" },
+      { "@type": "ListItem", position: 2, name: "Prélèvement à Domicile", item: "https://mobile-healthcare.org/prelevement-a-domicile" },
+    ],
+  };
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     name: "Prélèvement à Domicile - Mobile Healthcare Casablanca",
-    image: "https://www.mobile-healthcare.org/logo.avif",
-    url: "https://www.mobile-healthcare.org/prelevement-a-domicile",
+    image: "https://mobile-healthcare.org/logo.avif",
+    url: "https://mobile-healthcare.org/prelevement-a-domicile",
     telephone: "+212696964341",
     address: {
       "@type": "PostalAddress",
@@ -50,7 +59,13 @@ const Prelevement = () => {
         <title>{t("prelevement.meta.title")}</title>
         <meta name="description" content={t("prelevement.meta.description")} />
         <meta name="robots" content="index, follow" />
+        <meta property="og:title" content={t("prelevement.meta.title")} />
+        <meta property="og:description" content={t("prelevement.meta.description")} />
+        <meta property="og:image" content="https://mobile-healthcare.org/test-sanguin--1.avif" />
+        <meta name="twitter:title" content={t("prelevement.meta.title")} />
+        <meta name="twitter:description" content={t("prelevement.meta.description")} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       <h1 className="heading-primary center-text u-margin-bottom-medium u-margin-top-big">
         {t("prelevement.h1")}

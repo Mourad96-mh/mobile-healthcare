@@ -11,13 +11,22 @@ const SoinsInfirmiers = () => {
   const { t } = useTranslation();
   const { trackConversion } = useConversionTracking();
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://mobile-healthcare.org/" },
+      { "@type": "ListItem", position: 2, name: "Soins Infirmiers à Domicile", item: "https://mobile-healthcare.org/soins-infirmiers" },
+    ],
+  };
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
     name: "Mobile Healthcare",
-    url: "https://www.mobile-healthcare.org/soins-infirmiers",
-    logo: "https://www.mobile-healthcare.org/logo.avif",
-    image: "https://www.mobile-healthcare.org/nurse-at-home.avif",
+    url: "https://mobile-healthcare.org/soins-infirmiers",
+    logo: "https://mobile-healthcare.org/logo.avif",
+    image: "https://mobile-healthcare.org/nurse-at-home.avif",
     description: t("soins.meta.description"),
     telephone: "+212696964341",
     address: {
@@ -84,7 +93,13 @@ const SoinsInfirmiers = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Mobile Healthcare" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content={t("soins.meta.title")} />
+        <meta property="og:description" content={t("soins.meta.description")} />
+        <meta property="og:image" content="https://mobile-healthcare.org/nurse-at-home.avif" />
+        <meta name="twitter:title" content={t("soins.meta.title")} />
+        <meta name="twitter:description" content={t("soins.meta.description")} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       <h1 className="heading-primary center-text u-margin-bottom-medium u-margin-top-big">
         {t("soins.h1")}
@@ -118,6 +133,7 @@ const SoinsInfirmiers = () => {
                 className="btn u-margin-top-big"
                 to="https://wa.me/+212696964341"
                 title="Contact me on WhatsApp"
+                target="_blank"
                 rel="noopener noreferrer"
                 onClick={() =>
                   handleWhatsAppConversion("https://wa.me/+212696964341")
@@ -149,6 +165,7 @@ const SoinsInfirmiers = () => {
               className="btn u-margin-top-big"
               to="https://wa.me/+212696964341"
               title="SOS Infirmier — Contactez-nous sur WhatsApp"
+              target="_blank"
               rel="noopener noreferrer"
               onClick={() =>
                 handleWhatsAppConversion("https://wa.me/+212696964341")
@@ -161,7 +178,7 @@ const SoinsInfirmiers = () => {
         <LayoutContent>
           <>
             <section className="u-margin-bottom-medium">
-              <h4 className="u-margin-bottom-small">{t("soins.pansement.title")}</h4>
+              <h3 className="u-margin-bottom-small">{t("soins.pansement.title")}</h3>
               <p>{t("soins.pansement.p1")}</p>
               <p>{t("soins.pansement.p2")}</p>
               <p>
@@ -173,7 +190,7 @@ const SoinsInfirmiers = () => {
             </section>
 
             <section>
-              <h4 className="u-margin-bottom-small">{t("soins.sonde.title")}</h4>
+              <h3 className="u-margin-bottom-small">{t("soins.sonde.title")}</h3>
               <p>{t("soins.sonde.p1")}</p>
               <p>{t("soins.sonde.p2")}</p>
               <p>
@@ -197,11 +214,11 @@ const SoinsInfirmiers = () => {
         <LayoutContent reverse="true">
           <>
             <section className="u-margin-bottom-medium">
-              <h4 className="u-margin-bottom-small">{t("soins.garde.title")}</h4>
+              <h3 className="u-margin-bottom-small">{t("soins.garde.title")}</h3>
               <p>{t("soins.garde.p")}</p>
             </section>
             <section>
-              <h4 className="u-margin-bottom-small">{t("soins.accompagnement.title")}</h4>
+              <h3 className="u-margin-bottom-small">{t("soins.accompagnement.title")}</h3>
               <p>{t("soins.accompagnement.p")}</p>
             </section>
             <p className="u-margin-top-medium">
@@ -224,7 +241,7 @@ const SoinsInfirmiers = () => {
         <LayoutContent>
           <>
             <section className="u-margin-bottom-medium">
-              <h4 className="u-margin-bottom-small">{t("soins.injections.title")}</h4>
+              <h3 className="u-margin-bottom-small">{t("soins.injections.title")}</h3>
               <p>{t("soins.injections.p")}</p>
               <ul className="list u-margin-top-small">
                 <li dangerouslySetInnerHTML={{ __html: t("soins.injections.item1") }} />
@@ -233,7 +250,7 @@ const SoinsInfirmiers = () => {
               </ul>
             </section>
             <section>
-              <h4 className="u-margin-bottom-small">{t("soins.perfusions.title")}</h4>
+              <h3 className="u-margin-bottom-small">{t("soins.perfusions.title")}</h3>
               <p>{t("soins.perfusions.p")}</p>
               <ul className="list u-margin-top-small">
                 <li dangerouslySetInnerHTML={{ __html: t("soins.perfusions.item1") }} />
@@ -263,7 +280,7 @@ const SoinsInfirmiers = () => {
         <LayoutContent reverse="true">
           <>
             <section className="u-margin-bottom-medium">
-              <h4 className="u-margin-bottom-small">{t("soins.hygiene.title")}</h4>
+              <h3 className="u-margin-bottom-small">{t("soins.hygiene.title")}</h3>
               <p>{t("soins.hygiene.p")}</p>
               <ul className="list u-margin-top-small">
                 <li dangerouslySetInnerHTML={{ __html: t("soins.hygiene.item1") }} />
@@ -272,7 +289,7 @@ const SoinsInfirmiers = () => {
               </ul>
             </section>
             <section>
-              <h4 className="u-margin-bottom-small">{t("soins.ablation.title")}</h4>
+              <h3 className="u-margin-bottom-small">{t("soins.ablation.title")}</h3>
               <p>{t("soins.ablation.p")}</p>
               <ul className="list u-margin-top-small">
                 <li dangerouslySetInnerHTML={{ __html: t("soins.ablation.item1") }} />
@@ -318,6 +335,7 @@ const SoinsInfirmiers = () => {
               className="btn u-margin-top-big"
               to="https://wa.me/+212696964341"
               title="Contactez-nous sur WhatsApp"
+              target="_blank"
               rel="noopener noreferrer"
               onClick={() =>
                 handleWhatsAppConversion("https://wa.me/+212696964341")
@@ -347,6 +365,7 @@ const SoinsInfirmiers = () => {
                   className="btn center-text"
                   to="https://wa.me/+212696964341"
                   title="Contactez-nous sur WhatsApp"
+                  target="_blank"
                   rel="noopener noreferrer"
                   onClick={() =>
                     handleWhatsAppConversion("https://wa.me/+212696964341")
@@ -371,6 +390,7 @@ const SoinsInfirmiers = () => {
                   className="btn center-text"
                   to="https://wa.me/+212696964341"
                   title="Contactez-nous sur WhatsApp"
+                  target="_blank"
                   rel="noopener noreferrer"
                   onClick={() =>
                     handleWhatsAppConversion("https://wa.me/+212696964341")
@@ -395,6 +415,7 @@ const SoinsInfirmiers = () => {
                   className="btn center-text"
                   to="https://wa.me/+212696964341"
                   title="Contactez-nous sur WhatsApp"
+                  target="_blank"
                   rel="noopener noreferrer"
                   onClick={() =>
                     handleWhatsAppConversion("https://wa.me/+212696964341")
@@ -415,6 +436,7 @@ const SoinsInfirmiers = () => {
                   className="btn center-text"
                   to="https://wa.me/+212696964341"
                   title="Contactez-nous sur WhatsApp"
+                  target="_blank"
                   rel="noopener noreferrer"
                   onClick={() =>
                     handleWhatsAppConversion("https://wa.me/+212696964341")
@@ -435,6 +457,7 @@ const SoinsInfirmiers = () => {
                   className="btn center-text"
                   to="https://wa.me/+212696964341"
                   title="Contactez-nous sur WhatsApp"
+                  target="_blank"
                   rel="noopener noreferrer"
                   onClick={() =>
                     handleWhatsAppConversion("https://wa.me/+212696964341")

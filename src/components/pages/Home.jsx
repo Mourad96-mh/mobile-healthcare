@@ -27,6 +27,11 @@ const HomePage = () => {
         <meta name="description" content={t("home.meta.description")} />
         <title>{t("home.meta.title")}</title>
         <meta name="robots" content="index, follow" />
+        <meta property="og:title" content={t("home.meta.title")} />
+        <meta property="og:description" content={t("home.meta.description")} />
+        <meta property="og:image" content="https://mobile-healthcare.org/medecin-a-domicile.avif" />
+        <meta name="twitter:title" content={t("home.meta.title")} />
+        <meta name="twitter:description" content={t("home.meta.description")} />
       </Helmet>
       <h1 className="heading-primary center-text u-margin-bottom-medium u-margin-top-big">
         {t("home.h1")}
@@ -40,7 +45,7 @@ const HomePage = () => {
           </h2>
           <p>
             {t("home.section1.p1_start")}
-            <Link to={`${prefix}/teleconsultation`} className="services-link">
+            <Link to={`${prefix}/consultation-a-domicile`} className="services-link">
               {t("home.section1.teleconsultation")}
             </Link>
             <Link to={`${prefix}/consultation-a-domicile`} className="services-link">
@@ -112,7 +117,7 @@ const HomePage = () => {
               <p className="u-margin-top-small">
                 <strong>
                   {t("home.services.teleconsultation.strong")}&nbsp;
-                  <Link to={`${prefix}/teleconsultation`} className="services-link">
+                  <Link to={`${prefix}/consultation-a-domicile`} className="services-link">
                     {t("home.services.teleconsultation.link")}
                   </Link>
                 </strong>

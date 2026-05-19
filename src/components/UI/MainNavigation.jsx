@@ -94,6 +94,17 @@ const MainNavigation = () => {
               {t("nav.contact")}
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to={`${prefix}/blog`}
+              className={({ isActive }) =>
+                `link nav-link${isActive ? " active" : ""}`
+              }
+              onClick={close}
+            >
+              {t("nav.blog")}
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </>

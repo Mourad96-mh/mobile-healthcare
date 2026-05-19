@@ -16,6 +16,8 @@ const Contact = lazy(() => import("./components/pages/Contact"));
 const TransportSanitaire = lazy(() =>
   import("./components/pages/TransportSanitaire")
 );
+const Blog = lazy(() => import("./components/pages/Blog"));
+const BlogPost = lazy(() => import("./components/pages/BlogPost"));
 
 const childRoutes = [
   {
@@ -59,6 +61,22 @@ const childRoutes = [
     element: (
       <Suspense fallback={<Spinner />}>
         <Prelevement />
+      </Suspense>
+    ),
+  },
+  {
+    path: "blog",
+    element: (
+      <Suspense fallback={<Spinner />}>
+        <Blog />
+      </Suspense>
+    ),
+  },
+  {
+    path: "blog/:slug",
+    element: (
+      <Suspense fallback={<Spinner />}>
+        <BlogPost />
       </Suspense>
     ),
   },
