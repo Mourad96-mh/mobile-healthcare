@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useLangPrefix } from "../../hooks/useLangPrefix";
@@ -33,6 +34,19 @@ const ArticleCard = ({ article }) => {
       </div>
     </article>
   );
+};
+
+ArticleCard.propTypes = {
+  article: PropTypes.shape({
+    slug: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    imageAlt: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
+    excerpt: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    dateFormatted: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default ArticleCard;
