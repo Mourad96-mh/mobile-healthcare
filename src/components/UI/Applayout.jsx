@@ -38,16 +38,16 @@ const AppLayout = () => {
 
   const isRtl = lang === "ar";
 
-  const baseUrl = "https://mobile-healthcare.org";
+  const baseUrl = "https://www.mobile-healthcare.org";
   const pagePath = pathname.replace(/^\/(en|es|ar)/, "") || "/";
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Mobile Healthcare",
-    image: "https://mobile-healthcare.org/logo.avif",
-    "@id": "https://mobile-healthcare.org",
-    url: "https://mobile-healthcare.org",
+    image: "https://www.mobile-healthcare.org/logo.avif",
+    "@id": "https://www.mobile-healthcare.org",
+    url: "https://www.mobile-healthcare.org",
     telephone: "+212696964341",
     priceRange: "$$",
     address: {

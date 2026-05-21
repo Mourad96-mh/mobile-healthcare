@@ -1,4 +1,13 @@
 # -------------------------------------------------------
+# non-www → www canonical redirect (301)
+# -------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^mobile-healthcare\.org$ [NC]
+  RewriteRule ^ https://www.mobile-healthcare.org%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# -------------------------------------------------------
 # SPA Routing — redirect all routes to index.html
 # -------------------------------------------------------
 <IfModule mod_rewrite.c>
