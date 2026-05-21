@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 import path from "path";
 
 // Base URL for your sitemap
-const baseUrl = "https://mobile-healthcare.org";
+const baseUrl = "https://www.mobile-healthcare.org";
 
 // Define your routes
 const frRoutes = [
