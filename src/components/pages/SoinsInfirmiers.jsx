@@ -15,8 +15,8 @@ const SoinsInfirmiers = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://mobile-healthcare.org/" },
-      { "@type": "ListItem", position: 2, name: "Soins Infirmiers à Domicile", item: "https://mobile-healthcare.org/soins-infirmiers" },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.mobile-healthcare.org/" },
+      { "@type": "ListItem", position: 2, name: "Soins Infirmiers à Domicile", item: "https://www.mobile-healthcare.org/soins-infirmiers" },
     ],
   };
 
@@ -24,9 +24,9 @@ const SoinsInfirmiers = () => {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
     name: "Mobile Healthcare",
-    url: "https://mobile-healthcare.org/soins-infirmiers",
-    logo: "https://mobile-healthcare.org/logo.avif",
-    image: "https://mobile-healthcare.org/nurse-at-home.avif",
+    url: "https://www.mobile-healthcare.org/soins-infirmiers",
+    logo: "https://www.mobile-healthcare.org/logo.avif",
+    image: "https://www.mobile-healthcare.org/nurse-at-home.avif",
     description: t("soins.meta.description"),
     telephone: "+212696964341",
     address: {
@@ -95,7 +95,7 @@ const SoinsInfirmiers = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content={t("soins.meta.title")} />
         <meta property="og:description" content={t("soins.meta.description")} />
-        <meta property="og:image" content="https://mobile-healthcare.org/nurse-at-home.avif" />
+        <meta property="og:image" content="https://www.mobile-healthcare.org/nurse-at-home.avif" />
         <meta name="twitter:title" content={t("soins.meta.title")} />
         <meta name="twitter:description" content={t("soins.meta.description")} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

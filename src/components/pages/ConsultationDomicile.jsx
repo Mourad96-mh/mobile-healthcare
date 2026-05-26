@@ -13,8 +13,8 @@ const ConsultationDomicile = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://mobile-healthcare.org/" },
-      { "@type": "ListItem", position: 2, name: "Consultation à Domicile", item: "https://mobile-healthcare.org/consultation-a-domicile" },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.mobile-healthcare.org/" },
+      { "@type": "ListItem", position: 2, name: "Consultation à Domicile", item: "https://www.mobile-healthcare.org/consultation-a-domicile" },
     ],
   };
 
@@ -22,8 +22,8 @@ const ConsultationDomicile = () => {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     name: "Consultation à domicile - Mobile Healthcare Casablanca",
-    image: "https://mobile-healthcare.org/logo.avif",
-    url: "https://mobile-healthcare.org/consultation-a-domicile",
+    image: "https://www.mobile-healthcare.org/logo.avif",
+    url: "https://www.mobile-healthcare.org/consultation-a-domicile",
     telephone: "+212696964341",
     address: {
       "@type": "PostalAddress",
@@ -84,7 +84,7 @@ const ConsultationDomicile = () => {
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content={t("consultation.meta.title")} />
         <meta property="og:description" content={t("consultation.meta.description")} />
-        <meta property="og:image" content="https://mobile-healthcare.org/doc-at-home.avif" />
+        <meta property="og:image" content="https://www.mobile-healthcare.org/doc-at-home.avif" />
         <meta name="twitter:title" content={t("consultation.meta.title")} />
         <meta name="twitter:description" content={t("consultation.meta.description")} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

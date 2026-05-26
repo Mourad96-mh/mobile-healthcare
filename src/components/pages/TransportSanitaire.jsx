@@ -11,8 +11,8 @@ const TransportSanitaire = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://mobile-healthcare.org/" },
-      { "@type": "ListItem", position: 2, name: "Transport Sanitaire & Ambulances", item: "https://mobile-healthcare.org/transport-sanitaire" },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.mobile-healthcare.org/" },
+      { "@type": "ListItem", position: 2, name: "Transport Sanitaire & Ambulances", item: "https://www.mobile-healthcare.org/transport-sanitaire" },
     ],
   };
 
@@ -20,8 +20,8 @@ const TransportSanitaire = () => {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     name: "Transport Sanitaire - Mobile Healthcare Casablanca",
-    image: "https://mobile-healthcare.org/logo.avif",
-    url: "https://mobile-healthcare.org/transport-sanitaire",
+    image: "https://www.mobile-healthcare.org/logo.avif",
+    url: "https://www.mobile-healthcare.org/transport-sanitaire",
     telephone: "+212696964341",
     address: {
       "@type": "PostalAddress",
@@ -81,7 +81,7 @@ const TransportSanitaire = () => {
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content={t("transport.meta.title")} />
         <meta property="og:description" content={t("transport.meta.description")} />
-        <meta property="og:image" content="https://mobile-healthcare.org/ambulance.avif" />
+        <meta property="og:image" content="https://www.mobile-healthcare.org/ambulance.avif" />
         <meta name="twitter:title" content={t("transport.meta.title")} />
         <meta name="twitter:description" content={t("transport.meta.description")} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

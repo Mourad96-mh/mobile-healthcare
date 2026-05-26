@@ -8,14 +8,14 @@ const blogSchema = {
   "@context": "https://schema.org",
   "@type": "Blog",
   name: "Blog Mobile Healthcare",
-  url: "https://mobile-healthcare.org/blog",
+  url: "https://www.mobile-healthcare.org/blog",
   description: "Conseils de santé, guides médicaux et actualités sur les soins à domicile à Casablanca.",
   publisher: {
     "@type": "Organization",
     name: "Mobile Healthcare",
     logo: {
       "@type": "ImageObject",
-      url: "https://mobile-healthcare.org/logo.avif",
+      url: "https://www.mobile-healthcare.org/logo.avif",
     },
   },
 };
@@ -31,7 +31,7 @@ const Blog = () => {
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content={t("blog.metaTitle")} />
         <meta property="og:description" content={t("blog.metaDescription")} />
-        <meta property="og:image" content="https://mobile-healthcare.org/logo.avif" />
+        <meta property="og:image" content="https://www.mobile-healthcare.org/logo.avif" />
         <meta name="twitter:title" content={t("blog.metaTitle")} />
         <meta name="twitter:description" content={t("blog.metaDescription")} />
         <script type="application/ld+json">{JSON.stringify(blogSchema)}</script>

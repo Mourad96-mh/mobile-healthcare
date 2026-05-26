@@ -14,6 +14,12 @@ const frRoutes = [
   { url: "/prelevement-a-domicile", changefreq: "weekly", priority: 0.8 },
   { url: "/transport-sanitaire", changefreq: "weekly", priority: 0.8 },
   { url: "/contact", changefreq: "monthly", priority: 0.6 },
+  { url: "/blog", changefreq: "weekly", priority: 0.8 },
+  { url: "/blog/infirmier-a-domicile-casablanca", changefreq: "monthly", priority: 0.7 },
+  { url: "/blog/prise-de-sang-a-domicile-casablanca", changefreq: "monthly", priority: 0.7 },
+  { url: "/blog/ambulance-privee-casablanca", changefreq: "monthly", priority: 0.7 },
+  { url: "/blog/consultation-medicale-a-domicile-casablanca", changefreq: "monthly", priority: 0.7 },
+  { url: "/blog/soins-post-operatoires-domicile-casablanca", changefreq: "monthly", priority: 0.7 },
 ];
 
 const enRoutes = frRoutes.map((r) => ({

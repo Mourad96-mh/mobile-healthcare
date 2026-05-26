@@ -29,7 +29,7 @@ const HomePage = () => {
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content={t("home.meta.title")} />
         <meta property="og:description" content={t("home.meta.description")} />
-        <meta property="og:image" content="https://mobile-healthcare.org/medecin-a-domicile.avif" />
+        <meta property="og:image" content="https://www.mobile-healthcare.org/medecin-a-domicile.avif" />
         <meta name="twitter:title" content={t("home.meta.title")} />
         <meta name="twitter:description" content={t("home.meta.description")} />
       </Helmet>

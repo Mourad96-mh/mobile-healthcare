@@ -28,25 +28,25 @@ const BlogPost = () => {
     "@type": "Article",
     headline: article.title,
     description: article.metaDescription,
-    image: `https://mobile-healthcare.org${article.image}`,
+    image: `https://www.mobile-healthcare.org${article.image}`,
     datePublished: article.date,
     dateModified: article.date,
     author: {
       "@type": "Organization",
       name: "Mobile Healthcare",
-      url: "https://mobile-healthcare.org",
+      url: "https://www.mobile-healthcare.org",
     },
     publisher: {
       "@type": "Organization",
       name: "Mobile Healthcare",
       logo: {
         "@type": "ImageObject",
-        url: "https://mobile-healthcare.org/logo.avif",
+        url: "https://www.mobile-healthcare.org/logo.avif",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://mobile-healthcare.org/blog/${article.slug}`,
+      "@id": `https://www.mobile-healthcare.org/blog/${article.slug}`,
     },
   };
 
@@ -54,9 +54,9 @@ const BlogPost = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://mobile-healthcare.org/" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://mobile-healthcare.org/blog" },
-      { "@type": "ListItem", position: 3, name: article.title, item: `https://mobile-healthcare.org/blog/${article.slug}` },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.mobile-healthcare.org/" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.mobile-healthcare.org/blog" },
+      { "@type": "ListItem", position: 3, name: article.title, item: `https://www.mobile-healthcare.org/blog/${article.slug}` },
     ],
   };
 
@@ -66,10 +66,10 @@ const BlogPost = () => {
         <title>{article.metaTitle}</title>
         <meta name="description" content={article.metaDescription} />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`https://mobile-healthcare.org/blog/${article.slug}`} />
+        <link rel="canonical" href={`https://www.mobile-healthcare.org/blog/${article.slug}`} />
         <meta property="og:title" content={article.metaTitle} />
         <meta property="og:description" content={article.metaDescription} />
-        <meta property="og:image" content={`https://mobile-healthcare.org${article.image}`} />
+        <meta property="og:image" content={`https://www.mobile-healthcare.org${article.image}`} />
         <meta property="og:type" content="article" />
         <meta name="twitter:title" content={article.metaTitle} />
         <meta name="twitter:description" content={article.metaDescription} />

@@ -15,7 +15,7 @@ const Contact = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Mobile Healthcare",
-    url: "https://mobile-healthcare.org/contact",
+    url: "https://www.mobile-healthcare.org/contact",
     telephone: "+212696964341",
     email: "mobileHealthCare60@gmail.com",
     address: {
@@ -104,7 +104,7 @@ const Contact = () => {
         />
         <meta
           property="og:image"
-          content="https://mobile-healthcare.org/logo.avif"
+          content="https://www.mobile-healthcare.org/logo.avif"
         />
         <meta name="twitter:title" content={t("contact.meta.title")} />
         <meta
